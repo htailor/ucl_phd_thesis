@@ -1,0 +1,59 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage{amsmath}
+\renewcommand{\eqref}[1]{Eq.~\ref{#1}}
+
+\begin{document}
+
+
+We derive the $n^{th}$ derivative of the delta function from the sifting property
+%
+\begin{equation}
+\int_{-\infty}^{\infty}f(x)\delta(x-a)dx=f(a)
+\end{equation}
+%
+with $a=0$, we integrate by parts the LHS to get
+%
+\begin{equation}
+\int_{-\infty}^{\infty}f(x)\delta(x)dx=\left[f(x)H(x)\right]^{\infty}_{-\infty}-\int_{-\infty}^{\infty}f'(x)H(x)dx
+\end{equation}
+%
+It is assumed $f(x)$ vanishes at infinty and therefore becomes
+%
+\begin{equation}
+\int_{-\infty}^{\infty}f(x)\delta(x)dx=-\int_{-\infty}^{\infty}f'(x)\left(\int_{-\infty}^{x}\delta(y)\,dy\right)dx
+\end{equation}
+%
+For the integral of the $n^{th}$ derivative of the delta function we can write
+%
+\begin{equation}
+\int_{-\infty}^{\infty}f(x)\delta^{(n)}(x)dx=-\int_{-\infty}^{\infty}\frac{df}{dx}\delta^{(n-1)}(x)dx
+\end{equation}
+%
+Using this we let $f(x)=xg(x)$. Inserting this into the above equation for the first derivative we find
+%
+\begin{align}
+\int_{-\infty}^{\infty}xg(x)\delta'(x)dx&=-\int_{-\infty}^{\infty}\left(\frac{d}{dx}xg(x)\right)\delta(x)dx \\
+&=-\int_{-\infty}^{\infty}\left(g(x)+xg'(x)\right)\delta(x)dx \\
+&=-\int_{-\infty}^{\infty}g(x)\delta(x)dx
+\end{align}
+%
+This equation implies
+%
+\begin{equation}
+x\delta'(x)=-\delta(x)
+\end{equation}
+%
+Repeating this for the $n^th$ derivative, in general we can write
+%
+\begin{align}
+\int_{-\infty}^{\infty}x^{n}g(x)\delta^{(n)}(x)dx&=-\int_{-\infty}^{\infty}\frac{d^n}{dx^n}\left[x^{n}g(x)\right]\delta^{n-1}(x)dx \\
+&=(-1)^{n}n!\int_{-\infty}^{\infty}g(x)\delta(x)dx
+\end{align}
+%
+This gives the relation
+%
+\begin{equation}
+x^{n}\delta^{(n)}(x)=(-1)^{n}n!\delta(x)
+\end{equation}
+%
+\end{document}

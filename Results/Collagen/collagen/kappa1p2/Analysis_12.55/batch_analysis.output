@@ -1,0 +1,780 @@
+[H[2J-e 
+Running analysis for:
+ETA_B = 12.55
+-e N list: 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85
+-e Mathematica script: ./mathematica_scripts/shear_force_new.script
+-e 
+Analysing (N3)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N5)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N7)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N9)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N11)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N13)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N15)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N17)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N19)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N21)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N23)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N25)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N27)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N29)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N31)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N33)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N35)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N37)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N39)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N41)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N43)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N45)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N47)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N49)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N51)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N53)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N55)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N57)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N59)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N61)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N63)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N65)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N67)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N69)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N71)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N73)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N75)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N77)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N79)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N81)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N83)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N85)
+================
+Running...
+COMPLETED
+-e 
+Verify data (ETA_B = 12.55)...
+
+3	159.48753533749132
+5	257.62236987789896
+7	405.0929250787322
+9	478.34119362911787
+11	550.7072627206862
+13	611.6925483130954
+15	661.102238722548
+17	700.1720809880835
+19	730.4280488997542
+21	753.7559730836814
+23	771.3957120175911
+25	784.6854413536644
+27	794.6406825694036
+29	802.0701027030119
+31	256.32496647429474
+33	223.6630393391895
+35	201.54875845976144
+37	185.3272478403334
+39	818.6543453139021
+41	162.8115355084152
+43	820.7922423392623
+45	821.4628076113074
+47	821.9575700912454
+49	822.3228484951577
+51	822.5925366824287
+53	822.7913709226738
+55	822.9379079921077
+57	823.0461947966365
+59	823.1260827877602
+61	823.1850479379957
+63	823.2284833670856
+65	823.2603484464197
+67	823.2838867724885
+69	823.3014076915928
+71	823.3143461701156
+73	823.3239858316716
+75	823.3307182415683
+77	823.3360194578336
+79	823.3397692876455
+81	823.3425959668112
+83	823.3458834660473
+85	823.3444435681389
+[H[2J-e 
+Running analysis for:
+ETA_B = 12.55
+-e N list: 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85
+-e Mathematica script: ./mathematica_scripts/shear_force_new2.script
+-e 
+Analysing (N3)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N5)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N7)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N9)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N11)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N13)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N15)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N17)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N19)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N21)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N23)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N25)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N27)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N29)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N31)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N33)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N35)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N37)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N39)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N41)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N43)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N45)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N47)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N49)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N51)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N53)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N55)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N57)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N59)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N61)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N63)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N65)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N67)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N69)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N71)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N73)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N75)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N77)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N79)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N81)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N83)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N85)
+================
+Running...
+COMPLETED
+-e 
+Verify data (ETA_B = 12.55)...
+
+3	180.8591901394093
+5	286.3047201311095
+7	385.76347863071624
+9	474.04146290431964
+11	549.1916690984427
+13	611.1363388612313
+15	660.9097671248987
+17	700.1043771948133
+19	730.4847888206996
+21	753.7471429428961
+23	771.3930644897979
+25	784.6838105770496
+27	794.6407445577905
+29	802.0703141764345
+31	807.5974167235395
+33	811.7001273291075
+35	814.7403146253325
+37	816.9904007384889
+39	818.6543897808557
+41	819.8839448851664
+43	820.7921654202471
+45	821.4627380948929
+47	821.9576867822501
+49	822.3229431600226
+51	822.5923763901893
+53	822.7913341722859
+55	822.9379124902539
+57	823.0462383369909
+59	823.1260720289526
+61	823.1849494717859
+63	823.2282650067131
+65	823.2604178195382
+67	823.284060915523
+69	823.3014438454882
+71	823.3142467543605
+73	823.3237379142892
+75	823.3308207177787
+77	823.3359789012563
+79	823.3397576393986
+81	823.3425671905674
+83	823.3446461157188
+85	823.3460940789585
+[H[2J-e 
+Running analysis for:
+ETA_B = 12.55
+-e N list: 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85
+-e Mathematica script: ./mathematica_scripts/shear_force_old.script
+-e 
+Analysing (N3)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N5)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N7)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N9)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N11)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N13)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N15)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N17)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N19)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N21)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N23)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N25)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N27)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N29)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N31)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N33)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N35)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N37)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N39)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N41)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N43)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N45)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N47)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N49)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N51)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N53)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N55)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N57)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N59)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N61)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N63)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N65)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N67)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N69)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N71)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N73)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N75)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N77)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N79)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N81)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N83)
+================
+Running...
+COMPLETED
+-e 
+Analysing (N85)
+================
+Running...
+COMPLETED
+-e 
+Verify data (ETA_B = 12.55)...
+
+3	106.53426171870692
+5	236.7300331642221
+7	408.87447344067414
+9	464.9915256476367
+11	502.96965812068225
+13	638.8458369206448
+15	642.5746686761173
+17	684.2311489085879
+19	756.6108322532934
+21	747.0759418694172
+23	781.1127309040246
+25	739.1092480267868
+27	700.0733461345859
+29	663.8749241783198
+31	928.0203612355085
+33	861.8007231159964
+35	801.4486024026849
+37	745.6105091936433
+39	693.2400479344385
+41	949.7426469813471
+43	848.8712329662885
+45	758.3386619836213
+47	676.9327195037525
+49	854.0786671356342
+51	726.0801866753889
+53	881.3885135823203
+55	714.9629323047359
+57	813.3686121729345
+59	908.2394146103953
+61	682.9409136578315
+63	706.1054852670272
+65	708.7031163363663
+67	690.2754600716968
+69	900.4515099395369
+71	802.1833141554353
+73	701.4571663424416
+75	793.6505211160223
+77	860.2211527100287
+79	872.6903006507212
+81	815.0922515320489
+83	574.7215839493223
+85	398.48574503669494

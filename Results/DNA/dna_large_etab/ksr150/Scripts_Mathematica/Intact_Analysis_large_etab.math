@@ -1,0 +1,566 @@
+Needs["PlotLegends`"]
+<<Units`
+<<PhysicalConstants`
+
+SetDirectory[FileNameJoin[{NotebookDirectory[]}]]
+Parameters=Import["../Parameters"]
+Potential=Import["../Potential_Data.out","Table"];
+ListLinePlot[Potential,PlotStyle->{Thick},AxesOrigin->{0,0},PlotRange->All]
+
+IntactPF=Import["PartitionFunction_0_0.out","Table"];
+IntactFE=Import["FreeEnergy_0_0.out","Table"];
+IntactdFE=Import["dFreeEnergy_0_0.out","Table"];
+
+IntactZNJ\[Eta]=Import["znj_eta.out","Table"];
+IntactZNJ\[Xi]=Import["znj_xi.out","Table"];
+
+IntactMXD\[Eta]=Import["MeanAxialDisp_eta.out","Table"];
+IntactMXD\[Xi]=Import["MeanAxialDisp_xi.out","Table"];
+
+AverageX= Import["Average_X.out","Table"];
+AverageY= Import["Average_Y.out","Table"];
+
+fsTitle=24;
+fsAxesLabel=18;
+fs2=16;
+
+T=300 SI[Kelvin];
+n=Parameters[[3,2]];
+Print["Backbone spring constant \[Kappa]:"]
+\[Kappa]=Parameters[[4,2]]
+Print["Base-pair spring constant \[Sigma](\[Epsilon] = "<>ToString[\[Epsilon]]<>"):"]
+\[Sigma]=Parameters[[5,2]]
+Print["\[Kappa]/\[Sigma] ratio:"]
+\[Kappa]\[Sigma]r=Parameters[[6,2]]
+\[CapitalDelta]=Parameters[[7,2]];
+
+umin=Parameters[[8,2]];
+umax=Parameters[[9,2]];
+
+\[Epsilon]=Parameters[[10,2]];(*eV*)
+\[Beta]=Parameters[[11,2]];(*eV^-1*) 
+
+Subscript[\[Eta], B]=3.6;
+
+ToNewton=Convert[ElectronVolt/Angstrom,Newton] SI[Pico Newton]^-1 ;(*Converts eV/\[Angstrom] to pN*)
+ToForceDimension[f_]:=(f (\[Kappa]/(4\[Beta]  ))^(1/2)) ToNewton;
+ToDimension[\[Eta]_]:=\[Eta] ((\[Kappa] \[Beta] )/4 )^(-(1/2))(*Converts to \[Angstrom]*)
+
+/homes/ht/Desktop/today2/dev/N5/results/Intact
+{{L:,40.},{m:,40},{N:,5},{kappa:,0.1},{sigma:,0.0012},{kappa_sigma_r:,83.3333},{Delta:,0.4938},{Extension Minimum:,0},{Extension Maximum:,10},{e0:,0.04},{Beta:,38.6817}}
+\!\(\*
+GraphicsBox[{{}, {}, 
+{Hue[0.67, 0.6, 0.6], Thickness[Large], LineBox[CompressedData["
+1:eJw9lHdMU1EUxosjiAuoOEhBCyIOQKkmKmLsQazghBq3BHFgXIkbRIwBIdYR
+o8gfmCoVw7IoRrQR9zlAsAHFAXWhSJ1EJCIoQ40zOceXvLy8vHfvPed8v+/z
+WrlpXmwXhUKh/3v/e6pM0SPv0DjabUhzC7OdR32taveKqePIKdNrDTgWIS1T
+h7SUjSW/zX2sc2suYntGXbpBN5aScueeuFtjQX+b8b2nVUNVuif2p32LcaXL
+4iBLuIbC428XTjx0FR+mRf0KrQyk72H1Oesib6DjPXd97axAcnUwROauQUx0
+Ox/2yjiG8neobHs2lOCSgcUPFabRlHc8JSt7QRmWH9HEB5wOoC3p+thB8eWo
+6XHOY2mOP33crv5ofmTFzCTf0n35fvRaWwfJ8ZWYmDJmdl7BKFo48/5X5aoq
+bPhhbqkuHElbMVSfFfEA52/3yfh9YQSd8ui+f697NVKTabK/ZTgVV2+4VKS0
+oak5//asYl9Kc941/uyUx9hzrffGndeGkYujk/5W1lOMs590zb3pQwcrVDHv
+g5/jYV3NswoaSrYZl6+dVL7Eut4T7F/KvOn6sKCYRel2NCU6Z3hYvajUoAxI
+mPwaYxob5ugq1aTWZV41dHuLUy8mOb0wDiHL2aOt6Y3v8BWEDwg87UkXVJcD
+KpsacPXgbynJ+Sr6WRe8fnaPRu7Hnd4+znmuDGpCw8Etv3wtA6lZHZf3IOET
+19uffpbQtuYVn7m+fpQcembeJUMLugxNDVNZXWladvD+THMrRq/KOPPS6Ex6
+zb361NIvfF4v6p59bJJD1Vdc/2zpch+LI0U6BJpCytrQ3P5h513qSgv9+u0x
+n2rn9b/R+0D09KKoDv6/A2sr7CMS2jowfNOVIy+MzXjzjZtnRWwnv9fjcSq8
+nlDQiQq+DkX8PaDk/3etfOf1WlnP+2tlfz5fK+dzfSD1cf0g9XN/IP1x/yD9
+83xA5sPzA5kfzxdkvjx/kPmzPiD6sH4g+rG+IPqy/iD6Mx8gfDA/IPwwXyB8
+MX8g/DGfIHwyvyD8Mt8gfDP/IPyzP0D8wf4B8Q/7C8Rf7D8Q/7E/QfzJ/gXx
+L/sbxN/sfxD/cz6A5APnB0h+cL6A5AvnD0j+cD6B5BPnF0h+cb6B5BvnH0j+
+/QH0eahQ
+"]]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{0, 0},
+PlotRange->{All, All},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}]\)
+Backbone spring constant \[Kappa]:
+0.1
+Base-pair spring constant \[Sigma](\[Epsilon] = 0.04):
+0.0012
+\[Kappa]/\[Sigma] ratio:
+83.3333
+Length Dimension Check
+Subscript[\[Eta], B] (*No Dimension*)
+ToDimension[Subscript[\[Eta], B]] (*\[Angstrom]*)
+2.
+2.0338
+Force Dimension Check
+0.5 (*No Dimension*)
+\[Sigma] ToDimension[Subscript[\[Eta], B]] ToNewton  (*pN*)
+ToForceDimension[0.5] (*Converts force to dimensions of eV/\[Angstrom] then to J/m for pN*)
+0.5
+3.9102
+20.3656
+Numerical Results
+Partition Function & Free Energy
+pIntactPF=ListLinePlot[
+IntactPF,
+ImageSize->Large,
+PlotStyle->{Thick,Darker[ColorData[1,1]]},
+GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],
+AxesOrigin->{0,0},
+PlotRange->All,
+AxesLabel->{
+Style["u",FontSize->fsAxesLabel],
+Style["Z(u)",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2}
+];
+
+pIntactFE=ListLinePlot[
+IntactFE,
+ImageSize->Large,
+PlotStyle->{Thick,Darker[ColorData[1,1]]},
+GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],
+AxesOrigin->{0,0},
+PlotRange->All,
+AxesLabel->{
+Style["u",FontSize->fsAxesLabel],
+Style["F(u)",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2}
+];
+
+{pIntactPF,pIntactFE}
+{\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{0., 100176.}, {0.493827, 97839.3}, {0.987654, 91190.4}, {1.48148, 81216.3}, {1.97531, 69272.1}, {2.46914, 56758.9}, {2.96296, 44849.2}, {3.45679, 34332.3}, {3.95062, 25592.6}, {4.44444, 18682.2}, {4.93827, 13435.3}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"u\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"Z(u)\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{0, 0},
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->Large,
+LabelStyle->{"Times", FontSize -> 16},
+PlotRange->{All, All},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{0., -11.5147}, {0.493827, -11.4911}, {0.987654, -11.4207}, {1.48148, -11.3049}, {1.97531, -11.1458}, {2.46914, -10.9466}, {2.96296, -10.7111}, {3.45679, -10.4438}, {3.95062, -10.1501}, {4.44444, -9.83533}, {4.93827, -9.50564}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"u\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"F(u)\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{0, 0},
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->Large,
+LabelStyle->{"Times", FontSize -> 16},
+PlotRange->{All, All},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}]\)}
+Mean Axial Displacement of \[Xi]  and \[Eta]
+{ListLinePlot[IntactMXD\[Eta],PlotStyle->Thick,ImageSize->Medium,AxesOrigin->{1,0}],
+ListLinePlot[IntactMXD\[Xi],PlotStyle->Thick,ImageSize->Medium,AxesOrigin->{1,0}]}
+NearestValue=Nearest[Transpose[Chop[IntactMXD\[Eta],10^-5]][[1]],Subscript[\[Eta], B]][[1]]
+upos=Flatten[Position[Transpose[Chop[IntactMXD\[Eta],10^-5]][[1]],NearestValue]][[1]];
+U=upos-1;
+Grid[Chop[IntactMXD\[Eta],10^-5],Background->{Automatic,{upos->Yellow}}]
+Print["Extension U (End base-pair separations at Subscript[\[Eta], B]) = ",U]
+Print["Extension U in terms of \[Eta] = ",U \[CapitalDelta]," (",U,"\[CapitalDelta])"]
+{\!\(\*
+GraphicsBox[{{}, {}, 
+{Hue[0.67, 0.6, 0.6], Thickness[Large], LineBox[{{1., -6.74852*^-16}, {2., -1.19299*^-15}, {3., -1.36394*^-15}, {4., -1.19275*^-15}, {5., -6.74449*^-16}}]}, 
+{Hue[0.9060679774997897, 0.6, 0.6], Thickness[Large], LineBox[{{1., 0.441538}, {2., 0.427412}, {3., 0.422735}, {4., 0.427412}, {5., 0.441538}}]}, 
+{Hue[0.1421359549995791, 0.6, 0.6], Thickness[Large], LineBox[{{1., 0.883694}, {2., 0.855694}, {3., 0.846423}, {4., 0.855694}, {5., 0.883694}}]}, 
+{Hue[0.37820393249936934`, 0.6, 0.6], Thickness[Large], LineBox[{{1., 1.32728}, {2., 1.28592}, {3., 1.27222}, {4., 1.28592}, {5., 1.32728}}]}, 
+{Hue[0.6142719099991583, 0.6, 0.6], Thickness[Large], LineBox[{{1., 1.773}, {2., 1.71904}, {3., 1.70116}, {4., 1.71904}, {5., 1.773}}]}, 
+{Hue[0.8503398874989481, 0.6, 0.6], Thickness[Large], LineBox[{{1., 2.22095}, {2., 2.1554}, {3., 2.13367}, {4., 2.1554}, {5., 2.22095}}]}, 
+{Hue[0.08640786499873876, 0.6, 0.6], Thickness[Large], LineBox[{{1., 2.67049}, {2., 2.59459}, {3., 2.56941}, {4., 2.59459}, {5., 2.67049}}]}, 
+{Hue[0.3224758424985268, 0.6, 0.6], Thickness[Large], LineBox[{{1., 3.12018}, {2., 3.03535}, {3., 3.00719}, {4., 3.03535}, {5., 3.12018}}]}, 
+{Hue[0.5585438199983166, 0.6, 0.6], Thickness[Large], LineBox[{{1., 3.56743}, {2., 3.47527}, {3., 3.44465}, {4., 3.47527}, {5., 3.56743}}]}, 
+{Hue[0.7946117974981064, 0.6, 0.6], Thickness[Large], LineBox[{{1., 4.00779}, {2., 3.91004}, {3., 3.87754}, {4., 3.91004}, {5., 4.00779}}]}, 
+{Hue[0.030679774997896203`, 0.6, 0.6], Thickness[Large], LineBox[{{1., 4.43382}, {2., 4.33232}, {3., 4.29853}, {4., 4.33232}, {5., 4.43382}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+ImageSize->Medium,
+PlotRange->{{1., 5.}, {-1.36394*^-15, 4.43382}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{Hue[0.67, 0.6, 0.6], Thickness[Large], LineBox[{{1., -7.1928*^-16}, {2., -3.1078*^-16}, {3., 9.18435*^-17}, {4., 4.93714*^-16}, {5., 8.99931*^-16}}]}, 
+{Hue[0.9060679774997897, 0.6, 0.6], Thickness[Large], LineBox[{{1., 0.441538}, {2., 0.46641}, {3., 0.491062}, {4., 0.515834}, {5., 0.54087}}]}, 
+{Hue[0.1421359549995791, 0.6, 0.6], Thickness[Large], LineBox[{{1., 0.883694}, {2., 0.932302}, {3., 0.980487}, {4., 1.02861}, {5., 1.07665}}]}, 
+{Hue[0.37820393249936934`, 0.6, 0.6], Thickness[Large], LineBox[{{1., 1.32728}, {2., 1.3981}, {3., 1.46849}, {4., 1.53874}, {5., 1.60889}}]}, 
+{Hue[0.6142719099991583, 0.6, 0.6], Thickness[Large], LineBox[{{1., 1.773}, {2., 1.86454}, {3., 1.95579}, {4., 2.04695}, {5., 2.13807}}]}, 
+{Hue[0.8503398874989481, 0.6, 0.6], Thickness[Large], LineBox[{{1., 2.22095}, {2., 2.33157}, {3., 2.44206}, {4., 2.55252}, {5., 2.66297}}]}, 
+{Hue[0.08640786499873876, 0.6, 0.6], Thickness[Large], LineBox[{{1., 2.67049}, {2., 2.79823}, {3., 2.92592}, {4., 3.0536}, {5., 3.18128}}]}, 
+{Hue[0.3224758424985268, 0.6, 0.6], Thickness[Large], LineBox[{{1., 3.12018}, {2., 3.26266}, {3., 3.40512}, {4., 3.54759}, {5., 3.69005}}]}, 
+{Hue[0.5585438199983166, 0.6, 0.6], Thickness[Large], LineBox[{{1., 3.56743}, {2., 3.72195}, {3., 3.87647}, {4., 4.031}, {5., 4.18552}}]}, 
+{Hue[0.7946117974981064, 0.6, 0.6], Thickness[Large], LineBox[{{1., 4.00779}, {2., 4.17143}, {3., 4.33507}, {4., 4.4987}, {5., 4.66234}}]}, 
+{Hue[0.030679774997896203`, 0.6, 0.6], Thickness[Large], LineBox[{{1., 4.43382}, {2., 4.60346}, {3., 4.77311}, {4., 4.94275}, {5., 5.1124}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+ImageSize->Medium,
+PlotRange->{{1., 5.}, {-7.1928*^-16, 5.1124}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\)}
+2.22095
+0	0	0	0	0
+0.441538	0.427412	0.422735	0.427412	0.441538
+0.883694	0.855694	0.846423	0.855694	0.883694
+1.32728	1.28592	1.27222	1.28592	1.32728
+1.773	1.71904	1.70116	1.71904	1.773
+2.22095	2.1554	2.13367	2.1554	2.22095
+2.67049	2.59459	2.56941	2.59459	2.67049
+3.12018	3.03535	3.00719	3.03535	3.12018
+3.56743	3.47527	3.44465	3.47527	3.56743
+4.00779	3.91004	3.87754	3.91004	4.00779
+4.43382	4.33232	4.29853	4.33232	4.43382
+
+
+Extension U (End base-pair separations at Subscript[\[Eta], B]) = 5
+Extension U in terms of \[Eta] = 2.469 (5\[CapitalDelta])
+pos1=upos-2;
+pos2=upos-1;
+pos3=upos;
+pos4=upos+1;
+pos5=upos+2;
+
+pIntactMXD\[Eta]=ListLinePlot[
+{
+IntactMXD\[Eta][[pos1]],
+IntactMXD\[Eta][[pos2]],
+IntactMXD\[Eta][[pos3]],
+IntactMXD\[Eta][[pos4]],
+IntactMXD\[Eta][[pos5]]
+},
+ImageSize->1000,
+PlotStyle->{
+{Thick,Darker[ColorData[1,1]]},
+{Thick,Red},
+{Thick,Dashed,Orange},
+{Thick,Purple},
+{Thick,Darker[Green,0.5]}
+},
+PlotLegend->{
+Style["u="<>ToString[(pos1-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos2-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos3-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos4-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos5-1)\[CapitalDelta]],FontSize->fs2]
+},
+GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],
+PlotRange->All,
+AxesOrigin->{1,0},
+AxesLabel->{
+Style["j",FontSize->fsAxesLabel],
+Style["\[LeftAngleBracket]Subscript[\[Eta], j]\[RightAngleBracket]",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2},
+LegendShadow->None,
+LegendBorder->None,
+LegendBackground->Opacity[0],
+ShadowBackground->Opacity[0],
+LegendSize->0.55,
+LegendPosition->{0.9,-.2}
+]
+
+pIntactMXD\[Xi]=ListLinePlot[
+{
+IntactMXD\[Xi][[pos1]],
+IntactMXD\[Xi][[pos2]],
+IntactMXD\[Xi][[pos3]],
+IntactMXD\[Xi][[pos4]],
+IntactMXD\[Xi][[pos5]]
+},
+ImageSize->1000,
+PlotStyle->{
+{Thick,Darker[ColorData[1,1]]},
+{Thick,Red},
+{Thick,Dashed,Orange},
+{Thick,Purple},
+{Thick,Darker[Green,0.5]}
+},
+PlotLegend->{
+Style["u="<>ToString[(pos1-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos2-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos3-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos4-1)\[CapitalDelta]],FontSize->fs2],
+Style["u="<>ToString[(pos5-1)\[CapitalDelta]],FontSize->fs2]
+},
+GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],
+PlotRange->All,
+AxesOrigin->{1,0},
+AxesLabel->{
+Style["j",FontSize->fsAxesLabel],
+Style["\[LeftAngleBracket]Subscript[\[Xi], j]\[RightAngleBracket]",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2},
+LegendShadow->None,
+LegendBorder->None,
+LegendBackground->Opacity[0],
+ShadowBackground->Opacity[0],
+LegendSize->0.55,
+LegendPosition->{0.9,-.2}
+]
+
+\!\(\*
+GraphicsBox[{InsetBox[
+GraphicsBox[{{}, {}, 
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{1., 1.32728}, {2., 1.28592}, {3., 1.27222}, {4., 1.28592}, {5., 1.32728}}]}, 
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{1., 1.773}, {2., 1.71904}, {3., 1.70116}, {4., 1.71904}, {5., 1.773}}]}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., 2.22095}, {2., 2.1554}, {3., 2.13367}, {4., 2.1554}, {5., 2.22095}}]}, 
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{1., 2.67049}, {2., 2.59459}, {3., 2.56941}, {4., 2.59459}, {5., 2.67049}}]}, 
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{1., 3.12018}, {2., 3.03535}, {3., 3.00719}, {4., 3.03535}, {5., 3.12018}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"j\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"\[LeftAngleBracket]\\!\\(\\*SubscriptBox[\\(\[Eta]\\), \\(j\\)]\\)\[RightAngleBracket]\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{1, 0},
+DisplayFunction:>$DisplayFunction,
+FormatType->TraditionalForm,
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->1000,
+LabelStyle->{"Times", FontSize -> 16},
+PlotRange->{All, All},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}], {-1, -0.6180339887498948}, {Left, Bottom}, {2, 1.2360679774997896`}], GraphicsGroupBox[{
+{Opacity[0], RectangleBox[{0.9, -0.2}, {1.2080000000000002`, 0.35000000000000003`}]}, 
+{Opacity[0], EdgeForm[None], GraphicsGroupBox[{RectangleBox[{0.9, -0.2}, {1.2080000000000002`, 0.35000000000000003`}], InsetBox[
+GraphicsBox[{{{InsetBox[
+GraphicsBox[{
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 0.08}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=3.4566\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 0.58}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 1.24}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=2.9628\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 1.74}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 2.4}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=2.469\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 2.9}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 3.56}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=1.9752\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 4.0600000000000005`}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 4.72}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=1.4814\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 5.22}, {-1, 0}, Automatic, {1, 0}]}}, {}},
+AspectRatio->1.7857142857142856`,
+FormatType->TraditionalForm,
+PlotRange->{{-0.1, 3.26}, {-0.1, 5.8999999999999995`}}], {0.9, -0.2}, {Left, Bottom}, {0.30800000000000005`, 0.55}]}]}}]},
+AspectRatio->Automatic,
+Background->None,
+ColorOutput->Automatic,
+ImageSize->1000.,
+PlotRange->All]\)
+\!\(\*
+GraphicsBox[{InsetBox[
+GraphicsBox[{{}, {}, 
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{1., 1.32728}, {2., 1.3981}, {3., 1.46849}, {4., 1.53874}, {5., 1.60889}}]}, 
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{1., 1.773}, {2., 1.86454}, {3., 1.95579}, {4., 2.04695}, {5., 2.13807}}]}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., 2.22095}, {2., 2.33157}, {3., 2.44206}, {4., 2.55252}, {5., 2.66297}}]}, 
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{1., 2.67049}, {2., 2.79823}, {3., 2.92592}, {4., 3.0536}, {5., 3.18128}}]}, 
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{1., 3.12018}, {2., 3.26266}, {3., 3.40512}, {4., 3.54759}, {5., 3.69005}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"j\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"\[LeftAngleBracket]\\!\\(\\*SubscriptBox[\\(\[Xi]\\), \\(j\\)]\\)\[RightAngleBracket]\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{1, 0},
+DisplayFunction:>$DisplayFunction,
+FormatType->TraditionalForm,
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->1000,
+LabelStyle->{"Times", FontSize -> 16},
+PlotRange->{All, All},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}], {-1, -0.6180339887498948}, {Left, Bottom}, {2, 1.2360679774997896`}], GraphicsGroupBox[{
+{Opacity[0], RectangleBox[{0.9, -0.2}, {1.2080000000000002`, 0.35000000000000003`}]}, 
+{Opacity[0], EdgeForm[None], GraphicsGroupBox[{RectangleBox[{0.9, -0.2}, {1.2080000000000002`, 0.35000000000000003`}], InsetBox[
+GraphicsBox[{{{InsetBox[
+GraphicsBox[{
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 0.08}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=3.4566\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 0.58}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 1.24}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=2.9628\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 1.74}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 2.4}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=2.469\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 2.9}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 3.56}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=1.9752\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 4.0600000000000005`}, {-1, 0}, Automatic, {1, 0}]}, {InsetBox[
+GraphicsBox[{
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{0, 0.5}, {1, 0.5}}]}, {}},
+PlotRange->{{0, 1}, {0, 1}}], {0.08, 4.72}, {Left, Bottom}, {1, 1}], InsetBox[
+StyleBox["\<\"u=1.4814\"\>",
+StripOnInput->False,
+FontSize->16], {1.2100000000000002`, 5.22}, {-1, 0}, Automatic, {1, 0}]}}, {}},
+AspectRatio->1.7857142857142856`,
+FormatType->TraditionalForm,
+PlotRange->{{-0.1, 3.26}, {-0.1, 5.8999999999999995`}}], {0.9, -0.2}, {Left, Bottom}, {0.30800000000000005`, 0.55}]}]}}]},
+AspectRatio->Automatic,
+Background->None,
+ColorOutput->Automatic,
+ImageSize->1000.,
+PlotRange->All]\)
+
+18.6796
+Force-Extension
+fpos={{0,IntactdFE[[upos]][[2]]},{IntactdFE[[upos]][[1]],IntactdFE[[upos]][[2]]},{IntactdFE[[upos]][[1]],0},{IntactdFE[[upos]][[1]],IntactdFE[[upos]][[2]]}};
+F=IntactdFE[[upos]][[2]];
+u = IntactdFE[[upos]][[1]];
+
+Subscript[resF, c]=(\[Kappa] (ToDimension[AverageX[[upos]][[n]]-AverageX[[upos]][[n-1]]])+\[Sigma] (ToDimension[AverageX[[upos]][[n]] -AverageY[[upos]][[n]]]))ToNewton;
+
+pIntactPF=ListLinePlot[
+{
+IntactdFE,
+fpos
+},
+ImageSize->Large,
+PlotStyle->{{Thick,Darker[ColorData[1,1]]},{Thick,Red}},
+GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],
+AxesOrigin->{0,0},
+PlotRange->{{0,12},{0,2}},
+AxesLabel->{
+Style["u",FontSize->fsAxesLabel],
+Style["dF(u)/du",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2}
+]
+Print["Dimensionless force at (U = ",U,"\[CapitalDelta]) = ",F]
+
+Subscript[F, c]=ToForceDimension[F];
+Print["\nDimensional Force = ",Subscript[F, c] pN,"\nDimensional Extension = ",ToDimension[u]\[Angstrom],"\n\nDimensional Resultant Average Force = ",Subscript[resF, c] pN,"\n"]
+Export["N"<>ToString[n]<>"_sim.data",{{n,Subscript[F, c],Subscript[resF, c],NearestValue,\[Kappa]\[Sigma]r}},"Table"];
+
+\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0.1648000000000001, 0.16, 0.4], Thickness[Large], LineBox[{{0., 1.60417*^-15}, {0.493827, 0.0954482}, {0.987654, 0.189134}, {1.48148, 0.279242}, {1.97531, 0.363964}, {2.46914, 0.441603}, {2.96296, 0.510658}, {3.45679, 0.569841}, {3.95062, 0.618084}, {4.44444, 0.654545}, {4.93827, 0.678579}}]}, 
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{0., 0.441603}, {2.46914, 0.441603}, {2.46914, 0.}, {2.46914, 0.441603}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"u\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"dF(u)/du\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{0, 0},
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->Large,
+LabelStyle->{"Times", FontSize -> 16},
+PlotRange->{{0, 12}, {0, 2}},
+PlotRangeClipping->True,
+PlotRangePadding->{Automatic, Automatic}]\)
+Dimensionless force at (U = 5\[CapitalDelta]) = 0.441603
+
+Dimensional Force = 17.987 pN
+Dimensional Extension = 2.51086 \[Angstrom]
+
+Dimensional Resultant Average Force = 18.6796 pN
+
+Average X  and Y
+avg1=ListLinePlot[{Chop[AverageX[[pos1]]],Chop[AverageY[[pos1]]]},AxesOrigin->{1,0},PlotStyle->{{Thick,Darker[Blue,0.6]}},PlotLabel->"u="<>ToString[pos1-1]<>"\[CapitalDelta]"];
+avg2=ListLinePlot[{AverageX[[pos2]],AverageY[[pos2]]},AxesOrigin->{1,0},PlotStyle->{{Thick,Red}},PlotLabel->"u="<>ToString[pos2-1]<>"\[CapitalDelta]"];
+avg3=ListLinePlot[{AverageX[[pos3]],AverageY[[pos3]]},AxesOrigin->{1,0},PlotStyle->{{Thick,Dashed,Orange}},PlotLabel->"u="<>ToString[pos3-1]<>"\[CapitalDelta]"];
+avg4=ListLinePlot[{AverageX[[pos4]],AverageY[[pos4]]},AxesOrigin->{1,0},PlotStyle->{{Thick,Purple}},PlotLabel->"u="<>ToString[pos4-1]<>"\[CapitalDelta]"];
+avg5=ListLinePlot[{AverageX[[pos5]],AverageY[[pos5]]},AxesOrigin->{1,0},PlotStyle->{{Thick,Darker[Green,0.5]}},PlotLabel->"u="<>ToString[pos5-1]<>"\[CapitalDelta]"];
+{avg1,avg2,avg3,avg4,avg5}
+Show[avg3,ImageSize->Large,GridLines->Automatic,
+GridLinesStyle->Directive[LightGray,Dashed],AxesLabel->{
+Style["j",FontSize->fsAxesLabel],
+Style["\[LeftAngleBracket]Subscript[x, j]\[RightAngleBracket]",FontSize->fsAxesLabel]
+},
+LabelStyle->{"Times",FontSize->fs2}]
+{\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0., 0., 0.4], Thickness[Large], LineBox[{{1., 1.32728}, {2., 1.34201}, {3., 1.37035}, {4., 1.41233}, {5., 1.46809}}]}, 
+{RGBColor[0., 0., 0.4], Thickness[Large], LineBox[{{1., 0.}, {2., 0.0560926}, {3., 0.0981348}, {4., 0.126411}, {5., 0.140802}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+PlotLabel->FormBox["\"u=3\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {0., 1.46809}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{1., 1.773}, {2., 1.79179}, {3., 1.82847}, {4., 1.88299}, {5., 1.95553}}]}, 
+{RGBColor[1, 0, 0], Thickness[Large], LineBox[{{1., 4.996*^-15}, {2., 0.0727495}, {3., 0.127314}, {4., 0.163956}, {5., 0.182534}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+PlotLabel->FormBox["\"u=4\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {0., 1.95553}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., 2.22095}, {2., 2.24349}, {3., 2.28787}, {4., 2.35396}, {5., 2.44196}}]}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., -1.22125*^-14}, {2., 0.0880872}, {3., 0.154199}, {4., 0.198561}, {5., 0.221011}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+PlotLabel->FormBox["\"u=5\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {-1.22125*^-14, 2.44196}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{1., 2.67049}, {2., 2.69641}, {3., 2.74766}, {4., 2.82409}, {5., 2.92589}}]}, 
+{RGBColor[0.5, 0, 0.5], Thickness[Large], LineBox[{{1., 2.22045*^-16}, {2., 0.10182}, {3., 0.178256}, {4., 0.229505}, {5., 0.255394}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+PlotLabel->FormBox["\"u=6\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {0., 2.92589}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\),\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{1., 3.12018}, {2., 3.14901}, {3., 3.20616}, {4., 3.29147}, {5., 3.40512}}]}, 
+{RGBColor[0., 0.5, 0.], Thickness[Large], LineBox[{{1., 1.5099*^-14}, {2., 0.113653}, {3., 0.198968}, {4., 0.256118}, {5., 0.284937}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesOrigin->{1, 0},
+PlotLabel->FormBox["\"u=7\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {0., 3.40512}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\)}
+\!\(\*
+GraphicsBox[{{}, {}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., 2.22095}, {2., 2.24349}, {3., 2.28787}, {4., 2.35396}, {5., 2.44196}}]}, 
+{RGBColor[1, 0.5, 0], Thickness[Large], Dashing[{Small, Small}], LineBox[{{1., -1.22125*^-14}, {2., 0.0880872}, {3., 0.154199}, {4., 0.198561}, {5., 0.221011}}]}},
+AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+Axes->True,
+AxesLabel->{FormBox[StyleBox["\"j\"", FontSize -> 18, StripOnInput -> False], TraditionalForm], FormBox[StyleBox["\"\[LeftAngleBracket]\\!\\(\\*SubscriptBox[\\(x\\), \\(j\\)]\\)\[RightAngleBracket]\"", FontSize -> 18, StripOnInput -> False], TraditionalForm]},
+AxesOrigin->{1, 0},
+GridLines->Automatic,
+GridLinesStyle->Directive[GrayLevel[0.85], Dashing[{Small, Small}]],
+ImageSize->Large,
+LabelStyle->{"Times", FontSize -> 16},
+PlotLabel->FormBox["\"u=5\[CapitalDelta]\"", TraditionalForm],
+PlotRange->{{1., 5.}, {-1.22125*^-14, 2.44196}},
+PlotRangeClipping->True,
+PlotRangePadding->{Scaled[0.02], Scaled[0.02]}]\)

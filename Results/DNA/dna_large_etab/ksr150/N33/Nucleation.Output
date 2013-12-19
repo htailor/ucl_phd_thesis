@@ -1,0 +1,140 @@
+[H[2J===========================================================================
+Nucleation DNA Simulation
+===========================================================================
+
+Please enter simulation parameters:
+
+L: m: N: 
+Please enter potential parameters:
+
+kappa: sigma: 
+Please enter Partition Function parameters:
+
+Minimum Extension: Maximum Extension: 
+
+-----------------
+Global Parameters
+-----------------
+L:	60.20
+m:	150
+N:	33 
+kappa:	0.100000
+sigma:	0.000666
+kappa_sigma_r:	150.150150
+Delta:	0.2000
+Extension Minimum:	0  
+Extension Maximum:	70 
+e0:	0.022200
+
+TOLERANCE LEVEL:	1.00e-05
+
+
+*******************************************************************************************
+Starting Nucleation Simulation.....
+*******************************************************************************************
+
+Creating data for base-pair potential...
+Complete.
+
+Initialising Transfer Matrices T, T00.....COMPLETE.
+
+Calculating Eigenvalues and Eigenvectors of T, T00 .....
+
+------------------------------------------------
+smax:  150 tmax:  137
+------------------------------------------------
+
+COMPLETED in   0.00 seconds.
+
+Pre-calculating Standard Integrals.....COMPLETE.
+
+Pre-calculating Complex Integrals.....COMPLETE
+
+COMPLETED in   4.00 seconds.
+
+Calculating Partition Functions.....
+
+***Intact calculation for extension   0 complete.***
+***Intact calculation for extension   1 complete.***
+***Intact calculation for extension   2 complete.***
+***Intact calculation for extension   3 complete.***
+***Intact calculation for extension   4 complete.***
+***Intact calculation for extension   5 complete.***
+***Intact calculation for extension   6 complete.***
+***Intact calculation for extension   7 complete.***
+***Intact calculation for extension   8 complete.***
+***Intact calculation for extension   9 complete.***
+***Intact calculation for extension  10 complete.***
+***Intact calculation for extension  11 complete.***
+***Intact calculation for extension  12 complete.***
+***Intact calculation for extension  13 complete.***
+***Intact calculation for extension  14 complete.***
+***Intact calculation for extension  15 complete.***
+***Intact calculation for extension  16 complete.***
+***Intact calculation for extension  17 complete.***
+***Intact calculation for extension  18 complete.***
+***Intact calculation for extension  19 complete.***
+***Intact calculation for extension  20 complete.***
+***Intact calculation for extension  21 complete.***
+***Intact calculation for extension  22 complete.***
+***Intact calculation for extension  23 complete.***
+***Intact calculation for extension  24 complete.***
+***Intact calculation for extension  25 complete.***
+***Intact calculation for extension  26 complete.***
+***Intact calculation for extension  27 complete.***
+***Intact calculation for extension  28 complete.***
+***Intact calculation for extension  29 complete.***
+***Intact calculation for extension  30 complete.***
+***Intact calculation for extension  31 complete.***
+***Intact calculation for extension  32 complete.***
+***Intact calculation for extension  33 complete.***
+***Intact calculation for extension  34 complete.***
+***Intact calculation for extension  35 complete.***
+***Intact calculation for extension  36 complete.***
+***Intact calculation for extension  37 complete.***
+***Intact calculation for extension  38 complete.***
+***Intact calculation for extension  39 complete.***
+***Intact calculation for extension  40 complete.***
+***Intact calculation for extension  41 complete.***
+***Intact calculation for extension  42 complete.***
+***Intact calculation for extension  43 complete.***
+***Intact calculation for extension  44 complete.***
+***Intact calculation for extension  45 complete.***
+***Intact calculation for extension  46 complete.***
+***Intact calculation for extension  47 complete.***
+***Intact calculation for extension  48 complete.***
+***Intact calculation for extension  49 complete.***
+***Intact calculation for extension  50 complete.***
+***Intact calculation for extension  51 complete.***
+***Intact calculation for extension  52 complete.***
+***Intact calculation for extension  53 complete.***
+***Intact calculation for extension  54 complete.***
+***Intact calculation for extension  55 complete.***
+***Intact calculation for extension  56 complete.***
+***Intact calculation for extension  57 complete.***
+***Intact calculation for extension  58 complete.***
+***Intact calculation for extension  59 complete.***
+***Intact calculation for extension  60 complete.***
+***Intact calculation for extension  61 complete.***
+***Intact calculation for extension  62 complete.***
+***Intact calculation for extension  63 complete.***
+***Intact calculation for extension  64 complete.***
+***Intact calculation for extension  65 complete.***
+***Intact calculation for extension  66 complete.***
+***Intact calculation for extension  67 complete.***
+***Intact calculation for extension  68 complete.***
+***Intact calculation for extension  69 complete.***
+***Intact calculation for extension  70 complete.***
+
+***INTACT STATE COMPLETE***
+
+COMPLETED in 2306.00 seconds
+
+Writing output data to files....
+Creating Output Files.....COMPLETE.
+
+
+---------------------------
+NUCLEATION RUNTIME: 2310.00
+---------------------------
+

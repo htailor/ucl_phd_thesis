@@ -1,0 +1,410 @@
+-----------------
+Global Parameters
+-----------------
+
+L:	6.00 
+m:	24 
+N:	5  
+kappa:	1.00 
+sigma:	1.00 
+Delta:	0.12 
+
+Extension Minimum:	0  
+Extension Maximum:	20 
+
+
+beta:	4.00 
+mu:	6.00 
+c:	4.58 
+delta:	19.17
+b:	2.14 
+k:	1.57 
+ev0:	0.81 
+C0:	0.55 
+
+TOLERANCE LEVEL:	1.00e-10
+
+
+*******************************************************************************************
+Starting Nucleation Simulation.....
+*******************************************************************************************
+
+Creating data for base-pair potential...
+Complete.
+
+Initialising Transfer Matrices TR, TROE, TLAMBDA.....COMPLETE.
+
+Calculating Eigenvalues and Eigenvectors of TR, TROE, TLAMBDA.....
+
+------------------------------------------------
+rmax:   24 vmax:   15 pmax:   15
+------------------------------------------------
+
+COMPLETED in   0.00 seconds.
+
+Calculating Partition Functions.....
+
+
+***Calculation for extension   0 complete.***
+***Calculating differential for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   0 complete.***
+***Calculation for extension   1 complete.***
+***Calculating differential for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   1 complete.***
+***Calculation for extension   2 complete.***
+***Calculating differential for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   2 complete.***
+***Calculation for extension   3 complete.***
+***Calculating differential for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   3 complete.***
+***Calculation for extension   4 complete.***
+***Calculating differential for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   4 complete.***
+***Calculation for extension   5 complete.***
+***Calculating differential for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   5 complete.***
+***Calculation for extension   6 complete.***
+***Calculating differential for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   6 complete.***
+***Calculation for extension   7 complete.***
+***Calculating differential for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   7 complete.***
+***Calculation for extension   8 complete.***
+***Calculating differential for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   8 complete.***
+***Calculation for extension   9 complete.***
+***Calculating differential for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension   9 complete.***
+***Calculation for extension  10 complete.***
+***Calculating differential for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  10 complete.***
+***Calculation for extension  11 complete.***
+***Calculating differential for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  11 complete.***
+***Calculation for extension  12 complete.***
+***Calculating differential for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  12 complete.***
+***Calculation for extension  13 complete.***
+***Calculating differential for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  13 complete.***
+***Calculation for extension  14 complete.***
+***Calculating differential for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  14 complete.***
+***Calculation for extension  15 complete.***
+***Calculating differential for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  15 complete.***
+***Calculation for extension  16 complete.***
+***Calculating differential for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  16 complete.***
+***Calculation for extension  17 complete.***
+***Calculating differential for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  17 complete.***
+***Calculation for extension  18 complete.***
+***Calculating differential for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  18 complete.***
+***Calculation for extension  19 complete.***
+***Calculating differential for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  19 complete.***
+***Calculation for extension  20 complete.***
+***Calculating differential for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+***Calculation for extension  20 complete.***
+*** Intact State Complete ***
+
+---------------------------
+NUCLEATION RUNTIME: 103.00
+---------------------------
+

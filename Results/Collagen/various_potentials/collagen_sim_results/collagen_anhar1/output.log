@@ -1,0 +1,51 @@
+-----------------
+Global Parameters
+-----------------
+
+L:	6.00 
+m:	24 
+N:	5  
+kappa:	1.00 
+sigma:	1.00 
+Delta:	0.12 
+
+Extension Minimum:	0  
+Extension Maximum:	20 
+
+TOLERANCE LEVEL:	1.00e-10*******************************************************************************************
+Starting Nucleation Simulation.....
+*******************************************************************************************
+
+Creating data for base-pair potential...
+Complete.
+
+Initialising Transfer Matrices TR, TROE_LAMBDA...
+Complete.
+
+Calculating Eigenvalues and Eigenvectors of TR, TROE_LAMBDA...
+
+
+------------------------------------------------
+smax:   24 tmax:  270
+------------------------------------------------
+
+COMPLETED in 539.00 seconds.
+
+Pre-calculating Integrals for the Partition Function...
+** Calculating double integral MXDIntegral_LAMBDA_ALPHA...
+** Calculating double integral MXDIntegral_ROE_ALPHA...
+** Calculating double integral MXDIntegral_R_ALPHA...
+** Calculating double integral Integral_ROE_1_LAMBDA_1...
+** Calculating double integral Integral_R_N_ROE_N...
+Complete.
+
+Calculating Partition Functions.....
+
+
+*** Intact State Complete ***
+Complete.
+
+---------------------------
+NUCLEATION RUNTIME: 739.00
+---------------------------
+

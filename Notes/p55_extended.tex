@@ -1,0 +1,15 @@
+\documentclass[a4paper,12pt,titlepage]{report}
+\usepackage{amsmath}
+\renewcommand{\eqref}[1]{Eq.~\ref{#1}}
+
+\begin{document}
+
+The extra line of working for Eq. 5.15. From 
+
+\begin{align}
+Z_{q}\left(R\right) & =\int_{-\infty}^{\infty}\prod_{i=1}^{N}\left[dq_{i,i-1}\exp\left(-\frac{\Phi\left(q_{i,i-1}\right)}{kT}\right)\right]\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega\,\exp\left[i\omega\left(\sum_{j=1}^{N}q_{i,i-1}-R\right)\right]\nonumber\\
+&=\frac{1}{2\pi}\int_{-\infty}^{\infty}\prod_{i=1}^{N}\left[dq_{i,i-1}\exp\left(-\frac{\Phi\left(q_{i,i-1}\right)}{kT}\right)\exp\left(i\omega q_{i,i-1}\right)\right]\int_{-\infty}^{\infty}d\omega\,\exp\left(-i\omega R\right)\nonumber\\
+&=\frac{1}{2\pi}\int_{-\infty}^{\infty}d\omega\,\exp\left(-i\omega R\right)\left[\int_{-\infty}^{\infty}dq_{i,i-1}\,\exp\left(-\frac{\Phi\left(q_{i,i-1}\right)}{kT}\right)\,\exp\left(i\omega q_{i,i-1}\right)\right]^{N}\nonumber\label{FourierTransformPartitionFunction}
+\end{align}
+
+\end{document}

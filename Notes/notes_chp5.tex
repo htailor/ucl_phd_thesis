@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt,titlepage]{report}
+\usepackage{amsmath}
+\usepackage{amsfonts,amssymb}
+
+
+\begin{document}
+
+\section*{Original Solution to 1D EFJC Partition Function}
+
+The extra line of working for Eq. 5.15. From 
+
+\begin{equation}
+\sin^{N}\left(x\right) = \left( \frac{e^{ix}-e^{-ix}}{2i} \right)^N=\frac{e^{iNx}\left(1-e^{-2ix}\right)^{N}}{\left(2i\right)^{N}}
+\end{equation}
+
+using
+
+\begin{equation}
+\left(p+q\right)^{N}=\sum^{N}_{k=0}\binom{N}{k} p^{k} q^{N-k}
+\end{equation}
+
+let $q=1$ and $p=-e^{-2ix}$ to get
+
+\begin{align}
+\sin^{N}\left(x\right) &= \frac{e^{iNx}}{\left(2i\right)^{N}} \sum^{N}_{k=0}\binom{N}{k}(-1)^{k} e^{-2ikx}\\
+&=\frac{1}{\left(2i\right)^{N}} \sum^{N}_{k=0}\binom{N}{k}(-1)^{k} e^{ix(N-2k)}
+\end{align}
+
+We have
+
+\begin{align}
+\sin^{N}\left(x\right) &= \frac{1}{\left(2i\right)^{N}} \sum^{N}_{k=0}\binom{N}{k}(-1)^{k} e^{ix(N-2k)} \\
+\cos^{N}\left(x\right) &= \frac{1}{\left(2\right)^{N}} \sum^{N}_{k=0}\binom{N}{k} e^{ix(N-2k)}
+\end{align}
+
+Referring back to the partition function eq (5.54) we begin from 
+
+\begin{align}
+Z_{q}\left(R\right) &= \frac{1}{2 \pi}\int_{-\infty}^{\infty}d\omega\, e^{-i\omega R}\left[\left(\frac{2A}{\omega p}\right)\cos\omega a\,\sin\frac{\omega p}{2}\right]^{N}\label{PartitionFunctionUnsolved1D}\\
+&= \frac{1}{2 \pi} \left(\frac{2A}{p}\right)^{N}\int_{-\infty}^{\infty}d\omega\, \frac{e^{-i\omega R}}{\omega^{N}}\cos^{N}\omega a \sin^{N}\frac{\omega p}{2}
+\end{align}
+
+Expanding the $\cos$ term we get
+
+\begin{align}
+Z_{q}\left(R\right) &= \frac{1}{2 \pi} \left(\frac{A}{p}\right)^{N}\sum^{N}_{k=0}\binom{N}{k}\int_{-\infty}^{\infty}d\omega\, \frac{e^{-i\omega R}}{\omega^{N}} e^{i\omega a(N-2k)}\sin^{N}\frac{\omega p}{2}
+\end{align}
+
+Next, we expand the $\sin$ term in the partition function to give
+
+\begin{align}
+Z_{q}\left(R\right) &= \frac{1}{2 \pi} \left(\frac{A}{2ip}\right)^{N}\sum^{N}_{k=0}\sum^{N}_{k'=0}\binom{N}{k}\binom{N}{k'}(-1)^{k'}\int_{-\infty}^{\infty}d\omega\, \frac{e^{-i\omega R}}{\omega^{N}} e^{i\omega a(N-2k)}e^{i\frac{\omega p}{2}(N-2k')}\\
+&= \frac{1}{2 \pi} \left(\frac{A}{2ip}\right)^{N}\sum^{N}_{k=0}\sum^{N}_{k'=0}\binom{N}{k}\binom{N}{k'}(-1)^{k'}\int_{-\infty}^{\infty}d\omega\, \frac{e^{i\omega \alpha}}{\omega^{N}} 
+\end{align}
+
+where $\alpha = a(N-2k) + \frac{p}{2}(N-2k') -R$. Taking the Fourier transform of $1/\omega^{N}$ we know that 
+
+\begin{equation}
+\int_{-\infty}^{\infty}\frac{e^{i \omega \alpha}}{\omega^{N}}\,d\omega = \frac{i^{N} \pi \alpha^{N-1}}{\left(N-1\right)!}\text{sgn}\left(\alpha\right)
+\end{equation}
+
+The partition function becomes
+
+\begin{align}
+Z_{q}\left(R\right) &= \frac{1}{2}\left(\frac{A}{2p}\right)^{N}\sum^{N}_{k=0}\sum^{N}_{k'=0}\binom{N}{k}\binom{N}{k'}(-1)^{k'}\frac{\alpha^{N-1}}{\left(N-1\right)!}\text{sgn}\left(\alpha\right)
+\end{align}
+
+\section*{Prof Harker's Method}
+
+From Medhurst and Roberts (Math. Comp.,19 (1965),113-117) there is a closed form expression of the nth power integral such that
+
+\begin{equation}
+\frac{2}{\pi}\int_{0}^{\infty}\left(\frac{\sin x}{x}\right)^{N}\cos bx \,dx = \frac{N}{2^{n-1}}\sum_{0 \leqq r < \left(b+N\right)/2} \frac{\left(-1\right)^{r}\left( b+N-2r \right)^{N-1}}{r!\left(n-r\right)!}
+\end{equation}
+
+for $0 \leqq b < N$. We can begin to transform the integral from eq.(9) into this form, but there is a step where Harker seems to drive out a cos term that isn't clear.
+
+
+\end{document}

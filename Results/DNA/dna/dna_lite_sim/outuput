@@ -1,0 +1,948 @@
+-e 
+STARTING ANALYSIS...
+-e 
+(ksr24)
+Running analysis for all N enviroments...
+DIR  list:   etab_3.0 etab_3.25 etab_3.5 etab_3.75 etab_4.0 etab_4.25 etab_4.5 etab_4.75 etab_5.00
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-0.10944851581106886	23.999981
+16	-0.038881412808544846	23.999981
+20	0.04861748742123863	23.999981
+24	0.008206989905752924	23.999981
+28	0.013697086282325037	23.999981
+32	0.054169457978481675	23.999981
+50	0.2635569017207633	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	17.688401466061	23.999981
+16	-2.7901615005245812	23.999981
+20	-0.006018499758551555	23.999981
+24	0.015133625313847307	23.999981
+28	0.03111125343972591	23.999981
+32	0.031578880835224	23.999981
+50	-10.253149211384212	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-11.18269611908391	23.999981
+16	-4.144644202483007	23.999981
+20	-0.44289373015903655	23.999981
+24	1.7044973866920976	23.999981
+28	3.025525476514451	23.999981
+32	3.8536238375962264	23.999981
+50	4.731814964051976	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-2.7465100138245218	23.999981
+16	4.145286590118905	23.999981
+20	7.904613106476351	23.999981
+24	10.263424578274849	23.999981
+28	11.893071640626248	23.999981
+32	13.10422868619406	23.999981
+50	16.00738582178097	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	6.916616976339113	23.999981
+16	14.077739444177464	23.999981
+20	17.93455868028218	23.999981
+24	20.37258640286191	23.999981
+28	22.075355715706298	23.999981
+32	23.38190301524035	23.999981
+50	26.6410845057808	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	16.70637540261424	23.999981
+16	24.27270878089389	23.999981
+20	28.27170612813915	23.999981
+24	30.775975936856373	23.999981
+28	32.52460682659242	23.999981
+32	33.839262093945116	23.999981
+50	37.20153553233493	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	26.35420126970685	23.999981
+16	34.36576954620721	23.999981
+20	38.52634808272558	23.999981
+24	41.104969549180744	23.999981
+28	42.87076726640894	23.999981
+32	44.18378916466617	23.999981
+50	47.603285560931134	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	35.79500084221484	23.999981
+16	44.264307412160655	23.999981
+20	48.591520236499754	23.999981
+24	51.21843026269164	23.999981
+28	53.02082304920581	23.999981
+32	54.35915955277259	23.999981
+50	57.812894065336835	23.999981
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	44.99911045861652	23.999981
+16	53.93344557435332	23.999981
+20	58.447750228578094	23.999981
+24	61.1263481491343	23.999981
+28	62.948777084736484	23.999981
+32	64.29117499585583	23.999981
+50	67.79990650500409	23.999981
+COMPLETE
+-e 
+(ksr26)
+Running analysis for all N enviroments...
+DIR  list:   etab_3.0 etab_3.25 etab_3.5 etab_3.75 etab_4.0 etab_4.25 etab_4.5 etab_4.75 etab_5.00
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-0.10386964328987776	26.000026
+16	-0.02398473561083157	26.000026
+20	-0.010864680389969983	26.000026
+24	-939.4633972252734	26.000026
+28	-0.18509340187036907	26.000026
+32	-0.20306332171090852	26.000026
+50	0.0003565931474483612	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-12.45273329581313	26.000026
+16	-5.1555588904774154	26.000026
+20	-1.6975060440944028	26.000026
+24	-0.12622814545244593	26.000026
+28	-0.008520032400874837	26.000026
+32	-5.928842607343791	26.000026
+50	-5.48507476900147	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	-6.753619767513566	26.000026
+16	0.0390052189678837	26.000026
+20	3.656394999885478	26.000026
+24	5.8467148070483494	26.000026
+28	7.283039323123536	26.000026
+32	8.282737437633996	26.000026
+50	10.333374130965925	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	1.8149474477522614	26.000026
+16	8.753993076346237	26.000026
+20	12.515010282965955	26.000026
+24	14.847632770475135	26.000026
+28	16.486567203621025	26.000026
+32	17.697081586637406	26.000026
+50	20.672406566239356	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	10.986170273706964	26.000026
+16	18.287004916563134	26.000026
+20	22.170630072800574	26.000026
+24	24.594663055286716	26.000026
+28	26.3069672094212	26.000026
+32	27.556447219701138	26.000026
+50	30.78022792291208	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	20.163334066614883	26.000026
+16	27.914644320195883	26.000026
+20	31.9786900681798	26.000026
+24	34.47554008278398	26.000026
+28	36.19894809427104	26.000026
+32	37.471490935248184	26.000026
+50	40.77234109421233	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	29.19352509309483	26.000026
+16	37.41910228722463	26.000026
+20	41.65668859152147	26.000026
+24	44.22345556699343	26.000026
+28	45.97462520760192	26.000026
+32	47.296803534698014	26.000026
+50	50.62972222396737	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...
+COMPLETED
+-e 
+Analysing (N24)
+================
+Results location: N24/results
+Running...
+COMPLETED
+-e 
+Analysing (N28)
+================
+Results location: N28/results
+Running...
+COMPLETED
+-e 
+Analysing (N32)
+================
+Results location: N32/results
+Running...
+COMPLETED
+-e 
+Analysing (N50)
+================
+Results location: N50/results
+Running...
+COMPLETED
+-e 
+Verify data...
+
+12	38.02384382074636	26.000026
+16	46.740055208380745	26.000026
+20	51.15857826386382	26.000026
+24	53.80534581862375	26.000026
+28	55.58275053212082	26.000026
+32	56.903833702493095	26.000026
+50	60.28491034626997	26.000026
+-e N list: 12 16 20 24 28 32 50
+-e Mathematica script: DNA_Analysis.math
+-e 
+Analysing (N12)
+================
+Results location: N12/results
+Running...
+COMPLETED
+-e 
+Analysing (N16)
+================
+Results location: N16/results
+Running...
+COMPLETED
+-e 
+Analysing (N20)
+================
+Results location: N20/results
+Running...

@@ -1,0 +1,116 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3650,        107]
+NotebookOptionsPosition[      3015,         83]
+NotebookOutlinePosition[      3549,        103]
+CellTagsIndexPosition[      3506,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Log Analysis", "Section",
+ CellFrameColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108],
+ CellChangeTimes->{{3.484030732161858*^9, 3.4840307392569103`*^9}, {
+  3.4970945622009163`*^9, 3.4970945780070267`*^9}, {3.4970946362934027`*^9, 
+  3.497094640677207*^9}, {3.49724936226796*^9, 3.497249380089903*^9}, {
+  3.505025921239233*^9, 3.505025924150432*^9}},
+ FontColor->RGBColor[
+  0.6449835965514611, 0.758632791638056, 0.2516823071641108]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetDirectory", "[", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{"NotebookDirectory", "[", "]"}], "}"}], "]"}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"TRm", " ", "=", " ", 
+   RowBox[{"Import", "[", 
+    RowBox[{"\"\<TR_Matrix.log\>\"", ",", "\"\<Table\>\""}], "]"}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"T\[Rho]\[Lambda]m", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{"\"\<TROE_LAMBDA_Matrix.log\>\"", ",", "\"\<Table\>\""}], "]"}]}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.497095416469974*^9, 3.49709542837605*^9}, {
+  3.497165326015378*^9, 3.497165350143873*^9}, {3.4971653906241703`*^9, 
+  3.497165429773212*^9}, {3.497249405833325*^9, 3.497249413720601*^9}, {
+  3.504445477650571*^9, 3.504445480145762*^9}, {3.5044458508317747`*^9, 
+  3.504445852100904*^9}, {3.50444605922082*^9, 3.504446069409165*^9}, {
+  3.5045122241367693`*^9, 3.504512356814155*^9}, {3.505025828108118*^9, 
+  3.505025890605296*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"MatrixForm", "[", "TRm", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"MatrixForm", "[", "T\[Rho]\[Lambda]m", "]"}]}], "Input",
+ CellChangeTimes->{{3.5050258927416573`*^9, 3.5050259130169077`*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Numerical Resu",
+ StyleBox["lts - Partition Function",
+  FontColor->RGBColor[
+   0.6919050888838025, 0.7903105210955977, 0.3002517738612955]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 1}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.691905, 0.790311, 0.300252],
+ CellChangeTimes->{{3.497095457460134*^9, 3.497095500883967*^9}, {
+  3.497095673524331*^9, 3.4970956869079313`*^9}, {3.497249442008595*^9, 
+  3.497249445583561*^9}, {3.497249600851082*^9, 3.4972496047946*^9}},
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.691905, 0.790311, 0.300252]]
+},
+WindowSize->{574, 947},
+WindowMargins->{{Automatic, 41}, {Automatic, 0}},
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{594.3000000000001, 840.51},
+"PostScriptOutputFile"->"Untitled-1.ps"},
+FrontEndVersion->"7.0 for Linux x86 (64-bit) (February 25, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 470, 8, 73, "Section"],
+Cell[1040, 32, 1035, 24, 99, "Input"],
+Cell[2078, 58, 217, 3, 55, "Input"]
+}, Open  ]],
+Cell[2310, 64, 701, 17, 53, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}]
+}
+]
+*)
+
+(* End of internal cache information *)

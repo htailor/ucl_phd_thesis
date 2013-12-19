@@ -1,0 +1,491 @@
+\begin{thebibliography}{100}
+
+\bibitem{Watson1953}
+F.~Crick and J.~Watson, ``{Molecular structure of nucleic acids},'' {\em
+  Nature},  \textbf{171}, 737--38, (1953).
+
+\bibitem{Kittel1968}
+C.~Kittel, ``{X-ray diffraction from helices: Structure of DNA},'' {\em
+  American Journal of Physics},  \textbf{36}, 610--6, (1968).
+
+\bibitem{Makarov2002}
+D.~Makarov and Z.~Wang, ``{On the interpretation of force extension curves of
+  single protein molecules},'' {\em The Journal of Chemical Physics},
+  \textbf{116}, 7760--65, (2002).
+
+\bibitem{Cheung2004}
+M.~Cheung, L.~Chavez, and J.~Onuchic, ``{The energy landscape for protein
+  folding and possible connections to function},'' {\em Polymer},  \textbf{45},
+  547--55, (2004).
+
+\bibitem{Gaub2000}
+H.~Clausen-Schaumann and M.~Seitz, ``{Force spectroscopy with single
+  bio-molecules},'' {\em Current Opinion in Chemical Biology},  \textbf{4},
+  524--30, (2000).
+
+\bibitem{Beveridge1989}
+D.~Beveridge and F.~DiCapua, ``{Free energy via molecular simulation:
+  applications to chemical and biomolecular systems},'' {\em Annual Review of
+  Biophysics and Chemistry},  \textbf{18}, 431--92, (1989).
+
+\bibitem{Kollman1993}
+P.~Kollman, ``{Free energy calculations: applications to chemical and
+  biochemical phenomena},'' {\em Chemical Reviews},  \textbf{93}, 2395--417,
+  (1993).
+
+\bibitem{Berg2010}
+J.~M. Berg, J.~L. Tymoczko, and L.~Stryer, {\em {Biochemistry}}.
+\newblock W. H. Freeman, 5th~ed., (2010).
+
+\bibitem{Karplus1987}
+M.~Karplus, T.~Ichiye, and B.~Pettitt, ``{Configurational entropy of native
+  proteins},'' {\em Biophysical Journal},  \textbf{52}, 1083--5, (1987).
+
+\bibitem{Prevost1991}
+M.~Prevost, S.~J. Wodak, B.~Tidor, and M.~Karplus, ``{Contribution of the
+  hydrophobic effect to protein stability: analysis based on simulations of the
+  Ile-96 to Ala mutation in barnase},'' {\em Proceedings of the National
+  Academy of Sciences of the United States of America},  \textbf{88}, 10880--4,
+  (1991).
+
+\bibitem{Lee2001}
+a.~L. Lee and a.~J. Wand, ``{Microscopic origins of entropy, heat capacity and
+  the glass transition in proteins},'' {\em Nature},  \textbf{411}, 501--4,
+  (2001).
+
+\bibitem{Trebbi2005}
+B.~Trebbi, F.~Dehez, P.~W. Fowler, and F.~Zerbetto, ``{Favorable entropy of
+  aromatic clusters in thermophilic proteins},'' {\em The Journal of Physical
+  Chemistry B},  \textbf{109}, 18184--8, (2005).
+
+\bibitem{Stone2001}
+M.~J. Stone, ``{NMR relaxation studies of the role of conformational entropy in
+  protein stability and ligand binding},'' {\em Accounts of Chemical Research},
+   \textbf{34}, 379--88, (2001).
+
+\bibitem{Carlsson2005}
+J.~Carlsson and J.~Aqvist, ``{Absolute and relative entropies from computer
+  simulation with applications to ligand binding},'' {\em The Journal of
+  Physical Chemistry B},  \textbf{109}, 6448--56, (2005).
+
+\bibitem{Homans2005}
+S.~W. Homans, ``{Probing the binding entropy of ligand-protein interactions by
+  NMR.},'' {\em ChemBioChem : A European Journal of Chemical Biology},
+  \textbf{6}, 1585--91, (2005).
+
+\bibitem{Daura2005}
+X.~Daura, ``{Molecular Dynamics Simulation of Peptide Folding},'' {\em
+  Theoretical Chemistry Accounts},  \textbf{116}, 297--306, (2005).
+
+\bibitem{Bicout2000}
+D.~J. Bicout and A.~Szabo, ``{Entropic barriers, transition states, funnels,
+  and exponential protein folding kinetics: a simple model},'' {\em Protein
+  Science},  \textbf{9}, 452--65, (2000).
+
+\bibitem{Chavez2004}
+L.~L. Chavez, J.~N. Onuchic, and C.~Clementi, ``{Quantifying the roughness on
+  the free energy landscape: entropic bottlenecks and protein folding rates},''
+  {\em Journal of the American Chemical Society},  \textbf{126}, 8426--32,
+  (2004).
+
+\bibitem{Chipot2006}
+C.~Chipot, ``{Free Energy Calculations in Biological Systems. How Useful Are
+  They in Practice?},'' {\em Springer Lecture Notes in Computational Science
+  and Engineering},  \textbf{49}, (2006).
+
+\bibitem{Chipot2007}
+C.~Chipot and A.~Pohorille, {\em {Free Energy Calculations: Theory and
+  Applications in Chemistry and Biology}}.
+\newblock Springer, (2007).
+
+\bibitem{Sinden1994}
+R.~Sinden, {\em {DNA Structure and Function}}.
+\newblock Academic Press, (1994).
+
+\bibitem{Williams2010}
+M.~Williams and L.~M. III, {\em {Biophysics of DNA-protein Interactions: From
+  Single Molecules to Biological Systems}}.
+\newblock Springer, (2010).
+
+\bibitem{Sasaki1996}
+N.~Sasaki and S.~Odajima, ``{Stress-strain curve and Young's modulus of a
+  collagen molecule as determined by the X-ray diffraction technique},'' {\em
+  Journal of Biomechanics},  \textbf{29}, 655--58, (1996).
+
+\bibitem{Bozec2005a}
+L.~Bozec and M.~Horton, ``{Topography and mechanical properties of single
+  molecules of type I collagen using atomic force microscopy},'' {\em
+  Biophysical Journal},  \textbf{88}, 4223--31, (2005).
+
+\bibitem{Wenger2007}
+M.~P.~E. Wenger, L.~Bozec, M.~a. Horton, and P.~Mesquida, ``{Mechanical
+  properties of collagen fibrils},'' {\em Biophysical Journal},  \textbf{93},
+  1255--63, (2007).
+
+\bibitem{Flory1975}
+P.~J. Flory, ``{Spatial Configuration of Macromolecular Chains},'' {\em
+  Science},  \textbf{188}, 1268--76, (1975).
+
+\bibitem{Flory1971}
+P.~J. Flory, {\em {Principles of Polymer Chemistry}}.
+\newblock Cornell University Press, (1971).
+
+\bibitem{Sperling2006}
+L.~Sperling, {\em {Introduction to Physical Polymer Science}}.
+\newblock John Wiley \& Sons, fourth~ed., (2006).
+
+\bibitem{Plischke2006}
+M.~Plischke, {\em {Equilibrium Statistical Physics}}.
+\newblock World Scientific Pub Co Inc, 3rd~ed., (2006).
+
+\bibitem{DeGennes1979}
+P.-G. de~Gennes, {\em {Scaling Concepts in Polymer Physics}}.
+\newblock Cornell University Press, (1979).
+
+\bibitem{Doi1988}
+M.~Doi and S.~Edwards, {\em {The Theory of Polymer Dynamics}}.
+\newblock Oxford University Press, USA, (1988).
+
+\bibitem{Chan2010}
+Y.~Chan, R.~G. Haverkamp, and J.~M. Hill, ``{Force-extension formula for the
+  worm-like chain model from a variational principle},'' {\em Journal of
+  Theoretical Biology},  \textbf{262}, 498--504, (2010).
+
+\bibitem{Kratky1949}
+O.~Kratky and G.~Porod, ``{Diffuse small-angle scattering of X-rays in colloid
+  systems},'' {\em Journal of Colloid Science},  \textbf{4}, 35--70, (1949).
+
+\bibitem{Maarel2008}
+J.~V.~D. Maarel, {\em {Introduction to Biopolymer Physics}}.
+\newblock World Scientific, (2008).
+
+\bibitem{Peyrard2004}
+M.~Peyrard, ``{Nonlinear dynamics and statistical physics of DNA},'' {\em
+  Nonlinearity},  \textbf{17}, R1--R40, (2004).
+
+\bibitem{Yeomans1992}
+J.~Yeomans, {\em {Statistical Mechanics of Phase Transitions}}.
+\newblock Clarendon Press, (1992).
+
+\bibitem{Zimm1960}
+B.~H. Zimm, ``{Theory of "Melting'' of the Helical Form in Double Chains of the
+  DNA Type},'' {\em The Journal of Chemical Physics},  \textbf{33}, 1349--56,
+  (1960).
+
+\bibitem{Wartell1985}
+R.~Wartell and A.~Benight, ``{Thermal denaturation of DNA molecules: a
+  comparison of theory with experiment},'' {\em Physics Reports},  \textbf{2},
+  67--107, (1985).
+
+\bibitem{Poland1966}
+D.~Poland and H.~A. Scheraga, ``{Occurrence of a Phase Transition in Nucleic
+  Acid Models},'' {\em The Journal of Chemical Physics},  \textbf{45}, 1464--9,
+  (1966).
+
+\bibitem{Carlon2007}
+E.~Carlon, A.~Dkhissi, M.~Malki, and R.~Blossey, ``{Stability domains of actin
+  genes and genomic evolution},'' {\em Physical Review E},  \textbf{76},
+  051916, (2007).
+
+\bibitem{Parisi1998}
+G.~Parisi, {\em {Statistical Field Theory}}.
+\newblock Perseus Books, (1998).
+
+\bibitem{Kramers1941}
+H.~Kramers and G.~Wannier, ``{Statistics of the two-dimensional ferromagnet.
+  Part II},'' {\em Physical Review},  \textbf{60}, 252--62, (1941).
+
+\bibitem{Onsager1944}
+L.~Onsager, ``{Crystal statistics. I. A two-dimensional model with an
+  order-disorder transition},'' {\em Physical Review},  \textbf{65}, 117--49,
+  (1944).
+
+\bibitem{Brush1967}
+S.~Brush, ``{History of the Lenz-Ising model},'' {\em Reviews of Modern
+  Physics},  \textbf{39}, 883--93, (1967).
+
+\bibitem{Baxter1982}
+R.~Baxter, {\em {Exactly Solved Models in Statistical Mechanics}}.
+\newblock Academic Press, (2008).
+
+\bibitem{Newell1953}
+G.~Newell and E.~W. Montroll, ``{On the theory of the Ising model of
+  ferromagnetism},'' {\em Reviews of Modern Physics},  \textbf{25}, 353--89,
+  (1953).
+
+\bibitem{Schultz1964}
+T.~D. Schultz, ``{Two-Dimensioinal Ising Model as a Soluble Problem of Many
+  Fermions},'' {\em Review of Modern Physics},  \textbf{36}, 856--71, (1964).
+
+\bibitem{Klug2004}
+A.~Klug, ``{The Discovery of the DNA Double Helix},'' {\em Journal of Molecular
+  Biology},  \textbf{335}, 3--26, (2004).
+
+\bibitem{Wang1997}
+M.~Wang, H.~Yin, R.~Landick, and J.~Gelles, ``{Stretching DNA with optical
+  tweezers},'' {\em Biophysical Journal},  \textbf{72}, 1335--46, (1997).
+
+\bibitem{VanMameren2009}
+J.~van Mameren, P.~Gross, G.~Farge, P.~Hooijman, M.~Modesti, M.~Falkenberg,
+  G.~J.~L. Wuite, and E.~J.~G. Peterman, ``{Unraveling the structure of DNA
+  during overstretching by using multicolor, single-molecule fluorescence
+  imaging},'' {\em Proceedings of the National Academy of Sciences of the
+  United States of America},  \textbf{106}, 18231--6, (2009).
+
+\bibitem{Marko2003}
+J.~Marko and S.~Cocco, ``{The micromechanics of DNA},'' {\em Physics World},
+  37--41, (2003).
+
+\bibitem{Lavery2002}
+R.~Lavery, A.~Lebrun, J.-F. Allemand, D.~Bensimon, and V.~Croquette,
+  ``{Structure and mechanics of single biomolecules: experiment and
+  simulation},'' {\em Journal of Physics: Condensed Matter},  \textbf{14},
+  R383--R414, (2002).
+
+\bibitem{Strick2003}
+T.~R. Strick, M.~N. Dessinges, G.~Charvin, N.~H. Dekker, J.~F. Allemand, and
+  D.~Bensimon, ``{Stretching of macromolecules and proteins},'' {\em Reports on
+  Progress in Physics},  \textbf{66}, 1--45, (2003).
+
+\bibitem{Karplus1990}
+M.~Karplus and G.~Petsko, ``{Molecular dynamics simulations in biology},'' {\em
+  Nature},  \textbf{347}, 631--39, (1990).
+
+\bibitem{Harris2005}
+S.~A. Harris, Z.~A. Sands, and C.~A. Laughton, ``{Molecular dynamics
+  simulations of duplex stretching reveal the importance of entropy in
+  determining the biomechanical properties of DNA.},'' {\em Biophysical
+  Journal},  \textbf{88}, 1684--91, (2005).
+
+\bibitem{Dauxois1993}
+T.~Dauxois, M.~Peyrard, and A.~R. Bishop, ``{Entropy-driven DNA
+  denaturation},'' {\em Physical Review E},  \textbf{47}, R44--7, (1993).
+
+\bibitem{Bryant2003}
+Z.~Bryant, M.~D. Stone, J.~Gore, S.~B. Smith, N.~R. Cozzarelli, and
+  C.~Bustamante, ``{Structural transitions and elasticity from torque
+  measurements on DNA},'' {\em Nature},  \textbf{424}, 338--41, (2003).
+
+\bibitem{Bustamante2000}
+C.~Bustamante, S.~B. Smith, J.~Liphardt, and D.~Smith, ``{Single-molecule
+  studies of DNA mechanics},'' {\em Current Opinion in Structural Biology},
+  \textbf{10}, 279--85, (2000).
+
+\bibitem{Watson2003}
+J.~Watson, {\em {Molecular Biology of the Gene}}.
+\newblock Pearson/Benjamin Cummings, 5th~ed., (2003).
+
+\bibitem{Harris2004}
+S.~A. Harris, ``{The physics of DNA stretching},'' {\em Contemporary Physics},
+  \textbf{45}, 11--30, (2004).
+
+\bibitem{Smith1992}
+S.~B. Smith, L.~Finzi, and C.~Bustamante, ``{Direct mechanical measurements of
+  the elasticity of single DNA molecules by using magnetic beads},'' {\em
+  Science},  \textbf{258}, 1122--26, (1992).
+
+\bibitem{Marko1995}
+J.~F. Marko and E.~D. Siggia, ``{Stretching DNA},'' {\em Macromolecules},
+  \textbf{28}, 8759--70, (1995).
+
+\bibitem{Bustamante1994}
+C.~Bustamante, J.~F. Marko, and E.~D. Siggia, ``{Entropic elasticity of
+  lambda-phage DNA},'' {\em Science},  \textbf{265}, 1599--600, (1994).
+
+\bibitem{Bouchiat1999}
+C.~Bouchiat, M.~D. Wang, J.-F. Allemand, T.~Strick, S.~M. Block, and
+  V.~Croquette, ``{Estimating the persistence length of a worm-like chain
+  molecule from force-extension measurements},'' {\em Biophysical Journal},
+  \textbf{76}, 409--13, (1999).
+
+\bibitem{Cluzel1996}
+P.~Cluzel, A.~Lebrun, C.~Heller, R.~Lavery, and J.~Viovy, ``{DNA: an extensible
+  molecule},'' {\em Science},  \textbf{271}, 792--4, (1996).
+
+\bibitem{Smith1996}
+S.~B. Smith, Y.~Cui, and C.~Bustamante, ``{Overstretching B-DNA : The elastic
+  response of individual double-stranded and single- stranded DNA molecules},''
+  {\em Science},  \textbf{271}, 795--9, (1996).
+
+\bibitem{Bustamante2003}
+C.~Bustamante, Z.~Bryant, and S.~Smith, ``{Ten years of tension:
+  single-molecule DNA mechanics},'' {\em Nature},  \textbf{421}, 423--7,
+  (2003).
+
+\bibitem{Williams2009}
+M.~C. Williams, I.~Rouzina, and M.~J. McCauley, ``{Peeling back the mystery of
+  DNA overstretching},'' {\em Proceedings of the National Academy of Sciences
+  of the United States of America},  \textbf{106}, 18047--8, (2009).
+
+\bibitem{Fu2010}
+H.~Fu, H.~Chen, J.~F. Marko, and J.~Yan, ``{Two distinct overstretched DNA
+  states},'' {\em Nucleic Acids Research},  \textbf{38}, 5594--600, (2010).
+
+\bibitem{Peyrard1989a}
+M.~Peyrard and A.~Bishop, ``{Statistical mechanics of a nonlinear model for DNA
+  denaturation},'' {\em Physical Review Letters},  \textbf{62}, 2755--8,
+  (1989).
+
+\bibitem{Dauxois1993a}
+T.~Dauxois, M.~Peyrard, and A.~Bishop, ``{Dynamics and thermodynamics of a
+  nonlinear model for DNA denaturation},'' {\em Physical Review E},
+  \textbf{47}, 684--95, (1993).
+
+\bibitem{Campa1998}
+A.~Campa, ``{Experimental tests of the Peyrard-Bishop model applied to the
+  melting of very short DNA chains},'' {\em Physical Review E},  \textbf{58},
+  3585--8, (1998).
+
+\bibitem{Cule1997}
+D.~Cule and T.~Hwa, ``{Denaturation of heterogeneous DNA},'' {\em Physical
+  Review Letters},  \textbf{79}, 2375--8, (1997).
+
+\bibitem{Theodorakopoulos2010}
+N.~Theodorakopoulos, ``{Melting of genomic DNA: Predictive modeling by
+  nonlinear lattice dynamics},'' {\em Physical Review E},  \textbf{82}, 021905,
+  (2010).
+
+\bibitem{DeGennes2001}
+P.-G. de~Gennes, ``{Maximum pull out force on DNA hybrids},'' {\em Comptes
+  Rendus de l'Acad\'{e}mie des Sciences},  \textbf{2}, 1505--8, (2001).
+
+\bibitem{Chakrabarti2009}
+B.~Chakrabarti and D.~R. Nelson, ``{Shear unzipping of DNA},'' {\em The Journal
+  of Physical Chemistry B},  \textbf{113}, 3831--6, (2009).
+
+\bibitem{Prakash2011}
+S.~Prakash and Y.~Singh, ``{Shear unzipping of double-stranded DNA},'' {\em
+  Physical Review E},  \textbf{84}, 031905, (2011).
+
+\bibitem{Mishra2011a}
+R.~K. Mishra, G.~Mishra, M.~S. Li, and S.~Kumar, ``{Effect of shear force on
+  the separation of double-stranded DNA},'' {\em Physical Review E},
+  \textbf{84}, 032903, (2011).
+
+\bibitem{Hatch2008}
+K.~Hatch, C.~Danilowicz, V.~Coljee, and M.~Prentiss, ``{Demonstration that the
+  shear force required to separate short double-stranded DNA does not increase
+  significantly with sequence length for sequences longer than 25 base
+  pairs},'' {\em Physical Review E},  \textbf{78}, 011920, (2008).
+
+\bibitem{Shoulders2009}
+M.~D. Shoulders and R.~T. Raines, ``{Collagen structure and stability},'' {\em
+  Annual Review of Biochemistry},  \textbf{78}, 929--58, (2009).
+
+\bibitem{Fratzl2008}
+P.~Fratzl, {\em {Collagen}}.
+\newblock Springer, (2008).
+
+\bibitem{Brinckmann2005}
+J.~Brinckmann, H.~Notbohm, and P.~M\"{u}ller, {\em {Collagen: Primer in
+  Structure, Processing, and Assembly}}.
+\newblock Springer, (2005).
+
+\bibitem{Buehler2006}
+M.~J. Buehler, ``{Nature designs tough collagen: explaining the nanostructure
+  of collagen fibrils},'' {\em Proceedings of the National Academy of Sciences
+  of the United States of America},  \textbf{103}, 12285--90, (2006).
+
+\bibitem{Bozec2007}
+L.~Bozec, G.~van~der Heijden, and M.~Horton, ``{Collagen fibrils: nanoscale
+  ropes},'' {\em Biophysical Journal},  \textbf{92}, 70--5, (2007).
+
+\bibitem{Ottani2001}
+V.~Ottani, M.~Raspanti, and A.~Ruggeri, ``{Collagen structure and functional
+  implications},'' {\em Micron},  \textbf{32}, 251--60, (2001).
+
+\bibitem{Buehler2006a}
+M.~J. Buehler, ``{Atomistic and continuum modeling of mechanical properties of
+  collagen: elasticity, fracture, and self-assembly},'' {\em Journal of
+  Materials Research},  \textbf{21}, 1947--61, (2006).
+
+\bibitem{Ramachandran1954}
+G.~Ramachandran and G.~Kartha, ``{Structure of collagen},'' {\em Nature},
+  \textbf{174}, 269--70, (1954).
+
+\bibitem{Nelson2004}
+D.~Nelson and M.~Cox, {\em {Lehninger Principles of Biochemistry}}.
+\newblock W. H. Freeman, 4th~ed., (2004).
+
+\bibitem{Bhattacharjee2005}
+A.~Bhattacharjee and M.~Bansal, ``{Collagen structure: the Madras triple helix
+  and the current scenario.},'' {\em IUBMB life},  \textbf{57}, 161--72,
+  (2005).
+
+\bibitem{Ramachandran1955}
+G.~Ramachandran and G.~Kartha, ``{Structure of collagen},'' {\em Nature},
+  \textbf{176}, 593--5, (1955).
+
+\bibitem{Rich1955}
+A.~Rich and F.~Crick, ``{The structure of collagen},'' {\em Nature},
+  \textbf{176}, 915--6, (1955).
+
+\bibitem{Perczel2009}
+A.~Perczel and V.~Palfi, ``{Stability of the hydration layer of tropocollagen:
+  A QM study},'' {\em Journal of Computational Chemistry},  \textbf{31},
+  764--77, (2010).
+
+\bibitem{Buehler2007}
+M.~J. Buehler and S.~Y. Wong, ``{Entropic elasticity controls nanomechanics of
+  single tropocollagen molecules},'' {\em Biophysical Journal},  \textbf{93},
+  37--43, (2007).
+
+\bibitem{Sun2004}
+Y.-L. Sun, Z.-P. Luo, A.~Fertala, and K.-N. An, ``{Stretching type II collagen
+  with optical tweezers},'' {\em Journal of Biomechanics},  \textbf{37},
+  1665--9, (2004).
+
+\bibitem{Sun2001}
+Y.~L. Sun, Z.~P. Luo, and K.~N. An, ``{Stretching short biopolymers using
+  optical tweezers},'' {\em Biochemical and Biophysical Research
+  Communications},  \textbf{286}, 826--30, (2001).
+
+\bibitem{Sun2002}
+Y.-L. Sun, Z.-P. Luo, A.~Fertala, and K.-N. An, ``{Direct quantification of the
+  flexibility of type I collagen monomer},'' {\em Biochemical and Biophysical
+  Research Communications},  \textbf{295}, 382--6, (2002).
+
+\bibitem{Gutsmann2004}
+T.~Gutsmann, G.~E. Fantner, J.~H. Kindt, M.~Venturoni, S.~Danielsen, and P.~K.
+  Hansma, ``{Force spectroscopy of collagen fibers to investigate their
+  mechanical properties and structural organization},'' {\em Biophysical
+  Journal},  \textbf{86}, 3186--93, (2004).
+
+\bibitem{Lorenzo2005}
+A.~C. Lorenzo and E.~R. Caffarena, ``{Elastic properties, Young's modulus
+  determination and structural stability of the tropocollagen molecule: a
+  computational study by steered molecular dynamics},'' {\em Journal of
+  Biomechanics},  \textbf{38}, 1527--33, (2005).
+
+\bibitem{Gautieri2010}
+A.~Gautieri, A.~Russo, and S.~Vesentini, ``{Coarse-grained model of collagen
+  molecules using an extended MARTINI force field},'' {\em Journal of Chemical
+  Theory and Computation},  \textbf{6}, 1210--18, (2010).
+
+\bibitem{Marrink2007}
+S.~J. Marrink, H.~J. Risselada, S.~Yefimov, D.~P. Tieleman, and A.~H. de~Vries,
+  ``{The MARTINI force field: coarse grained model for biomolecular
+  simulations},'' {\em The Journal of Physical Chemistry B},  \textbf{111},
+  7812--24, (2007).
+
+\bibitem{Monticelli2008}
+L.~Monticelli, S.~K. Kandasamy, X.~Periole, R.~G. Larson, D.~P. Tieleman, and
+  S.-J. Marrink, ``{The MARTINI coarse-grained force field: extension to
+  proteins},'' {\em Journal of Chemical Theory and Computation},  \textbf{4},
+  819--34, (2008).
+
+\bibitem{Reif1965}
+F.~Reif, {\em {Fundamentals of statistical and thermal physics}}.
+\newblock McGraw-Hill, (1965).
+
+\bibitem{Riley2002}
+K.~F. Riley, M.~P. Hobson, and S.~J. Bence, {\em {Mathematical methods in
+  physics and engineering}}.
+\newblock Cambridge University Press, (2002).
+
+\bibitem{Bronshtein2007}
+I.~N. Bronshtein, K.~A. Semendyayev, and G.~Musiol, {\em {Handbook of
+  Mathematics}}.
+\newblock Springer, 5th~ed., (2007).
+
+\end{thebibliography}

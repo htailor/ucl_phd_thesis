@@ -1,0 +1,316 @@
+[H[2J===========================================================================
+Nucleation DNA Simulation
+===========================================================================
+
+Please enter simulation parameters:
+
+L: m: N: 
+Please enter potential parameters:
+
+eta_b: kappa: sigma: 
+Please enter Partition Function parameters:
+
+Minimum Extension: Maximum Extension: -----------------
+Global Parameters
+-----------------
+L:	100.25
+m:	200
+N:	32 
+kappa:	0.100000
+sigma:	0.003846
+kappa_sigma_r:	26.000026
+Delta:	0.2500
+Extension Minimum:	0  
+Extension Maximum:	60 
+e0:	0.128205
+etab_b:	4.75
+TOLERANCE LEVEL:	1.00e-05
+
+
+*******************************************************************************************
+Starting Nucleation Simulation.....
+*******************************************************************************************
+
+Creating data for base-pair potential...
+Complete.
+
+Initialising Transfer Matrices T, T00, T11.....COMPLETE.
+
+Calculating Eigenvalues and Eigenvectors of T, T00 and T11.....
+
+------------------------------------------------
+smax:  200 tmax:   28 vmax:  208
+------------------------------------------------
+
+COMPLETED in   1.00 seconds.
+
+Pre-calculating Standard Integrals.....COMPLETE.
+
+Pre-calculating Complex Integrals.....COMPLETE
+
+COMPLETED in 227.00 seconds.
+
+Calculating Partition Functions.....
+
+***Intact calculation for extension   0 complete.***
+***Intact calculation for extension   1 complete.***
+***Intact calculation for extension   2 complete.***
+***Intact calculation for extension   3 complete.***
+***Intact calculation for extension   4 complete.***
+***Intact calculation for extension   5 complete.***
+***Intact calculation for extension   6 complete.***
+***Intact calculation for extension   7 complete.***
+***Intact calculation for extension   8 complete.***
+***Intact calculation for extension   9 complete.***
+***Intact calculation for extension  10 complete.***
+***Intact calculation for extension  11 complete.***
+***Intact calculation for extension  12 complete.***
+***Intact calculation for extension  13 complete.***
+***Intact calculation for extension  14 complete.***
+***Intact calculation for extension  15 complete.***
+***Intact calculation for extension  16 complete.***
+***Intact calculation for extension  17 complete.***
+***Intact calculation for extension  18 complete.***
+***Intact calculation for extension  19 complete.***
+***Intact calculation for extension  20 complete.***
+***Intact calculation for extension  21 complete.***
+***Intact calculation for extension  22 complete.***
+***Intact calculation for extension  23 complete.***
+***Intact calculation for extension  24 complete.***
+***Intact calculation for extension  25 complete.***
+***Intact calculation for extension  26 complete.***
+***Intact calculation for extension  27 complete.***
+***Intact calculation for extension  28 complete.***
+***Intact calculation for extension  29 complete.***
+***Intact calculation for extension  30 complete.***
+***Intact calculation for extension  31 complete.***
+***Intact calculation for extension  32 complete.***
+***Intact calculation for extension  33 complete.***
+***Intact calculation for extension  34 complete.***
+***Intact calculation for extension  35 complete.***
+***Intact calculation for extension  36 complete.***
+***Intact calculation for extension  37 complete.***
+***Intact calculation for extension  38 complete.***
+***Intact calculation for extension  39 complete.***
+***Intact calculation for extension  40 complete.***
+***Intact calculation for extension  41 complete.***
+***Intact calculation for extension  42 complete.***
+***Intact calculation for extension  43 complete.***
+***Intact calculation for extension  44 complete.***
+***Intact calculation for extension  45 complete.***
+***Intact calculation for extension  46 complete.***
+***Intact calculation for extension  47 complete.***
+***Intact calculation for extension  48 complete.***
+***Intact calculation for extension  49 complete.***
+***Intact calculation for extension  50 complete.***
+***Intact calculation for extension  51 complete.***
+***Intact calculation for extension  52 complete.***
+***Intact calculation for extension  53 complete.***
+***Intact calculation for extension  54 complete.***
+***Intact calculation for extension  55 complete.***
+***Intact calculation for extension  56 complete.***
+***Intact calculation for extension  57 complete.***
+***Intact calculation for extension  58 complete.***
+***Intact calculation for extension  59 complete.***
+***Intact calculation for extension  60 complete.***
+
+***INTACT STATE COMPLETE***
+
+***Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***Frayed calculation for extension  26 complete.***
+***Frayed calculation for extension  27 complete.***
+***Frayed calculation for extension  28 complete.***
+***Frayed calculation for extension  29 complete.***
+***Frayed calculation for extension  30 complete.***
+***Frayed calculation for extension  31 complete.***
+***Frayed calculation for extension  32 complete.***
+***Frayed calculation for extension  33 complete.***
+***Frayed calculation for extension  34 complete.***
+***Frayed calculation for extension  35 complete.***
+***Frayed calculation for extension  36 complete.***
+***Frayed calculation for extension  37 complete.***
+***Frayed calculation for extension  38 complete.***
+***Frayed calculation for extension  39 complete.***
+***Frayed calculation for extension  40 complete.***
+***Frayed calculation for extension  41 complete.***
+***Frayed calculation for extension  42 complete.***
+***Frayed calculation for extension  43 complete.***
+***Frayed calculation for extension  44 complete.***
+***Frayed calculation for extension  45 complete.***
+***Frayed calculation for extension  46 complete.***
+***Frayed calculation for extension  47 complete.***
+***Frayed calculation for extension  48 complete.***
+***Frayed calculation for extension  49 complete.***
+***Frayed calculation for extension  50 complete.***
+***Frayed calculation for extension  51 complete.***
+***Frayed calculation for extension  52 complete.***
+***Frayed calculation for extension  53 complete.***
+***Frayed calculation for extension  54 complete.***
+***Frayed calculation for extension  55 complete.***
+***Frayed calculation for extension  56 complete.***
+***Frayed calculation for extension  57 complete.***
+***Frayed calculation for extension  58 complete.***
+***Frayed calculation for extension  59 complete.***
+***Frayed calculation for extension  60 complete.***
+
+***FRAYED STATE COMPLETE  0/ 1***
+
+***Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***Frayed calculation for extension  26 complete.***
+***Frayed calculation for extension  27 complete.***
+***Frayed calculation for extension  28 complete.***
+***Frayed calculation for extension  29 complete.***
+***Frayed calculation for extension  30 complete.***
+***Frayed calculation for extension  31 complete.***
+***Frayed calculation for extension  32 complete.***
+***Frayed calculation for extension  33 complete.***
+***Frayed calculation for extension  34 complete.***
+***Frayed calculation for extension  35 complete.***
+***Frayed calculation for extension  36 complete.***
+***Frayed calculation for extension  37 complete.***
+***Frayed calculation for extension  38 complete.***
+***Frayed calculation for extension  39 complete.***
+***Frayed calculation for extension  40 complete.***
+***Frayed calculation for extension  41 complete.***
+***Frayed calculation for extension  42 complete.***
+***Frayed calculation for extension  43 complete.***
+***Frayed calculation for extension  44 complete.***
+***Frayed calculation for extension  45 complete.***
+***Frayed calculation for extension  46 complete.***
+***Frayed calculation for extension  47 complete.***
+***Frayed calculation for extension  48 complete.***
+***Frayed calculation for extension  49 complete.***
+***Frayed calculation for extension  50 complete.***
+***Frayed calculation for extension  51 complete.***
+***Frayed calculation for extension  52 complete.***
+***Frayed calculation for extension  53 complete.***
+***Frayed calculation for extension  54 complete.***
+***Frayed calculation for extension  55 complete.***
+***Frayed calculation for extension  56 complete.***
+***Frayed calculation for extension  57 complete.***
+***Frayed calculation for extension  58 complete.***
+***Frayed calculation for extension  59 complete.***
+***Frayed calculation for extension  60 complete.***
+
+***FRAYED STATE COMPLETE  0/ 2***
+
+***Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***Frayed calculation for extension  26 complete.***
+***Frayed calculation for extension  27 complete.***
+***Frayed calculation for extension  28 complete.***
+***Frayed calculation for extension  29 complete.***
+***Frayed calculation for extension  30 complete.***
+***Frayed calculation for extension  31 complete.***
+***Frayed calculation for extension  32 complete.***
+***Frayed calculation for extension  33 complete.***
+***Frayed calculation for extension  34 complete.***
+***Frayed calculation for extension  35 complete.***
+***Frayed calculation for extension  36 complete.***
+***Frayed calculation for extension  37 complete.***
+***Frayed calculation for extension  38 complete.***
+***Frayed calculation for extension  39 complete.***
+***Frayed calculation for extension  40 complete.***
+***Frayed calculation for extension  41 complete.***
+***Frayed calculation for extension  42 complete.***
+***Frayed calculation for extension  43 complete.***
+***Frayed calculation for extension  44 complete.***
+***Frayed calculation for extension  45 complete.***
+***Frayed calculation for extension  46 complete.***
+***Frayed calculation for extension  47 complete.***
+***Frayed calculation for extension  48 complete.***
+***Frayed calculation for extension  49 complete.***
+***Frayed calculation for extension  50 complete.***
+***Frayed calculation for extension  51 complete.***
+***Frayed calculation for extension  52 complete.***
+***Frayed calculation for extension  53 complete.***
+***Frayed calculation for extension  54 complete.***
+***Frayed calculation for extension  55 complete.***
+***Frayed calculation for extension  56 complete.***
+***Frayed calculation for extension  57 complete.***
+***Frayed calculation for extension  58 complete.***
+***Frayed calculation for extension  59 complete.***
+***Frayed calculation for extension  60 complete.***
+
+***FRAYED STATE COMPLETE  0/ 3***
+
+COMPLETED in 114.00 seconds
+
+---------------------------
+NUCLEATION RUNTIME: 343.00
+---------------------------
+

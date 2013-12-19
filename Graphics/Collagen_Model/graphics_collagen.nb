@@ -1,0 +1,583 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     19739,        574]
+NotebookOptionsPosition[     19393,        558]
+NotebookOutlinePosition[     19747,        574]
+CellTagsIndexPosition[     19704,        571]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"particleRadius", "=", "1.5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xRange", "=", " ", "25"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xInterval", "=", "10"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"yRange", "=", "6"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"zRange", "=", 
+    RowBox[{"-", "1"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dashSettingLine", "=", 
+   RowBox[{"Dashing", "[", "0.01", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"thicknessSettingLine", "=", 
+   RowBox[{"Thickness", "[", "0.005", "]"}]}], 
+  ";"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.535021534149722*^9, 3.5350215787630568`*^9}, {
+  3.535021673163043*^9, 3.535021684682768*^9}, {3.5350217739234943`*^9, 
+  3.535021906251738*^9}, {3.5350225617316933`*^9, 3.53502268003679*^9}, {
+  3.538982434530004*^9, 3.538982445954399*^9}, {3.5389830008856497`*^9, 
+  3.538983023806487*^9}, {3.538984688841894*^9, 3.538984688925921*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"xyParticle", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Gray", ",", 
+         RowBox[{"Thickness", "[", "0.005", "]"}]}], "}"}], "]"}], ",", 
+      "White", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"Disk", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"x", ",", 
+              RowBox[{"-", "yRange"}]}], "}"}], ",", "particleRadius"}], 
+           "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"x", ",", 
+            RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], 
+           "}"}]}], "]"}], ",", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"Disk", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"x", "+", "5"}], ",", "yRange"}], "}"}], ",", 
+            "particleRadius"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"x", ",", 
+            RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], 
+           "}"}]}], "]"}]}], "}"}]}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"zParticle", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"EdgeForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"Gray", ",", 
+          RowBox[{"Thickness", "[", "0.005", "]"}]}], "}"}], "]"}], ",", 
+       "White", ",", 
+       RowBox[{"{", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"Disk", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"x", "+", "10"}], ",", "zRange"}], "}"}], ",", 
+            "particleRadius"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"x", ",", 
+            RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], 
+           "}"}]}], "]"}], "}"}]}], "}"}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xyBP", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"dashSettingLine", ",", "thicknessSettingLine", ",", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "l"}], ",", 
+             RowBox[{"-", "6"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"-", "l"}], "+", "5"}], ",", "6"}], "}"}]}], "}"}], 
+         "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"l", ",", 
+          RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], "}"}]}],
+        "]"}]}], "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xzBP", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"dashSettingLine", ",", "thicknessSettingLine", ",", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "l"}], ",", 
+             RowBox[{"-", "6"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"-", "l"}], "+", "10"}], ",", 
+             RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"l", ",", 
+          RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], "}"}]}],
+        "]"}]}], "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"yzBP", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"dashSettingLine", ",", "thicknessSettingLine", ",", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Line", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "l"}], "+", "5"}], ",", "6"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "l"}], "+", "10"}], ",", 
+              RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"l", ",", 
+           RowBox[{"-", "xRange"}], ",", "xRange", ",", "xInterval"}], 
+          "}"}]}], "]"}]}], "}"}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xyBB", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"thicknessSettingLine", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "25"}], ",", 
+             RowBox[{"-", "6"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"25", ",", 
+             RowBox[{"-", "6"}]}], "}"}]}], "}"}], "]"}], ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "20"}], ",", "6"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"30", ",", "6"}], "}"}]}], "}"}], "]"}]}], "}"}]}], "}"}],
+     "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"zBB", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"thicknessSettingLine", ",", 
+       RowBox[{"{", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "15"}], ",", 
+             RowBox[{"-", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"35", ",", 
+             RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}], "}"}]}], "}"}], 
+     "]"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{
+  "zBB", ",", "xyBP", ",", "xzBP", ",", "yzBP", ",", "zParticle", ",", "xyBB",
+    ",", "xyParticle", ",", 
+   RowBox[{"ImageSize", "\[Rule]", "1000"}]}], "]"}]}], "Input",
+ CellChangeTimes->{
+  3.535020842148712*^9, {3.535020950690055*^9, 3.535021010132777*^9}, {
+   3.53502104380508*^9, 3.535021241388968*^9}, {3.535021275365161*^9, 
+   3.535021530259905*^9}, {3.535021561076323*^9, 3.535021658440844*^9}, {
+   3.5350216917962313`*^9, 3.535021695844798*^9}, {3.535021738372407*^9, 
+   3.535021764460026*^9}, {3.5350218303338337`*^9, 3.535021898188706*^9}, {
+   3.5350219627163877`*^9, 3.535021985117075*^9}, {3.535022017348015*^9, 
+   3.5350220767520943`*^9}, {3.535022115490448*^9, 3.535022339409123*^9}, {
+   3.5350223825012827`*^9, 3.5350225511786127`*^9}, {3.535022649797364*^9, 
+   3.535022713218562*^9}, 3.535022749266863*^9, {3.535023626610427*^9, 
+   3.535023699299364*^9}, {3.53502774195826*^9, 3.535027752254629*^9}, {
+   3.535027792277173*^9, 3.535027900291843*^9}, {3.53502793754504*^9, 
+   3.535027960379221*^9}, {3.5351311862699003`*^9, 3.5351312189674997`*^9}, {
+   3.5351312644259*^9, 3.5351312856419*^9}, {3.5351313199931*^9, 
+   3.5351313287291*^9}, {3.5351318037643003`*^9, 3.5351318057299*^9}, 
+   3.5351320145164003`*^9, {3.538981976010495*^9, 3.5389820333546257`*^9}, {
+   3.538982167922799*^9, 3.5389822541896467`*^9}, {3.538982285784264*^9, 
+   3.538982321419956*^9}, {3.538982352182124*^9, 3.5389823895276423`*^9}, {
+   3.538982455385592*^9, 3.538982490481228*^9}, {3.538982538031321*^9, 
+   3.538982641232169*^9}, {3.5389826833257*^9, 3.538982746345972*^9}, {
+   3.538982782733101*^9, 3.538982834148123*^9}, {3.5389829618869543`*^9, 
+   3.538982962470447*^9}, {3.5389830788369093`*^9, 3.5389831422831573`*^9}, {
+   3.538983188884756*^9, 3.538983270603786*^9}, {3.538983335656356*^9, 
+   3.5389833404832573`*^9}, {3.538984679957076*^9, 3.538984680059128*^9}, {
+   3.538984721714517*^9, 3.5389847497284317`*^9}, {3.5706187202719097`*^9, 
+   3.570618725332324*^9}, {3.5706188527485332`*^9, 3.570618903562975*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    GraphicsBox[{
+      {Thickness[0.005], LineBox[{{-15, -1}, {35, -1}}]}, 
+      {Thickness[0.005], Dashing[0.01], LineBox[{{25, -6}, {30, 6}}], 
+       LineBox[{{15, -6}, {20, 6}}], LineBox[{{5, -6}, {10, 6}}], 
+       LineBox[{{-5, -6}, {0, 6}}], LineBox[{{-15, -6}, {-10, 6}}], 
+       LineBox[{{-25, -6}, {-20, 6}}]}, 
+      {Thickness[0.005], Dashing[0.01], LineBox[{{25, -6}, {35, -1}}], 
+       LineBox[{{15, -6}, {25, -1}}], LineBox[{{5, -6}, {15, -1}}], 
+       LineBox[{{-5, -6}, {5, -1}}], LineBox[{{-15, -6}, {-5, -1}}], 
+       LineBox[{{-25, -6}, {-15, -1}}]}, 
+      {Thickness[0.005], Dashing[0.01], LineBox[{{30, 6}, {35, -1}}], 
+       LineBox[{{20, 6}, {25, -1}}], LineBox[{{10, 6}, {15, -1}}], 
+       LineBox[{{0, 6}, {5, -1}}], LineBox[{{-10, 6}, {-5, -1}}], 
+       LineBox[{{-20, 6}, {-15, -1}}]}, 
+      {GrayLevel[1], EdgeForm[{GrayLevel[0.5], Thickness[0.005]}], 
+       DiskBox[{-15, -1}, 1.5], DiskBox[{-5, -1}, 1.5], DiskBox[{5, -1}, 1.5],
+        DiskBox[{15, -1}, 1.5], DiskBox[{25, -1}, 1.5], 
+       DiskBox[{35, -1}, 1.5]}, 
+      {Thickness[0.005], LineBox[{{-25, -6}, {25, -6}}], 
+       LineBox[{{-20, 6}, {30, 6}}]}, 
+      {GrayLevel[1], EdgeForm[{GrayLevel[0.5], Thickness[
+       0.005]}], {DiskBox[{-25, -6}, 1.5], DiskBox[{-15, -6}, 1.5], 
+        DiskBox[{-5, -6}, 1.5], DiskBox[{5, -6}, 1.5], DiskBox[{15, -6}, 1.5],
+         DiskBox[{25, -6}, 1.5]}, {DiskBox[{-20, 6}, 1.5], 
+        DiskBox[{-10, 6}, 1.5], DiskBox[{0, 6}, 1.5], DiskBox[{10, 6}, 1.5], 
+        DiskBox[{20, 6}, 1.5], DiskBox[{30, 6}, 1.5]}}},
+     Background->None,
+     ImageMargins->0.,
+     ImageSize->{Automatic, 415.16731428571427`}], {-0.1772260273971824, -0.08365714285713466},
+     ImageScaled[{0., 0.}], {1552., 415.},
+    ContentSelectable->True], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       RowBox[{
+        SubscriptBox["x", "1"], "=", "0"}],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {6.497380470909615, -5.819837228387316}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "N"],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {1232.003296984018, -3.8311411247898377`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", 
+        RowBox[{"N", "-", "1"}]],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {971.1084811521085, -3.8311411247898377`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "4"],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {759.193918100902, -3.8311411247898377`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "3"],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {519.2906391750081, -3.8311411247898377`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "2"],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {285.3849422222613, -3.8311411247898377`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->45], {
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["z", "1"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {170.93108623469936`, 409.16901752610653`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        RowBox[{
+         SubscriptBox["z", "N"], "=", "u"}],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {1306.4732731505965`, 409.16901752610664`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["z", 
+         RowBox[{"N", "-", "1"}]],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {1092.5595161083413`, 409.16901752610653`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["z", "4"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[1.]], {878.6457590660865, 409.16901752610653`}, {
+      Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["z", "3"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[1.]], {642.7408681222905, 409.16901752610653`}, {
+      Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["z", "2"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {407.50237517551125`, 409.16901752610653`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45]}, {
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["y", "1"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {215.91295103330458`, 204.08503394431835`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["x", "N"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {1400.4353907299062`, 204.08503394431835`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["y", 
+         RowBox[{"N", "-", "1"}]],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {1125.5462169606526`, 204.08503394431835`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["y", "4"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[1.]], {927.6260118467901, 204.08503394431824`}, {
+      Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["y", "3"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[1.]], {687.7227329208962, 204.08503394431835`}, {
+      Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45], 
+    StyleBox[InsetBox[
+      StyleBox[
+       TagBox[
+        SubscriptBox["y", "2"],
+        HoldForm],
+       TextAlignment->Center,
+       FontWeight->Plain,
+       Background->GrayLevel[
+        1.]], {453.81703596814936`, 204.08503394431835`}, {Left, Baseline},
+      Alignment->{Left, Top}],
+     FontSize->45]}, 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox["\[Kappa]",
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {301.36799626320254`, 320.8005311092189}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->36], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       RowBox[{"\[Kappa]", "'"}],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {266.39259930729474`, 265.5602491690787}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->36], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       RowBox[{"\[Kappa]", "'"}],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {200.419197602674, 103.62553589410027`}, {
+     Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->36], 
+   StyleBox[InsetBox[
+     StyleBox[
+      TagBox[
+       RowBox[{"\[Kappa]", "'"}],
+       HoldForm],
+      TextAlignment->Center,
+      FontWeight->Plain,
+      Background->GrayLevel[1.]], {90.46352809497253, 213.58120540180158`}, {
+     Left, Baseline}, {27.988715874687635`, 35.9854918388841}, {{1., 0.}, {0.,
+      1.}},
+     Alignment->{Left, Top}],
+    FontSize->36]},
+  AspectRatio->0.3061336890613632,
+  Background->None,
+  ContentSelectable->True,
+  ImageMargins->0.,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{1570.6666666666667`, 480.8339809523811},
+  PlotRange->{{-15.286062653889985`, 
+   1546.2512505299449`}, {-28.130437355284016`, 449.9858948433596}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{{3.579847710748385*^9, 3.579847770090395*^9}, {
+  3.5798478676207047`*^9, 3.5798479807552223`*^9}, {3.5798480348097754`*^9, 
+  3.579848060951421*^9}, {3.579848134203067*^9, 3.579848158795765*^9}, {
+  3.57984826813967*^9, 3.579848386307012*^9}, {3.5798485191220617`*^9, 
+  3.5798485229760513`*^9}, {3.5798485756968803`*^9, 3.579848655730298*^9}, {
+  3.579848931152422*^9, 3.579849154774242*^9}, {3.579849287527457*^9, 
+  3.579849313442092*^9}, {3.5798493668464727`*^9, 3.579849370962516*^9}, {
+  3.5798494328140507`*^9, 3.579849432836999*^9}, {3.579849587546646*^9, 
+  3.579849589886145*^9}}]
+},
+WindowSize->{1440, 784},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 5, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 1121, 27, 163, "Input"],
+Cell[1681, 49, 7873, 208, 208, "Input"],
+Cell[9557, 259, 9832, 297, 496, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)

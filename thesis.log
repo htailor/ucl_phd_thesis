@@ -1,0 +1,3661 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 JUL 2013 11:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis
+(./thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks22
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+\everycr=\toks23
+\minrowclearance=\skip48
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2011/texmf-dist/tex/latex/anysize/anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen116
+\@Rightmargin=\dimen117
+\@Topmargin=\dimen118
+\@Bottommargin=\dimen119
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 24.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 26.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count102
+\lst@gtempboxa=\box30
+\lst@token=\toks24
+\lst@length=\count103
+\lst@currlwidth=\dimen120
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen123
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box31
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen124
+\captionmargin@=\dimen125
+\captionwidth=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
+)
+\c@ContinuedFloat=\count110
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen130
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3905.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2011/04/17 v6.82g Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+\c@Hy@tempcnt=\count114
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count115
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing OFF on input line 5716.
+Package hyperref Info: Link coloring OFF on input line 5721.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip58
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting anchors of captions (HO)
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 54.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen133
+\calc@Bdimen=\dimen134
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip61
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box32
+\AM@toc@title=\toks25
+\c@AM@survey=\count124
+\AM@templatesizebox=\box33
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count125
+\sf@farskip=\skip62
+\sf@captopadj=\dimen135
+\sf@capskip=\skip63
+\sf@nearskip=\skip64
+\c@subfigure=\count126
+\c@subfigure@save=\count127
+\c@lofdepth=\count128
+\c@subtable=\count129
+\c@subtable@save=\count130
+\c@lotdepth=\count131
+\sf@top=\skip65
+\sf@bottom=\skip66
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+) (./thesis.aux
+(./acknowledgements_file.aux) (./abstract_file.aux) (./introduction.aux)
+(./models.aux) (./transfer_matrix.aux) (./biopolymers.aux)
+(./extendable_fjc.aux) (./dna_model.aux) (./collagen_model.aux)
+(./conclusion.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen136
+\scratchbox=\box34
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen137
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count138
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 79.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 79.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count139
+)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
+
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write4
+\openout4 = `thesis.out'.
+
+ [1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX w
+arning (ext4): destination with the same identifier (name{page.1}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 \newpage
+               [1]
+\openout2 = `acknowledgements_file.aux'.
+
+ (./acknowledgements_file.tex) [2
+
+
+]
+\openout2 = `abstract_file.aux'.
+
+ (./abstract_file.texpdfTeX warning (ext4): destination with the same identifie
+r (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \end{abstract}
+                   [1
+
+
+]) (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 ... higher order terms}{63}{subsection.5.3.4}
+                                                   [1
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 ... Function Integral}{124}{subsection.7.1.2}
+                                                   [2])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
+Chapter 1.
+[4
+
+
+]
+Overfull \hbox (4.88194pt too wide) in paragraph at lines 7--9
+[]\OT1/cmr/m/n/12 While molec-u-lar sim-u-la-tion pro-vides an al-ter-na-tive a
+p-proach to de-scribe biomolec-
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+\openout2 = `models.aux'.
+
+ (./models.tex
+Chapter 2.
+[7
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+\openout2 = `transfer_matrix.aux'.
+
+ (./transfer_matrix.tex
+Chapter 3.
+[12
+
+
+
+] <Graphics/TransferMatrix/lattice_1d.png, id=474, 1806.75pt x 672.5125pt>
+File: Graphics/TransferMatrix/lattice_1d.png Graphic file (type png)
+
+<use Graphics/TransferMatrix/lattice_1d.png>
+Package pdftex.def Info: Graphics/TransferMatrix/lattice_1d.png used on input l
+ine 14.
+(pdftex.def)             Requested size: 361.3436pt x 134.5001pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./Graphics/TransferMatrix/lattice_1d.png (PNG copy)>]
+<Graphics/TransferMatrix/lattice_1d_closed.png, id=487, 1806.75pt x 1140.26pt>
+File: Graphics/TransferMatrix/lattice_1d_closed.png Graphic file (type png)
+
+<use Graphics/TransferMatrix/lattice_1d_closed.png>
+Package pdftex.def Info: Graphics/TransferMatrix/lattice_1d_closed.png used on 
+input line 42.
+(pdftex.def)             Requested size: 361.3436pt x 228.04796pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+<Graphics/TransferMatrix/lattice_2d.png, id=523, 1806.75pt x 1133.23375pt>
+File: Graphics/TransferMatrix/lattice_2d.png Graphic file (type png)
+
+<use Graphics/TransferMatrix/lattice_2d.png>
+Package pdftex.def Info: Graphics/TransferMatrix/lattice_2d.png used on input l
+ine 134.
+(pdftex.def)             Requested size: 361.3436pt x 226.64273pt.
+
+Overfull \hbox (13.89435pt too wide) in paragraph at lines 139--141
+[]\OT1/cmr/m/n/12 The sum-ma-tions con-tain two spin cou-pling in-ter-ac-tions 
+be-tween nearest-neighbours:
+ []
+
+<Graphics/TransferMatrix/torus.png, id=524, 1806.75pt x 1330.9725pt>
+File: Graphics/TransferMatrix/torus.png Graphic file (type png)
+
+<use Graphics/TransferMatrix/torus.png>
+Package pdftex.def Info: Graphics/TransferMatrix/torus.png used on input line 1
+51.
+(pdftex.def)             Requested size: 451.6864pt x 332.74231pt.
+
+Overfull \hbox (24.89505pt too wide) in paragraph at lines 151--152
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./Graphics/TransferMatrix/lattice_1d_closed.png (PNG copy)> <./Graphics/Tr
+ansferMatrix/lattice_2d.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./Graphics/TransferMatrix/torus.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+Overfull \hbox (21.80287pt too wide) detected at line 217
+[]\OML/cmm/m/it/12 Z \OT1/cmr/m/n/12 = [] [] [] \OML/cmm/m/it/12 ::: [] []  [] 
+[] T [] T [] :::T [] T []  [] [] [] 
+ []
+
+
+<Graphics/TransferMatrix/lattice_cylinder.png, id=556, 1806.75pt x 1347.0325pt>
+File: Graphics/TransferMatrix/lattice_cylinder.png Graphic file (type png)
+<use Graphics/TransferMatrix/lattice_cylinder.png>
+Package pdftex.def Info: Graphics/TransferMatrix/lattice_cylinder.png used on i
+nput line 236.
+(pdftex.def)             Requested size: 361.3436pt x 269.40173pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./Graphics/TransferMatrix/lattice_cylinder.png (PNG copy)>]
+\openout2 = `biopolymers.aux'.
+
+
+(./biopolymers.tex
+Chapter 4.
+
+Overfull \hbox (5.34305pt too wide) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/12 Today ad-vances in tech-nol-ogy en-able us to ob-serve and ma
+-nip-u-late these molecules
+ []
+
+[23
+
+
+
+] <Graphics/DNA/dna_structure.pdf, id=614, 1893.0725pt x 2710.125pt>
+File: Graphics/DNA/dna_structure.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_structure.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_structure.pdf used on input line 21.
+(pdftex.def)             Requested size: 170.71393pt x 244.3556pt.
+
+<Graphics/DNA/dna_space_filled.pdf, id=615, 1854.93pt x 2886.785pt>
+File: Graphics/DNA/dna_space_filled.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_space_filled.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_space_filled.pdf used on input line 2
+3.
+(pdftex.def)             Requested size: 170.71393pt x 265.65793pt.
+
+<Graphics/DNA/dna_purine.pdf, id=622, 1752.5475pt x 2390.9325pt>
+File: Graphics/DNA/dna_purine.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_purine.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_purine.pdf used on input line 32.
+(pdftex.def)             Requested size: 128.0387pt x 174.6789pt.
+
+<Graphics/DNA/dna_pyrimidine.pdf, id=623, 1752.5475pt x 2031.59pt>
+File: Graphics/DNA/dna_pyrimidine.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_pyrimidine.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_pyrimidine.pdf used on input line 34.
+
+(pdftex.def)             Requested size: 128.0387pt x 148.42574pt.
+
+<Graphics/DNA/dna_base_pair_AT.pdf, id=628, 1911.14pt x 883.3pt>
+File: Graphics/DNA/dna_base_pair_AT.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_base_pair_AT.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_base_pair_AT.pdf used on input line 4
+3.
+(pdftex.def)             Requested size: 170.71393pt x 78.90053pt.
+
+<Graphics/DNA/dna_base_pair_GC.pdf, id=629, 1911.14pt x 1156.32pt>
+File: Graphics/DNA/dna_base_pair_GC.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_base_pair_GC.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_base_pair_GC.pdf used on input line 4
+5.
+(pdftex.def)             Requested size: 170.71393pt x 103.28796pt.
+
+<Graphics/DNA/dna_schematic.pdf, id=632, 3115.64pt x 4271.96pt>
+File: Graphics/DNA/dna_schematic.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/dna_schematic.pdf>
+Package pdftex.def Info: Graphics/DNA/dna_schematic.pdf used on input line 51.
+(pdftex.def)             Requested size: 311.58226pt x 427.22102pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./Graphics/DNA/dna_structure.pdf> <./Graphics/DNA/dna_space_filled.pdf>]
+<Graphics/DNA/fig1_Bustamante2000.pdf, id=674, 241.84102pt x 268.00125pt>
+File: Graphics/DNA/fig1_Bustamante2000.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/fig1_Bustamante2000.pdf>
+Package pdftex.def Info: Graphics/DNA/fig1_Bustamante2000.pdf used on input lin
+e 66.
+(pdftex.def)             Requested size: 241.84041pt x 268.00058pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./Graphics/DNA/dna_purine.pdf> <./Graphics/DNA/dna_pyrimidine.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./Graphics/DNA/dna_base_pair_AT.pdf> <./Graphics/DNA/dna_base_pair_GC.pdf>
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./Graphics/DNA/dna_schematic.pdf>]
+<Graphics/DNA/fig1_Bustamante2003.pdf, id=755, 155.04324pt x 108.25775pt>
+File: Graphics/DNA/fig1_Bustamante2003.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/fig1_Bustamante2003.pdf>
+Package pdftex.def Info: Graphics/DNA/fig1_Bustamante2003.pdf used on input lin
+e 95.
+(pdftex.def)             Requested size: 232.56427pt x 162.38618pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./Graphics/DNA/fig1_Bustamante2000.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./Graphics/DNA/fig1_Bustamante2003.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32] <Graphics/DNA/exp.png, id=872, 446.66875pt x 1004.75375pt>
+File: Graphics/DNA/exp.png Graphic file (type png)
+
+<use Graphics/DNA/exp.png>
+Package pdftex.def Info: Graphics/DNA/exp.png used on input line 215.
+(pdftex.def)             Requested size: 187.5996pt x 421.9937pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./Graphics/DNA/exp.png (PNG copy)>]
+<Graphics/DNA/fig1_DeGennes2001.pdf, id=905, 540.60233pt x 142.26376pt>
+File: Graphics/DNA/fig1_DeGennes2001.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/fig1_DeGennes2001.pdf>
+Package pdftex.def Info: Graphics/DNA/fig1_DeGennes2001.pdf used on input line 
+250.
+(pdftex.def)             Requested size: 324.36389pt x 85.3589pt.
+
+<Graphics/DNA/fig1_Hatch2008.pdf, id=912, 239.993pt x 194.64029pt>
+File: Graphics/DNA/fig1_Hatch2008.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/fig1_Hatch2008.pdf>
+Package pdftex.def Info: Graphics/DNA/fig1_Hatch2008.pdf used on input line 259
+.
+(pdftex.def)             Requested size: 239.9924pt x 194.6398pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./Graphics/DNA/fig1_DeGennes2001.pdf> <./Graphics/DNA/fig1_Hatch2008.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38] <Graphics/DNA/fig6_Prakash2011.pdf, id=1010, 204.74829pt x 178.87555pt>
+File: Graphics/DNA/fig6_Prakash2011.pdf Graphic file (type pdf)
+
+<use Graphics/DNA/fig6_Prakash2011.pdf>
+Package pdftex.def Info: Graphics/DNA/fig6_Prakash2011.pdf used on input line 3
+49.
+(pdftex.def)             Requested size: 307.12166pt x 268.31265pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40 <./Graphics/DNA/fig6_Prakash2011.pdf>]
+<Graphics/Collagen/polypeptide.png, id=1061, 151.56625pt x 918.43124pt>
+File: Graphics/Collagen/polypeptide.png Graphic file (type png)
+
+<use Graphics/Collagen/polypeptide.png>
+Package pdftex.def Info: Graphics/Collagen/polypeptide.png used on input line 3
+71.
+(pdftex.def)             Requested size: 34.14409pt x 206.89037pt.
+
+<Graphics/Collagen/polypeptide_spacefilling.png, id=1062, 168.63pt x 912.40875p
+t>
+File: Graphics/Collagen/polypeptide_spacefilling.png Graphic file (type png)
+ <use Graphics/Collagen/polypeptide_spacefilling.png>
+Package pdftex.def Info: Graphics/Collagen/polypeptide_spacefilling.png used on
+ input line 373.
+(pdftex.def)             Requested size: 38.40965pt x 207.81696pt.
+
+<Graphics/Collagen/tropocollagen.png, id=1063, 142.5325pt x 693.59125pt>
+File: Graphics/Collagen/tropocollagen.png Graphic file (type png)
+
+<use Graphics/Collagen/tropocollagen.png>
+Package pdftex.def Info: Graphics/Collagen/tropocollagen.png used on input line
+ 375.
+(pdftex.def)             Requested size: 42.68173pt x 207.69797pt.
+
+<Graphics/Collagen/polypeptide_section_freeman.png, id=1074, 963.6pt x 424.5862
+4pt>
+File: Graphics/Collagen/polypeptide_section_freeman.png Graphic file (type png)
+
+ <use Graphics/Collagen/polypeptide_section_freeman.png>
+Package pdftex.def Info: Graphics/Collagen/polypeptide_section_freeman.png used
+ on input line 383.
+(pdftex.def)             Requested size: 289.08223pt x 127.37685pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42 <./Graphics/Collagen/polypeptide.png> <./Graphics/Collagen/polypeptide_spac
+efilling.png> <./Graphics/Collagen/tropocollagen.png (PNG copy)> <./Graphics/Co
+llagen/polypeptide_section_freeman.png>]
+<Graphics/Collagen/old_td.png, id=1105, 880.28876pt x 875.27pt>
+File: Graphics/Collagen/old_td.png Graphic file (type png)
+
+<use Graphics/Collagen/old_td.png>
+Package pdftex.def Info: Graphics/Collagen/old_td.png used on input line 392.
+(pdftex.def)             Requested size: 117.365pt x 116.68724pt.
+
+<Graphics/Collagen/new_td.png, id=1106, 936.49875pt x 784.9325pt>
+File: Graphics/Collagen/new_td.png Graphic file (type png)
+
+<use Graphics/Collagen/new_td.png>
+Package pdftex.def Info: Graphics/Collagen/new_td.png used on input line 393.
+(pdftex.def)             Requested size: 128.0387pt x 107.31471pt.
+
+<Graphics/Collagen/td_collagen_freeman.png, id=1107, 640.3925pt x 579.16376pt>
+File: Graphics/Collagen/td_collagen_freeman.png Graphic file (type png)
+
+<use Graphics/Collagen/td_collagen_freeman.png>
+Package pdftex.def Info: Graphics/Collagen/td_collagen_freeman.png used on inpu
+t line 394.
+(pdftex.def)             Requested size: 128.0387pt x 115.79535pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43 <./Graphics/Collagen/old_td.png (PNG copy)> <./Graphics/Collagen/new_td.png
+ (PNG copy)> <./Graphics/Collagen/td_collagen_freeman.png>]
+<Graphics/Collagen/shoulders_schematic_polypeptide_3strand.png, id=1149, 848.16
+875pt x 633.36626pt>
+File: Graphics/Collagen/shoulders_schematic_polypeptide_3strand.png Graphic fil
+e (type png)
+
+<use Graphics/Collagen/shoulders_schematic_polypeptide_3strand.png>
+Package pdftex.def Info: Graphics/Collagen/shoulders_schematic_polypeptide_3str
+and.png used on input line 405.
+(pdftex.def)             Requested size: 128.0387pt x 95.6097pt.
+
+<Graphics/Collagen/shoulders_polypeptide_3strand.png, id=1150, 805.0075pt x 851
+.18pt>
+File: Graphics/Collagen/shoulders_polypeptide_3strand.png Graphic file (type pn
+g)
+ <use Graphics/Collagen/shoulders_polypeptide_3strand.png>
+Package pdftex.def Info: Graphics/Collagen/shoulders_polypeptide_3strand.png us
+ed on input line 407.
+(pdftex.def)             Requested size: 128.0387pt x 135.37334pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./Graphics/Collagen/shoulders_schematic_polypeptide_3strand.png> <./Graphi
+cs/Collagen/shoulders_polypeptide_3strand.png>]
+<Graphics/Collagen/Fratzl_2008_fig8p22.pdf, id=1175, 219.08629pt x 193.37646pt>
+File: Graphics/Collagen/Fratzl_2008_fig8p22.pdf Graphic file (type pdf)
+<use Graphics/Collagen/Fratzl_2008_fig8p22.pdf>
+Package pdftex.def Info: Graphics/Collagen/Fratzl_2008_fig8p22.pdf used on inpu
+t line 437.
+(pdftex.def)             Requested size: 219.08574pt x 193.37598pt.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 438.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 438.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./Graphics/Collagen/Fratzl_2008_fig8p22.pdf>]
+<Graphics/Collagen/Bozec_2005.jpg, id=1203, 721.69624pt x 569.12625pt>
+File: Graphics/Collagen/Bozec_2005.jpg Graphic file (type jpg)
+
+<use Graphics/Collagen/Bozec_2005.jpg>
+Package pdftex.def Info: Graphics/Collagen/Bozec_2005.jpg used on input line 44
+8.
+(pdftex.def)             Requested size: 180.42361pt x 142.2812pt.
+
+<Graphics/Collagen/Fratzl_2008_fig8p2.pdf, id=1212, 219.0862pt x 177.19199pt>
+File: Graphics/Collagen/Fratzl_2008_fig8p2.pdf Graphic file (type pdf)
+
+<use Graphics/Collagen/Fratzl_2008_fig8p2.pdf>
+Package pdftex.def Info: Graphics/Collagen/Fratzl_2008_fig8p2.pdf used on input
+ line 457.
+(pdftex.def)             Requested size: 153.35928pt x 124.03352pt.
+
+<Graphics/Collagen/Buehler_2007_fig4.pdf, id=1213, 240.59686pt x 167.18861pt>
+File: Graphics/Collagen/Buehler_2007_fig4.pdf Graphic file (type pdf)
+
+<use Graphics/Collagen/Buehler_2007_fig4.pdf>
+Package pdftex.def Info: Graphics/Collagen/Buehler_2007_fig4.pdf used on input 
+line 459.
+(pdftex.def)             Requested size: 168.41664pt x 117.03122pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./Graphics/Collagen/Bozec_2005.jpg>]
+<Graphics/Collagen/Gautieri_2010_fig3b.pdf, id=1233, 60.83629pt x 110.11432pt>
+File: Graphics/Collagen/Gautieri_2010_fig3b.pdf Graphic file (type pdf)
+
+<use Graphics/Collagen/Gautieri_2010_fig3b.pdf>
+Package pdftex.def Info: Graphics/Collagen/Gautieri_2010_fig3b.pdf used on inpu
+t line 470.
+(pdftex.def)             Requested size: 73.00317pt x 132.13649pt.
+
+<Graphics/Collagen/Gautieri_2010_fig1.pdf, id=1234, 221.85022pt x 109.50558pt>
+File: Graphics/Collagen/Gautieri_2010_fig1.pdf Graphic file (type pdf)
+
+<use Graphics/Collagen/Gautieri_2010_fig1.pdf>
+Package pdftex.def Info: Graphics/Collagen/Gautieri_2010_fig1.pdf used on input
+ line 472.
+(pdftex.def)             Requested size: 177.48041pt x 87.60457pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <./Graphics/Collagen/Fratzl_2008_fig8p2.pdf> <./Graphics/Collagen/Buehler_2
+007_fig4.pdf>]
+<Graphics/Collagen/Gautieri_2010_fig2_combined.png, id=1260, 983.675pt x 642.4p
+t>
+File: Graphics/Collagen/Gautieri_2010_fig2_combined.png Graphic file (type png)
+
+ <use Graphics/Collagen/Gautieri_2010_fig2_combined.png>
+Package pdftex.def Info: Graphics/Collagen/Gautieri_2010_fig2_combined.png used
+ on input line 481.
+(pdftex.def)             Requested size: 295.10478pt x 192.72148pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48 <./Graphics/Collagen/Gautieri_2010_fig3b.pdf> <./Graphics/Collagen/Gautieri
+_2010_fig1.pdf>]
+<Graphics/Collagen/Gautieri_2010_fig4a.png, id=1285, 852.18375pt x 466.74374pt>
+File: Graphics/Collagen/Gautieri_2010_fig4a.png Graphic file (type png)
+<use Graphics/Collagen/Gautieri_2010_fig4a.png>
+Package pdftex.def Info: Graphics/Collagen/Gautieri_2010_fig4a.png used on inpu
+t line 488.
+(pdftex.def)             Requested size: 255.65709pt x 140.0242pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49 <./Graphics/Collagen/Gautieri_2010_fig2_combined.png> <./Graphics/Collagen/
+Gautieri_2010_fig4a.png (PNG copy)>]
+\openout2 = `extendable_fjc.aux'.
+
+ (./extendable_fjc.tex
+Chapter 5.
+[50
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+<Graphics/ExpectedProbabilityDistribution.pdf, id=1315, 462.52798pt x 307.04411
+pt>
+File: Graphics/ExpectedProbabilityDistribution.pdf Graphic file (type pdf)
+ <use Graphics/ExpectedProbabilityDistribution.pdf>
+Package pdftex.def Info: Graphics/ExpectedProbabilityDistribution.pdf used on i
+nput line 55.
+(pdftex.def)             Requested size: 277.51892pt x 184.22789pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+<Graphics/ExpectedProbabilityDistributionN2.pdf, id=1325, 462.52798pt x 310.873
+43pt>
+File: Graphics/ExpectedProbabilityDistributionN2.pdf Graphic file (type pdf)
+ <use Graphics/ExpectedProbabilityDistributionN2.pdf>
+Package pdftex.def Info: Graphics/ExpectedProbabilityDistributionN2.pdf used on
+ input line 63.
+(pdftex.def)             Requested size: 277.51892pt x 186.52548pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53 <./Graphics/ExpectedProbabilityDistribution.pdf> <./Graphics/ExpectedProbab
+ilityDistributionN2.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55] <Graphics/zElasticPotential.pdf, id=1376, 462.52798pt x 298.97395pt>
+File: Graphics/zElasticPotential.pdf Graphic file (type pdf)
+
+<use Graphics/zElasticPotential.pdf>
+Package pdftex.def Info: Graphics/zElasticPotential.pdf used on input line 154.
+
+(pdftex.def)             Requested size: 277.51892pt x 179.38574pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56 <./Graphics/zElasticPotential.pdf>]
+<Graphics/DoubleDeltaFunction.png, id=1395, 433.62pt x 289.08pt>
+File: Graphics/DoubleDeltaFunction.png Graphic file (type png)
+
+<use Graphics/DoubleDeltaFunction.png>
+Package pdftex.def Info: Graphics/DoubleDeltaFunction.png used on input line 17
+1.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57 <./Graphics/DoubleDeltaFunction.png>]
+Overfull \hbox (10.89041pt too wide) in paragraph at lines 209--209
+[]\OT1/cmr/bx/n/14.4 Evaluating $[]$ for the non-extendable Freely Jointed
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60] <Graphics/DoubleTopHatFunction.png, id=1454, 433.62pt x 289.08pt>
+File: Graphics/DoubleTopHatFunction.png Graphic file (type png)
+
+<use Graphics/DoubleTopHatFunction.png>
+Package pdftex.def Info: Graphics/DoubleTopHatFunction.png used on input line 3
+36.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <./Graphics/DoubleTopHatFunction.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 534.
+
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 534.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67]
+Overfull \hbox (6.9235pt too wide) in paragraph at lines 546--554
+ [][] 
+ []
+
+<Graphics/1D/Original/1D_N1_Orig.pdf, id=1580, 578.16pt x 379.4175pt>
+File: Graphics/1D/Original/1D_N1_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N1_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N1_Orig.pdf used on input line
+ 562.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/Original/1D_N2_Orig.pdf, id=1581, 578.16pt x 379.4175pt>
+File: Graphics/1D/Original/1D_N2_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N2_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N2_Orig.pdf used on input line
+ 563.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/Original/1D_N4_Orig.pdf, id=1582, 578.16pt x 379.4175pt>
+File: Graphics/1D/Original/1D_N4_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N4_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N4_Orig.pdf used on input line
+ 564.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/Original/1D_N6_Orig.pdf, id=1583, 578.16pt x 379.4175pt>
+File: Graphics/1D/Original/1D_N6_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N6_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N6_Orig.pdf used on input line
+ 565.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/Original/1D_N8_Orig.pdf, id=1584, 578.16pt x 377.41pt>
+File: Graphics/1D/Original/1D_N8_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N8_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N8_Orig.pdf used on input line
+ 566.
+(pdftex.def)             Requested size: 202.35902pt x 132.09547pt.
+
+<Graphics/1D/Original/1D_N10_Orig.pdf, id=1585, 578.16pt x 367.3725pt>
+File: Graphics/1D/Original/1D_N10_Orig.pdf Graphic file (type pdf)
+
+<use Graphics/1D/Original/1D_N10_Orig.pdf>
+Package pdftex.def Info: Graphics/1D/Original/1D_N10_Orig.pdf used on input lin
+e 567.
+(pdftex.def)             Requested size: 202.35902pt x 128.58229pt.
+
+Overfull \hbox (1.9267pt too wide) in paragraph at lines 561--569
+ [][] 
+ []
+
+<Graphics/1D/1D_N1.pdf, id=1588, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N1.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N1.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N1.pdf used on input line 576.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/1D_N2.pdf, id=1589, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N2.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N2.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N2.pdf used on input line 577.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/1D_N4.pdf, id=1590, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N4.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N4.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N4.pdf used on input line 578.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/1D_N6.pdf, id=1591, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N6.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N6.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N6.pdf used on input line 579.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/1D_N8.pdf, id=1592, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N8.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N8.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N8.pdf used on input line 580.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+<Graphics/1D/1D_N10.pdf, id=1593, 578.16pt x 379.4175pt>
+File: Graphics/1D/1D_N10.pdf Graphic file (type pdf)
+
+<use Graphics/1D/1D_N10.pdf>
+Package pdftex.def Info: Graphics/1D/1D_N10.pdf used on input line 581.
+(pdftex.def)             Requested size: 202.35902pt x 132.79811pt.
+
+Overfull \hbox (1.9267pt too wide) in paragraph at lines 575--584
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 <./Graphics/1D/Original/1D_N1_Orig.pdf> <./Graphics/1D/Original/1D_N2_Orig.
+pdf> <./Graphics/1D/Original/1D_N4_Orig.pdf> <./Graphics/1D/Original/1D_N6_Orig
+.pdf> <./Graphics/1D/Original/1D_N8_Orig.pdf> <./Graphics/1D/Original/1D_N10_Or
+ig.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <./Graphics/1D/1D_N1.pdf> <./Graphics/1D/1D_N2.pdf> <./Graphics/1D/1D_N4.pd
+f> <./Graphics/1D/1D_N6.pdf> <./Graphics/1D/1D_N8.pdf> <./Graphics/1D/1D_N10.pd
+f>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
+Overfull \hbox (11.47368pt too wide) detected at line 631
+[]\OML/cmm/m/it/12 Z[] [] \OT1/cmr/m/n/12 = [] [] \OML/cmm/m/it/12 d[][]  [] []
+ [][]
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73] <Graphics/PartitionFunction3D.pdf, id=1912, 462.52798pt x 290.36078pt>
+File: Graphics/PartitionFunction3D.pdf Graphic file (type pdf)
+
+<use Graphics/PartitionFunction3D.pdf>
+Package pdftex.def Info: Graphics/PartitionFunction3D.pdf used on input line 73
+4.
+(pdftex.def)             Requested size: 277.51892pt x 174.2178pt.
+
+<Graphics/PartitionFunction3Dn.pdf, id=1915, 462.52798pt x 281.18552pt>
+File: Graphics/PartitionFunction3Dn.pdf Graphic file (type pdf)
+
+<use Graphics/PartitionFunction3Dn.pdf>
+Package pdftex.def Info: Graphics/PartitionFunction3Dn.pdf used on input line 7
+40.
+(pdftex.def)             Requested size: 277.51892pt x 168.7126pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75 <./Graphics/PartitionFunction3D.pdf> <./Graphics/PartitionFunction3Dn.pdf>]
+
+Overfull \hbox (47.97589pt too wide) detected at line 771
+[]\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 ) = []
+ [] [][] [] [] \OML/cmm/m/it/12 I []
+ []
+
+
+Overfull \hbox (34.87589pt too wide) detected at line 777
+ []$[] [][] [][] [] []$ []  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+<Graphics/3D/MultigraphFinitePSmall.pdf, id=1979, 462.52798pt x 280.8111pt>
+File: Graphics/3D/MultigraphFinitePSmall.pdf Graphic file (type pdf)
+
+<use Graphics/3D/MultigraphFinitePSmall.pdf>
+Package pdftex.def Info: Graphics/3D/MultigraphFinitePSmall.pdf used on input l
+ine 800.
+(pdftex.def)             Requested size: 370.02287pt x 224.64917pt.
+
+<Graphics/3D/FinitePSmall/1.pdf, id=1980, 462.52798pt x 290.36078pt>
+File: Graphics/3D/FinitePSmall/1.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/1.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/1.pdf used on input line 808.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.66113pt.
+
+<Graphics/3D/FinitePSmall/2.pdf, id=1981, 462.52798pt x 290.36078pt>
+File: Graphics/3D/FinitePSmall/2.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/2.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/2.pdf used on input line 809.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.66113pt.
+
+<Graphics/3D/FinitePSmall/3.pdf, id=1982, 462.52798pt x 290.36078pt>
+File: Graphics/3D/FinitePSmall/3.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/3.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/3.pdf used on input line 810.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.66113pt.
+
+<Graphics/3D/FinitePSmall/4.pdf, id=1983, 462.52798pt x 290.36078pt>
+File: Graphics/3D/FinitePSmall/4.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/4.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/4.pdf used on input line 811.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.66113pt.
+
+<Graphics/3D/FinitePSmall/5.pdf, id=1984, 462.52798pt x 290.35977pt>
+File: Graphics/3D/FinitePSmall/5.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/5.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/5.pdf used on input line 812.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.66068pt.
+
+<Graphics/3D/FinitePSmall/6.pdf, id=1985, 462.52798pt x 290.34773pt>
+File: Graphics/3D/FinitePSmall/6.pdf Graphic file (type pdf)
+
+<use Graphics/3D/FinitePSmall/6.pdf>
+Package pdftex.def Info: Graphics/3D/FinitePSmall/6.pdf used on input line 813.
+
+(pdftex.def)             Requested size: 208.13567pt x 130.65526pt.
+
+Overfull \hbox (13.47998pt too wide) in paragraph at lines 807--815
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77 <./Graphics/3D/MultigraphFinitePSmall.pdf>]
+<Graphics/3D/Comparison/4_p01.pdf, id=2008, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p01.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p01.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p01.pdf used on input line 83
+8.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+<Graphics/3D/Comparison/4_p02.pdf, id=2009, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p02.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p02.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p02.pdf used on input line 83
+9.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+<Graphics/3D/Comparison/4_p03.pdf, id=2010, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p03.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p03.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p03.pdf used on input line 84
+0.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+<Graphics/3D/Comparison/4_p04.pdf, id=2011, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p04.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p04.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p04.pdf used on input line 84
+1.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+<Graphics/3D/Comparison/4_p05.pdf, id=2012, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p05.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p05.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p05.pdf used on input line 84
+2.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+<Graphics/3D/Comparison/4_p06.pdf, id=2013, 462.52798pt x 281.18552pt>
+File: Graphics/3D/Comparison/4_p06.pdf Graphic file (type pdf)
+
+<use Graphics/3D/Comparison/4_p06.pdf>
+Package pdftex.def Info: Graphics/3D/Comparison/4_p06.pdf used on input line 84
+3.
+(pdftex.def)             Requested size: 208.13567pt x 126.5323pt.
+
+Overfull \hbox (13.47998pt too wide) in paragraph at lines 837--845
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78 <./Graphics/3D/FinitePSmall/1.pdf> <./Graphics/3D/FinitePSmall/2.pdf> <./Gr
+aphics/3D/FinitePSmall/3.pdf> <./Graphics/3D/FinitePSmall/4.pdf> <./Graphics/3D
+/FinitePSmall/5.pdf> <./Graphics/3D/FinitePSmall/6.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79 <./Graphics/3D/Comparison/4_p01.pdf> <./Graphics/3D/Comparison/4_p02.pdf> <
+./Graphics/3D/Comparison/4_p03.pdf> <./Graphics/3D/Comparison/4_p04.pdf> <./Gra
+phics/3D/Comparison/4_p05.pdf> <./Graphics/3D/Comparison/4_p06.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+\openout2 = `dna_model.aux'.
+
+ (./dna_model.tex
+Chapter 6.
+
+<Graphics/DNA_Model/dna_model_ladder.pdf, id=2194, 1328.16196pt x 546.16045pt>
+File: Graphics/DNA_Model/dna_model_ladder.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_model_ladder.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_model_ladder.pdf used on input 
+line 12.
+(pdftex.def)             Requested size: 398.45166pt x 163.8494pt.
+ [81
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82 <./Graphics/DNA_Model/dna_model_ladder.pdf>]
+<Graphics/DNA_Model/dna_model_3d_ladder.pdf, id=2223, 1445.4pt x 874.94879pt>
+File: Graphics/DNA_Model/dna_model_3d_ladder.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_model_3d_ladder.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_model_3d_ladder.pdf used on inp
+ut line 72.
+(pdftex.def)             Requested size: 158.99449pt x 96.24466pt.
+
+<Graphics/DNA_Model/dna_model_3d_ladder_pulled.pdf, id=2224, 1438.17305pt x 739
+.56299pt>
+File: Graphics/DNA_Model/dna_model_3d_ladder_pulled.pdf Graphic file (type pdf)
+
+ <use Graphics/DNA_Model/dna_model_3d_ladder_pulled.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_model_3d_ladder_pulled.pdf used
+ on input line 73.
+(pdftex.def)             Requested size: 215.71664pt x 110.92966pt.
+
+<Graphics/DNA_Model/basepair_potential.pdf, id=2229, 416.2752pt x 282.60179pt>
+File: Graphics/DNA_Model/basepair_potential.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/basepair_potential.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/basepair_potential.pdf used on inpu
+t line 81.
+(pdftex.def)             Requested size: 249.76704pt x 169.56238pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83 <./Graphics/DNA_Model/dna_model_3d_ladder.pdf> <./Graphics/DNA_Model/dna_mo
+del_3d_ladder_pulled.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84 <./Graphics/DNA_Model/basepair_potential.pdf>]
+<Graphics/DNA_Model/dna_frayed_1.pdf, id=2284, 1445.4pt x 432.6564pt>
+File: Graphics/DNA_Model/dna_frayed_1.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_frayed_1.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_frayed_1.pdf used on input line
+ 139.
+(pdftex.def)             Requested size: 397.4752pt x 118.97757pt.
+
+<Graphics/DNA_Model/dna_frayed_2.pdf, id=2285, 1445.4pt x 432.6564pt>
+File: Graphics/DNA_Model/dna_frayed_2.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_frayed_2.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_frayed_2.pdf used on input line
+ 140.
+(pdftex.def)             Requested size: 397.4752pt x 118.97757pt.
+
+<Graphics/DNA_Model/dna_bubble_1.pdf, id=2286, 1445.4pt x 432.6564pt>
+File: Graphics/DNA_Model/dna_bubble_1.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_bubble_1.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_bubble_1.pdf used on input line
+ 149.
+(pdftex.def)             Requested size: 397.4752pt x 118.97757pt.
+
+<Graphics/DNA_Model/dna_bubble_2.pdf, id=2287, 1445.4pt x 432.6564pt>
+File: Graphics/DNA_Model/dna_bubble_2.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_bubble_2.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_bubble_2.pdf used on input line
+ 150.
+(pdftex.def)             Requested size: 397.4752pt x 118.97757pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86 <./Graphics/DNA_Model/dna_frayed_1.pdf> <./Graphics/DNA_Model/dna_frayed_2.
+pdf> <./Graphics/DNA_Model/dna_bubble_1.pdf> <./Graphics/DNA_Model/dna_bubble_2
+.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91]
+Overfull \hbox (2.9472pt too wide) in paragraph at lines 421--421
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93] <Graphics/DNA_Model/dna_intact.pdf, id=2418, 1445.4pt x 432.6564pt>
+File: Graphics/DNA_Model/dna_intact.pdf Graphic file (type pdf)
+
+<use Graphics/DNA_Model/dna_intact.pdf>
+Package pdftex.def Info: Graphics/DNA_Model/dna_intact.pdf used on input line 4
+53.
+(pdftex.def)             Requested size: 397.4752pt x 118.97757pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94 <./Graphics/DNA_Model/dna_intact.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97]
+Overfull \hbox (33.09062pt too wide) in paragraph at lines 585--585
+[] 
+ []
+
+
+Overfull \hbox (18.26357pt too wide) in paragraph at lines 607--607
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102]
+<Results/DNA/Eigensystem/T/0.5/lambda_s_L5_m5.pdf, id=2539, 578.16pt x 360.5640
+7pt>
+File: Results/DNA/Eigensystem/T/0.5/lambda_s_L5_m5.pdf Graphic file (type pdf)
+ <use Results/DNA/Eigensystem/T/0.5/lambda_s_L5_m5.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.5/lambda_s_L5_m5.pdf used 
+on input line 745.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.5/lambda_s_L10_m10.pdf, id=2540, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T/0.5/lambda_s_L10_m10.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T/0.5/lambda_s_L10_m10.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.5/lambda_s_L10_m10.pdf use
+d on input line 746.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.5/lambda_s_L25_m25.pdf, id=2541, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T/0.5/lambda_s_L25_m25.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T/0.5/lambda_s_L25_m25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.5/lambda_s_L25_m25.pdf use
+d on input line 747.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.5/lambda_s_L50_m50.pdf, id=2542, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T/0.5/lambda_s_L50_m50.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T/0.5/lambda_s_L50_m50.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.5/lambda_s_L50_m50.pdf use
+d on input line 748.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[103]
+<Results/DNA/Eigensystem/T/0.25/lambda_s_L5_m10.pdf, id=2548, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T/0.25/lambda_s_L5_m10.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T/0.25/lambda_s_L5_m10.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.25/lambda_s_L5_m10.pdf use
+d on input line 757.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.25/lambda_s_L10_m20.pdf, id=2549, 578.16pt x 360.5
+6407pt>
+File: Results/DNA/Eigensystem/T/0.25/lambda_s_L10_m20.pdf Graphic file (type pd
+f)
+ <use Results/DNA/Eigensystem/T/0.25/lambda_s_L10_m20.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.25/lambda_s_L10_m20.pdf us
+ed on input line 758.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.25/lambda_s_L25_m50.pdf, id=2550, 578.16pt x 360.5
+6407pt>
+File: Results/DNA/Eigensystem/T/0.25/lambda_s_L25_m50.pdf Graphic file (type pd
+f)
+ <use Results/DNA/Eigensystem/T/0.25/lambda_s_L25_m50.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.25/lambda_s_L25_m50.pdf us
+ed on input line 759.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.25/lambda_s_L50_m100.pdf, id=2551, 578.16pt x 360.
+56407pt>
+File: Results/DNA/Eigensystem/T/0.25/lambda_s_L50_m100.pdf Graphic file (type p
+df)
+ <use Results/DNA/Eigensystem/T/0.25/lambda_s_L50_m100.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.25/lambda_s_L50_m100.pdf u
+sed on input line 760.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.1/lambda_s_L5_m25.pdf, id=2552, 578.16pt x 360.564
+07pt>
+File: Results/DNA/Eigensystem/T/0.1/lambda_s_L5_m25.pdf Graphic file (type pdf)
+
+ <use Results/DNA/Eigensystem/T/0.1/lambda_s_L5_m25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.1/lambda_s_L5_m25.pdf used
+ on input line 765.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.1/lambda_s_L10_m50.pdf, id=2553, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T/0.1/lambda_s_L10_m50.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T/0.1/lambda_s_L10_m50.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.1/lambda_s_L10_m50.pdf use
+d on input line 766.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.1/lambda_s_L25_m125.pdf, id=2554, 578.16pt x 360.5
+6407pt>
+File: Results/DNA/Eigensystem/T/0.1/lambda_s_L25_m125.pdf Graphic file (type pd
+f)
+ <use Results/DNA/Eigensystem/T/0.1/lambda_s_L25_m125.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.1/lambda_s_L25_m125.pdf us
+ed on input line 767.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T/0.1/lambda_s_L50_m250.pdf, id=2555, 578.16pt x 360.5
+6407pt>
+File: Results/DNA/Eigensystem/T/0.1/lambda_s_L50_m250.pdf Graphic file (type pd
+f)
+ <use Results/DNA/Eigensystem/T/0.1/lambda_s_L50_m250.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T/0.1/lambda_s_L50_m250.pdf us
+ed on input line 768.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104 <./Results/DNA/Eigensystem/T/0.5/lambda_s_L5_m5.pdf> <./Results/DNA/Eigens
+ystem/T/0.5/lambda_s_L10_m10.pdf> <./Results/DNA/Eigensystem/T/0.5/lambda_s_L25
+_m25.pdf> <./Results/DNA/Eigensystem/T/0.5/lambda_s_L50_m50.pdf>]
+<Results/DNA/Eigensystem/T00/0.25/lambda_t_L5_m10.pdf, id=2631, 578.16pt x 360.
+56407pt>
+File: Results/DNA/Eigensystem/T00/0.25/lambda_t_L5_m10.pdf Graphic file (type p
+df)
+ <use Results/DNA/Eigensystem/T00/0.25/lambda_t_L5_m10.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/lambda_t_L5_m10.pdf u
+sed on input line 778.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.25/lambda_t_L10_m20.pdf, id=2632, 578.16pt x 360
+.56407pt>
+File: Results/DNA/Eigensystem/T00/0.25/lambda_t_L10_m20.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/Eigensystem/T00/0.25/lambda_t_L10_m20.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/lambda_t_L10_m20.pdf 
+used on input line 779.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.25/lambda_t_L25_m50.pdf, id=2633, 578.16pt x 360
+.56407pt>
+File: Results/DNA/Eigensystem/T00/0.25/lambda_t_L25_m50.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/Eigensystem/T00/0.25/lambda_t_L25_m50.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/lambda_t_L25_m50.pdf 
+used on input line 780.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.25/lambda_t_L50_m100.pdf, id=2634, 578.16pt x 36
+0.56407pt>
+File: Results/DNA/Eigensystem/T00/0.25/lambda_t_L50_m100.pdf Graphic file (type
+ pdf)
+ <use Results/DNA/Eigensystem/T00/0.25/lambda_t_L50_m100.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/lambda_t_L50_m100.pdf
+ used on input line 781.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.5/lambda_t_L5_m5.pdf, id=2635, 578.16pt x 360.56
+407pt>
+File: Results/DNA/Eigensystem/T00/0.5/lambda_t_L5_m5.pdf Graphic file (type pdf
+)
+ <use Results/DNA/Eigensystem/T00/0.5/lambda_t_L5_m5.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/lambda_t_L5_m5.pdf use
+d on input line 786.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.5/lambda_t_L10_m10.pdf, id=2636, 578.16pt x 360.
+56407pt>
+File: Results/DNA/Eigensystem/T00/0.5/lambda_t_L10_m10.pdf Graphic file (type p
+df)
+ <use Results/DNA/Eigensystem/T00/0.5/lambda_t_L10_m10.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/lambda_t_L10_m10.pdf u
+sed on input line 787.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.5/lambda_t_L25_m25.pdf, id=2637, 578.16pt x 360.
+56407pt>
+File: Results/DNA/Eigensystem/T00/0.5/lambda_t_L25_m25.pdf Graphic file (type p
+df)
+ <use Results/DNA/Eigensystem/T00/0.5/lambda_t_L25_m25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/lambda_t_L25_m25.pdf u
+sed on input line 788.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+<Results/DNA/Eigensystem/T00/0.5/lambda_t_L50_m50.pdf, id=2638, 578.16pt x 360.
+56407pt>
+File: Results/DNA/Eigensystem/T00/0.5/lambda_t_L50_m50.pdf Graphic file (type p
+df)
+ <use Results/DNA/Eigensystem/T00/0.5/lambda_t_L50_m50.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/lambda_t_L50_m50.pdf u
+sed on input line 789.
+(pdftex.def)             Requested size: 187.89977pt x 117.18192pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105 <./Results/DNA/Eigensystem/T/0.25/lambda_s_L5_m10.pdf> <./Results/DNA/Eige
+nsystem/T/0.25/lambda_s_L10_m20.pdf> <./Results/DNA/Eigensystem/T/0.25/lambda_s
+_L25_m50.pdf> <./Results/DNA/Eigensystem/T/0.25/lambda_s_L50_m100.pdf> <./Resul
+ts/DNA/Eigensystem/T/0.1/lambda_s_L5_m25.pdf> <./Results/DNA/Eigensystem/T/0.1/
+lambda_s_L10_m50.pdf> <./Results/DNA/Eigensystem/T/0.1/lambda_s_L25_m125.pdf> <
+./Results/DNA/Eigensystem/T/0.1/lambda_s_L50_m250.pdf>]
+<Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t0_L50_m50_k10_etab25.pdf, id=2787
+, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t0_L50_m50_k10_etab25.pdf Gra
+phic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t0_L50_m50_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t0_L50_m50
+_k10_etab25.pdf used on input line 824.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t1_L50_m50_k10_etab25.pdf, id=2788
+, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t1_L50_m50_k10_etab25.pdf Gra
+phic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t1_L50_m50_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t1_L50_m50
+_k10_etab25.pdf used on input line 825.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t2_L50_m50_k10_etab25.pdf, id=2789
+, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t2_L50_m50_k10_etab25.pdf Gra
+phic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t2_L50_m50_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t2_L50_m50
+_k10_etab25.pdf used on input line 826.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t3_L50_m50_k10_etab25.pdf, id=2790
+, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t3_L50_m50_k10_etab25.pdf Gra
+phic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t3_L50_m50_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t3_L50_m50
+_k10_etab25.pdf used on input line 827.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t0_L50_m100_k10_etab25.pdf, id=27
+91, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t0_L50_m100_k10_etab25.pdf G
+raphic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t0_L50_m100_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t0_L50_m1
+00_k10_etab25.pdf used on input line 832.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t1_L50_m100_k10_etab25.pdf, id=27
+92, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t1_L50_m100_k10_etab25.pdf G
+raphic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t1_L50_m100_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t1_L50_m1
+00_k10_etab25.pdf used on input line 833.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t2_L50_m100_k10_etab25.pdf, id=27
+93, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t2_L50_m100_k10_etab25.pdf G
+raphic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t2_L50_m100_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t2_L50_m1
+00_k10_etab25.pdf used on input line 834.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t3_L50_m100_k10_etab25.pdf, id=27
+94, 578.16pt x 360.96155pt>
+File: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t3_L50_m100_k10_etab25.pdf G
+raphic file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t3_L50_m100_k10_etab25.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/nVa_psi_t00_t3_L50_m1
+00_k10_etab25.pdf used on input line 835.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106 <./Results/DNA/Eigensystem/T00/0.25/lambda_t_L5_m10.pdf> <./Results/DNA/Ei
+gensystem/T00/0.25/lambda_t_L10_m20.pdf> <./Results/DNA/Eigensystem/T00/0.25/la
+mbda_t_L25_m50.pdf> <./Results/DNA/Eigensystem/T00/0.25/lambda_t_L50_m100.pdf> 
+<./Results/DNA/Eigensystem/T00/0.5/lambda_t_L5_m5.pdf> <./Results/DNA/Eigensyst
+em/T00/0.5/lambda_t_L10_m10.pdf> <./Results/DNA/Eigensystem/T00/0.5/lambda_t_L2
+5_m25.pdf> <./Results/DNA/Eigensystem/T00/0.5/lambda_t_L50_m50.pdf>]
+<Results/DNA/Eigensystem/T00/0.25/psi_t00_t0_L50_m100_k10_etab2.pdf, id=2945, 5
+78.16pt x 406.1554pt>
+File: Results/DNA/Eigensystem/T00/0.25/psi_t00_t0_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/psi_t00_t0_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/psi_t00_t0_L50_m100_k
+10_etab2.pdf used on input line 845.
+(pdftex.def)             Requested size: 185.01497pt x 129.97237pt.
+
+<Results/DNA/Eigensystem/T00/0.25/psi_t00_t1_L50_m100_k10_etab2.pdf, id=2946, 5
+78.16pt x 382.91858pt>
+File: Results/DNA/Eigensystem/T00/0.25/psi_t00_t1_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/psi_t00_t1_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/psi_t00_t1_L50_m100_k
+10_etab2.pdf used on input line 846.
+(pdftex.def)             Requested size: 185.01497pt x 122.53644pt.
+
+<Results/DNA/Eigensystem/T00/0.25/psi_t00_t2_L50_m100_k10_etab2.pdf, id=2947, 5
+78.16pt x 382.91858pt>
+File: Results/DNA/Eigensystem/T00/0.25/psi_t00_t2_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/psi_t00_t2_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/psi_t00_t2_L50_m100_k
+10_etab2.pdf used on input line 847.
+(pdftex.def)             Requested size: 185.01497pt x 122.53644pt.
+
+<Results/DNA/Eigensystem/T00/0.25/psi_t00_t3_L50_m100_k10_etab2.pdf, id=2948, 5
+78.16pt x 382.91858pt>
+File: Results/DNA/Eigensystem/T00/0.25/psi_t00_t3_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T00/0.25/psi_t00_t3_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T00/0.25/psi_t00_t3_L50_m100_k
+10_etab2.pdf used on input line 848.
+(pdftex.def)             Requested size: 185.01497pt x 122.53644pt.
+
+<Results/DNA/Eigensystem/T11/0.25/psi_t11_t0_L50_m100_k10_etab2.pdf, id=2949, 5
+78.16pt x 395.38417pt>
+File: Results/DNA/Eigensystem/T11/0.25/psi_t11_t0_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T11/0.25/psi_t11_t0_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T11/0.25/psi_t11_t0_L50_m100_k
+10_etab2.pdf used on input line 853.
+(pdftex.def)             Requested size: 185.01497pt x 126.52551pt.
+
+<Results/DNA/Eigensystem/T11/0.25/psi_t11_t1_L50_m100_k10_etab2.pdf, id=2950, 5
+78.16pt x 372.14732pt>
+File: Results/DNA/Eigensystem/T11/0.25/psi_t11_t1_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T11/0.25/psi_t11_t1_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T11/0.25/psi_t11_t1_L50_m100_k
+10_etab2.pdf used on input line 854.
+(pdftex.def)             Requested size: 185.01497pt x 119.08957pt.
+
+<Results/DNA/Eigensystem/T11/0.25/psi_t11_t2_L50_m100_k10_etab2.pdf, id=2951, 5
+78.16pt x 372.14732pt>
+File: Results/DNA/Eigensystem/T11/0.25/psi_t11_t2_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T11/0.25/psi_t11_t2_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T11/0.25/psi_t11_t2_L50_m100_k
+10_etab2.pdf used on input line 855.
+(pdftex.def)             Requested size: 185.01497pt x 119.08957pt.
+
+<Results/DNA/Eigensystem/T11/0.25/psi_t11_t3_L50_m100_k10_etab2.pdf, id=2952, 5
+78.16pt x 372.14732pt>
+File: Results/DNA/Eigensystem/T11/0.25/psi_t11_t3_L50_m100_k10_etab2.pdf Graphi
+c file (type pdf)
+
+<use Results/DNA/Eigensystem/T11/0.25/psi_t11_t3_L50_m100_k10_etab2.pdf>
+Package pdftex.def Info: Results/DNA/Eigensystem/T11/0.25/psi_t11_t3_L50_m100_k
+10_etab2.pdf used on input line 856.
+(pdftex.def)             Requested size: 185.01497pt x 119.08957pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107 <./Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t0_L50_m50_k10_etab25.pdf> 
+<./Results/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t1_L50_m50_k10_etab25.pdf> <./Re
+sults/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t2_L50_m50_k10_etab25.pdf> <./Results
+/DNA/Eigensystem/T00/0.5/nVa_psi_t00_t3_L50_m50_k10_etab25.pdf> <./Results/DNA/
+Eigensystem/T00/0.25/nVa_psi_t00_t0_L50_m100_k10_etab25.pdf> <./Results/DNA/Eig
+ensystem/T00/0.25/nVa_psi_t00_t1_L50_m100_k10_etab25.pdf> <./Results/DNA/Eigens
+ystem/T00/0.25/nVa_psi_t00_t2_L50_m100_k10_etab25.pdf> <./Results/DNA/Eigensyst
+em/T00/0.25/nVa_psi_t00_t3_L50_m100_k10_etab25.pdf>]
+Overfull \vbox (19.21902pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108 <./Results/DNA/Eigensystem/T00/0.25/psi_t00_t0_L50_m100_k10_etab2.pdf> <./
+Results/DNA/Eigensystem/T00/0.25/psi_t00_t1_L50_m100_k10_etab2.pdf> <./Results/
+DNA/Eigensystem/T00/0.25/psi_t00_t2_L50_m100_k10_etab2.pdf> <./Results/DNA/Eige
+nsystem/T00/0.25/psi_t00_t3_L50_m100_k10_etab2.pdf> <./Results/DNA/Eigensystem/
+T11/0.25/psi_t11_t0_L50_m100_k10_etab2.pdf> <./Results/DNA/Eigensystem/T11/0.25
+/psi_t11_t1_L50_m100_k10_etab2.pdf> <./Results/DNA/Eigensystem/T11/0.25/psi_t11
+_t2_L50_m100_k10_etab2.pdf> <./Results/DNA/Eigensystem/T11/0.25/psi_t11_t3_L50_
+m100_k10_etab2.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109]
+<Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab0p5.pdf,
+ id=3243, 578.16pt x 358.95604pt>
+File: Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab0p5
+.pdf Graphic file (type pdf)
+
+<use Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab0p5.
+pdf>
+Package pdftex.def Info: Results/DNA/Intact/kappa_variation/Intact_kappa_variat
+ion_L20_m40_etab0p5.pdf used on input line 889.
+(pdftex.def)             Requested size: 289.07928pt x 179.47757pt.
+
+<Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab1.pdf, i
+d=3244, 578.16pt x 358.95604pt>
+File: Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab1.p
+df Graphic file (type pdf)
+
+<use Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab1.pd
+f>
+Package pdftex.def Info: Results/DNA/Intact/kappa_variation/Intact_kappa_variat
+ion_L20_m40_etab1.pdf used on input line 890.
+(pdftex.def)             Requested size: 289.07928pt x 179.47757pt.
+
+<Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab2.pdf, i
+d=3245, 578.16pt x 358.95604pt>
+File: Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab2.p
+df Graphic file (type pdf)
+
+<use Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab2.pd
+f>
+Package pdftex.def Info: Results/DNA/Intact/kappa_variation/Intact_kappa_variat
+ion_L20_m40_etab2.pdf used on input line 891.
+(pdftex.def)             Requested size: 289.07928pt x 179.47757pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110]
+Overfull \vbox (34.69685pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111 <./Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_etab0
+p5.pdf> <./Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_et
+ab1.pdf> <./Results/DNA/Intact/kappa_variation/Intact_kappa_variation_L20_m40_e
+tab2.pdf>]
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p5.pdf, id=3312, 416.2752pt x
+ 258.15646pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p5.pdf Graphic file (typ
+e pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p5.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p5.pd
+f used on input line 900.
+(pdftex.def)             Requested size: 208.13708pt x 129.07791pt.
+
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p75.pdf, id=3313, 416.2752pt 
+x 258.15646pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p75.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p75.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p75.p
+df used on input line 901.
+(pdftex.def)             Requested size: 208.13708pt x 129.07791pt.
+
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p85.pdf, id=3314, 416.2752pt 
+x 258.15646pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p85.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p85.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p85.p
+df used on input line 902.
+(pdftex.def)             Requested size: 208.13708pt x 129.07791pt.
+
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p9.pdf, id=3315, 416.2752pt x
+ 258.15646pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p9.pdf Graphic file (typ
+e pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p9.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p9.pd
+f used on input line 903.
+(pdftex.def)             Requested size: 208.13708pt x 129.07791pt.
+
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1.pdf, id=3316, 416.2752pt x 2
+58.15646pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1.pdf 
+used on input line 904.
+(pdftex.def)             Requested size: 208.13708pt x 129.07791pt.
+
+<Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1p25.pdf, id=3317, 416.2752pt 
+x 258.4305pt>
+File: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1p25.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1p25.pdf>
+Package pdftex.def Info: Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1p25.p
+df used on input line 905.
+(pdftex.def)             Requested size: 208.13708pt x 129.21492pt.
+
+Overfull \hbox (13.48282pt too wide) in paragraph at lines 899--907
+ [][] 
+ []
+
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p5.pdf, id=3318, 578.16pt x 3
+58.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p5.pdf Graphic file (typ
+e pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p5.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p5.pd
+f used on input line 914.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p75.pdf, id=3319, 578.16pt x 
+358.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p75.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p75.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p75.p
+df used on input line 915.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p85.pdf, id=3320, 578.16pt x 
+358.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p85.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p85.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p85.p
+df used on input line 916.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p9.pdf, id=3321, 578.16pt x 3
+58.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p9.pdf Graphic file (typ
+e pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p9.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p9.pd
+f used on input line 917.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1.pdf, id=3322, 578.16pt x 358
+.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1.pdf 
+used on input line 918.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+<Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1p25.pdf, id=3323, 578.16pt x 
+358.7533pt>
+File: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1p25.pdf Graphic file (ty
+pe pdf)
+ <use Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1p25.pdf>
+Package pdftex.def Info: Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1p25.p
+df used on input line 919.
+(pdftex.def)             Requested size: 202.35902pt x 125.56552pt.
+
+Overfull \hbox (1.9267pt too wide) in paragraph at lines 913--921
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112 <./Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab0p5.pdf> <./Results/DNA
+/Frayed/Frayed_N5_L20_m40_kappa1_etab0p75.pdf> <./Results/DNA/Frayed/Frayed_N5_
+L20_m40_kappa1_etab0p85.pdf> <./Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_eta
+b0p9.pdf> <./Results/DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1.pdf> <./Results/
+DNA/Frayed/Frayed_N5_L20_m40_kappa1_etab1p25.pdf>]
+<Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab0p5.pdf, id=3394, 414.1071pt x 2
+37.47621pt>
+File: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab0p5.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab0p5.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab0p5.pdf 
+used on input line 928.
+(pdftex.def)             Requested size: 207.05304pt x 118.73781pt.
+
+<Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab0p5.pdf, id=3395, 416.2752pt x 23
+7.19113pt>
+File: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab0p5.pdf Graphic file (type p
+df)
+ <use Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab0p5.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab0p5.pdf u
+sed on input line 929.
+(pdftex.def)             Requested size: 208.13708pt x 118.59528pt.
+
+<Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab1.pdf, id=3396, 416.2752pt x 237
+.19113pt>
+File: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab1.pdf Graphic file (type pd
+f)
+ <use Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab1.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab1.pdf us
+ed on input line 930.
+(pdftex.def)             Requested size: 208.13708pt x 118.59528pt.
+
+<Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab1.pdf, id=3397, 416.2752pt x 237.
+19113pt>
+File: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab1.pdf Graphic file (type pdf
+)
+ <use Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab1.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab1.pdf use
+d on input line 931.
+(pdftex.def)             Requested size: 208.13708pt x 118.59528pt.
+
+<Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab2.pdf, id=3398, 416.2752pt x 237
+.19113pt>
+File: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab2.pdf Graphic file (type pd
+f)
+ <use Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab2.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab2.pdf us
+ed on input line 932.
+(pdftex.def)             Requested size: 208.13708pt x 118.59528pt.
+
+<Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab2.pdf, id=3399, 416.2752pt x 237.
+19113pt>
+File: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab2.pdf Graphic file (type pdf
+)
+ <use Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab2.pdf>
+Package pdftex.def Info: Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab2.pdf use
+d on input line 933.
+(pdftex.def)             Requested size: 208.13708pt x 118.59528pt.
+
+Overfull \hbox (13.48282pt too wide) in paragraph at lines 927--935
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113 <./Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab0p5.pdf> <./Results/DNA
+/Bubble/Bubble_N5_L20_m40_kappa1_etab0p75.pdf> <./Results/DNA/Bubble/Bubble_N5_
+L20_m40_kappa1_etab0p85.pdf> <./Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_eta
+b0p9.pdf> <./Results/DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1.pdf> <./Results/
+DNA/Bubble/Bubble_N5_L20_m40_kappa1_etab1p25.pdf>]
+<Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u1.pdf, id=3465, 416.2
+752pt x 258.52184pt>
+File: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u1.pdf Graphic fi
+le (type pdf)
+
+<use Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u1.pdf>
+Package pdftex.def Info: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab
+2_u1.pdf used on input line 942.
+(pdftex.def)             Requested size: 312.20563pt x 193.89088pt.
+
+<Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u3.pdf, id=3466, 416.2
+752pt x 258.52184pt>
+File: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u3.pdf Graphic fi
+le (type pdf)
+
+<use Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u3.pdf>
+Package pdftex.def Info: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab
+2_u3.pdf used on input line 943.
+(pdftex.def)             Requested size: 312.20563pt x 193.89088pt.
+
+<Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u5.pdf, id=3467, 416.2
+752pt x 258.52184pt>
+File: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u5.pdf Graphic fi
+le (type pdf)
+
+<use Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u5.pdf>
+Package pdftex.def Info: Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab
+2_u5.pdf used on input line 944.
+(pdftex.def)             Requested size: 312.20563pt x 193.89088pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114 <./Results/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab0p5.pdf> <./Results/DNA/M
+XD/MXD_xi_N5_L20_m40_kappa1_etab0p5.pdf> <./Results/DNA/MXD/MXD_eta_N5_L20_m40_
+kappa1_etab1.pdf> <./Results/DNA/MXD/MXD_xi_N5_L20_m40_kappa1_etab1.pdf> <./Res
+ults/DNA/MXD/MXD_eta_N5_L20_m40_kappa1_etab2.pdf> <./Results/DNA/MXD/MXD_xi_N5_
+L20_m40_kappa1_etab2.pdf>]
+Overfull \vbox (48.9368pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115 <./Results/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u1.pdf> <./Resu
+lts/DNA/MXD/AveragePosition_N5_L20_m40_kappa1_etab2_u3.pdf> <./Results/DNA/MXD/
+AveragePosition_N5_L20_m40_kappa1_etab2_u5.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117]
+<Results/DNA/dna_large_etab/shear_force_large_ksr150_etab3p75.pdf, id=3645, 578
+.16pt x 360.66345pt>
+File: Results/DNA/dna_large_etab/shear_force_large_ksr150_etab3p75.pdf Graphic 
+file (type pdf)
+
+<use Results/DNA/dna_large_etab/shear_force_large_ksr150_etab3p75.pdf>
+Package pdftex.def Info: Results/DNA/dna_large_etab/shear_force_large_ksr150_et
+ab3p75.pdf used on input line 991.
+(pdftex.def)             Requested size: 375.79955pt x 234.42847pt.
+
+<Results/DNA/dna/frayed/shear_force_ksr65_etab3p75.pdf, id=3653, 578.16pt x 360
+.66345pt>
+File: Results/DNA/dna/frayed/shear_force_ksr65_etab3p75.pdf Graphic file (type 
+pdf)
+ <use Results/DNA/dna/frayed/shear_force_ksr65_etab3p75.pdf>
+Package pdftex.def Info: Results/DNA/dna/frayed/shear_force_ksr65_etab3p75.pdf 
+used on input line 1001.
+(pdftex.def)             Requested size: 404.70924pt x 252.46269pt.
+
+<Results/DNA/dna/frayed/N12_Frayed_Analysis_FE.pdf, id=3654, 462.52798pt x 286.
+84065pt>
+File: Results/DNA/dna/frayed/N12_Frayed_Analysis_FE.pdf Graphic file (type pdf)
+
+ <use Results/DNA/dna/frayed/N12_Frayed_Analysis_FE.pdf>
+Package pdftex.def Info: Results/DNA/dna/frayed/N12_Frayed_Analysis_FE.pdf used
+ on input line 1002.
+(pdftex.def)             Requested size: 208.13567pt x 129.07709pt.
+
+<Results/DNA/dna/frayed/N12_Frayed_Analysis_dFE.pdf, id=3655, 462.52798pt x 287
+.00323pt>
+File: Results/DNA/dna/frayed/N12_Frayed_Analysis_dFE.pdf Graphic file (type pdf
+)
+ <use Results/DNA/dna/frayed/N12_Frayed_Analysis_dFE.pdf>
+Package pdftex.def Info: Results/DNA/dna/frayed/N12_Frayed_Analysis_dFE.pdf use
+d on input line 1003.
+(pdftex.def)             Requested size: 208.13567pt x 129.15025pt.
+
+<Results/DNA/dna/frayed/N16_Frayed_Analysis_FE.pdf, id=3656, 462.52798pt x 286.
+84065pt>
+File: Results/DNA/dna/frayed/N16_Frayed_Analysis_FE.pdf Graphic file (type pdf)
+
+ <use Results/DNA/dna/frayed/N16_Frayed_Analysis_FE.pdf>
+Package pdftex.def Info: Results/DNA/dna/frayed/N16_Frayed_Analysis_FE.pdf used
+ on input line 1004.
+(pdftex.def)             Requested size: 208.13567pt x 129.07709pt.
+
+<Results/DNA/dna/frayed/N16_Frayed_Analysis_dFE.pdf, id=3657, 462.52798pt x 287
+.00323pt>
+File: Results/DNA/dna/frayed/N16_Frayed_Analysis_dFE.pdf Graphic file (type pdf
+)
+ <use Results/DNA/dna/frayed/N16_Frayed_Analysis_dFE.pdf>
+Package pdftex.def Info: Results/DNA/dna/frayed/N16_Frayed_Analysis_dFE.pdf use
+d on input line 1005.
+(pdftex.def)             Requested size: 208.13567pt x 129.15025pt.
+
+Overfull \hbox (1.47998pt too wide) in paragraph at lines 1000--1007
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118 <./Results/DNA/dna_large_etab/shear_force_large_ksr150_etab3p75.pdf>]
+<Results/DNA/dna/shear_force_ksr26_etab4p75.pdf, id=3680, 578.16pt x 360.66345p
+t>
+File: Results/DNA/dna/shear_force_ksr26_etab4p75.pdf Graphic file (type pdf)
+ <use Results/DNA/dna/shear_force_ksr26_etab4p75.pdf>
+Package pdftex.def Info: Results/DNA/dna/shear_force_ksr26_etab4p75.pdf used on
+ input line 1014.
+(pdftex.def)             Requested size: 289.07928pt x 180.33128pt.
+
+<Results/DNA/dna/shear_force_ksr46_etab4p25.pdf, id=3681, 578.16pt x 360.66345p
+t>
+File: Results/DNA/dna/shear_force_ksr46_etab4p25.pdf Graphic file (type pdf)
+ <use Results/DNA/dna/shear_force_ksr46_etab4p25.pdf>
+Package pdftex.def Info: Results/DNA/dna/shear_force_ksr46_etab4p25.pdf used on
+ input line 1015.
+(pdftex.def)             Requested size: 289.07928pt x 180.33128pt.
+
+<Results/DNA/dna/shear_force_ksr70_etab3p5.pdf, id=3682, 578.16pt x 360.66345pt
+>
+File: Results/DNA/dna/shear_force_ksr70_etab3p5.pdf Graphic file (type pdf)
+ <use Results/DNA/dna/shear_force_ksr70_etab3p5.pdf>
+Package pdftex.def Info: Results/DNA/dna/shear_force_ksr70_etab3p5.pdf used on 
+input line 1016.
+(pdftex.def)             Requested size: 289.07928pt x 180.33128pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119]
+Overfull \vbox (28.52734pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120 <./Results/DNA/dna/frayed/shear_force_ksr65_etab3p75.pdf> <./Results/DNA/d
+na/frayed/N12_Frayed_Analysis_FE.pdf> <./Results/DNA/dna/frayed/N12_Frayed_Anal
+ysis_dFE.pdf> <./Results/DNA/dna/frayed/N16_Frayed_Analysis_FE.pdf> <./Results/
+DNA/dna/frayed/N16_Frayed_Analysis_dFE.pdf>]
+Overfull \vbox (8.258pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121 <./Results/DNA/dna/shear_force_ksr26_etab4p75.pdf> <./Results/DNA/dna/shea
+r_force_ksr46_etab4p25.pdf> <./Results/DNA/dna/shear_force_ksr70_etab3p5.pdf>])
+\openout2 = `collagen_model.aux'.
+
+(./collagen_model.tex
+Chapter 7.
+
+<Graphics/Collagen_Model/collagen_structure.pdf, id=3826, 1135.1208pt x 347.498
+26pt>
+File: Graphics/Collagen_Model/collagen_structure.pdf Graphic file (type pdf)
+ <use Graphics/Collagen_Model/collagen_structure.pdf>
+Package pdftex.def Info: Graphics/Collagen_Model/collagen_structure.pdf used on
+ input line 14.
+(pdftex.def)             Requested size: 397.29823pt x 121.6262pt.
+ [122
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[123 <./Graphics/Collagen_Model/collagen_structure.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[124]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[125]
+Overfull \hbox (14.52617pt too wide) in paragraph at lines 148--148
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[126]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[127]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[128]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[129]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[130]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[131]
+Overfull \hbox (26.9351pt too wide) in paragraph at lines 332--332
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[132]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[133]
+Overfull \hbox (7.12436pt too wide) in paragraph at lines 376--376
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[134]
+Overfull \hbox (37.79843pt too wide) in paragraph at lines 422--422
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[135]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[136]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[137]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[138]
+Overfull \hbox (16.77834pt too wide) in paragraph at lines 546--546
+[] 
+ []
+
+
+Overfull \hbox (10.07623pt too wide) in paragraph at lines 555--555
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[139]
+Overfull \hbox (12.6192pt too wide) in paragraph at lines 573--573
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[140]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[141]
+Overfull \hbox (14.64262pt too wide) in paragraph at lines 615--615
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[142]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[143]
+Overfull \hbox (29.20016pt too wide) in paragraph at lines 658--658
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[144]
+Overfull \hbox (20.41391pt too wide) in paragraph at lines 691--691
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[145]
+Overfull \hbox (14.57993pt too wide) in paragraph at lines 715--715
+[] 
+ []
+
+
+Overfull \hbox (14.57993pt too wide) in paragraph at lines 727--727
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[146]
+Overfull \hbox (14.57993pt too wide) in paragraph at lines 758--758
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[147]
+Overfull \hbox (14.57993pt too wide) in paragraph at lines 768--768
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[148]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[149]
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvalues/0.125/lambda_t_ij_L5_m20.
+pdf, id=4135, 578.16pt x 360.56407pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvalues/0.125/lambda_t_ij_L5
+_m20.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvalues/0.125/lambda_t_ij_L5_
+m20.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvalues/0
+.125/lambda_t_ij_L5_m20.pdf used on input line 823.
+(pdftex.def)             Requested size: 289.07928pt x 180.28159pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[150]
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_1_L5_m20_k1.
+pdf, id=4154, 578.16pt x 391.55786pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_1_L5_m2
+0_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_1_L5_m20
+_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/N_psi_1_L5_m20_k1.pdf used on input line 838.
+(pdftex.def)             Requested size: 187.89977pt x 127.25479pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_2_L5_m20_k1.
+pdf, id=4155, 578.16pt x 378.6948pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_2_L5_m2
+0_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_2_L5_m20
+_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/N_psi_2_L5_m20_k1.pdf used on input line 839.
+(pdftex.def)             Requested size: 187.89977pt x 123.07434pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_3_L5_m20_k1.
+pdf, id=4156, 578.16pt x 378.6948pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_3_L5_m2
+0_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_3_L5_m20
+_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/N_psi_3_L5_m20_k1.pdf used on input line 840.
+(pdftex.def)             Requested size: 187.89977pt x 123.07434pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_4_L5_m20_k1.
+pdf, id=4157, 578.16pt x 378.6948pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_4_L5_m2
+0_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_4_L5_m20
+_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/N_psi_4_L5_m20_k1.pdf used on input line 841.
+(pdftex.def)             Requested size: 187.89977pt x 123.07434pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_1_L5_m20_k1
+.pdf, id=4158, 578.16pt x 360.96155pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_1_L5_m
+20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_1_L5_m2
+0_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/NA_psi_1_L5_m20_k1.pdf used on input line 846.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_2_L5_m20_k1
+.pdf, id=4159, 578.16pt x 360.96155pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_2_L5_m
+20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_2_L5_m2
+0_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/NA_psi_2_L5_m20_k1.pdf used on input line 847.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_3_L5_m20_k1
+.pdf, id=4160, 578.16pt x 360.96155pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_3_L5_m
+20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_3_L5_m2
+0_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/NA_psi_3_L5_m20_k1.pdf used on input line 848.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_4_L5_m20_k1
+.pdf, id=4161, 578.16pt x 360.96155pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_4_L5_m
+20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_4_L5_m2
+0_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/NA_psi_4_L5_m20_k1.pdf used on input line 849.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[151 <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvalues/0.125/lambda_t_ij_
+L5_m20.pdf>]
+Overfull \vbox (35.08224pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[152 <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_psi_1_L5_
+m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/N_ps
+i_2_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.1
+25/N_psi_3_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvect
+ors/0.125/N_psi_4_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Ei
+genvectors/0.125/NA_psi_1_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hyperm
+atrix/Eigenvectors/0.125/NA_psi_2_L5_m20_k1.pdf> <./Results/Collagen/Eigensyste
+m/Hypermatrix/Eigenvectors/0.125/NA_psi_3_L5_m20_k1.pdf> <./Results/Collagen/Ei
+gensystem/Hypermatrix/Eigenvectors/0.125/NA_psi_4_L5_m20_k1.pdf>]
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_1_L5_m20_
+k1.pdf, id=4272, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_1_L5
+_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_1_L5_
+m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_N_psi_1_L5_m20_k1.pdf used on input line 880.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_2_L5_m20_
+k1.pdf, id=4273, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_2_L5
+_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_2_L5_
+m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_N_psi_2_L5_m20_k1.pdf used on input line 881.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_3_L5_m20_
+k1.pdf, id=4274, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_3_L5
+_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_3_L5_
+m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_N_psi_3_L5_m20_k1.pdf used on input line 882.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+Overfull \vbox (51.31767pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[153 <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_N_psi_1_
+L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3
+D_N_psi_2_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvecto
+rs/0.125/3D_N_psi_3_L5_m20_k1.pdf>]
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_00_L5_m20
+_k1.pdf, id=4296, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_00_L
+5_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_00_L5
+_m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_A_psi_00_L5_m20_k1.pdf used on input line 893.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_10_L5_m20
+_k1.pdf, id=4297, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_10_L
+5_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_10_L5
+_m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_A_psi_10_L5_m20_k1.pdf used on input line 894.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+<Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_01_L5_m20
+_k1.pdf, id=4298, 578.16pt x 430.0065pt>
+File: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_01_L
+5_m20_k1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_01_L5
+_m20_k1.pdf>
+Package pdftex.def Info: Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/
+0.125/3D_A_psi_01_L5_m20_k1.pdf used on input line 895.
+(pdftex.def)             Requested size: 260.16959pt x 193.50113pt.
+
+Overfull \vbox (67.16768pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[154 <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/3D_A_psi_00
+_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvectors/0.125/
+3D_A_psi_10_L5_m20_k1.pdf> <./Results/Collagen/Eigensystem/Hypermatrix/Eigenvec
+tors/0.125/3D_A_psi_01_L5_m20_k1.pdf>]
+<Results/Collagen/nVa/col_f_N5_L8_m16_kappa1_sigma1.pdf, id=4321, 578.16pt x 35
+8.95604pt>
+File: Results/Collagen/nVa/col_f_N5_L8_m16_kappa1_sigma1.pdf Graphic file (type
+ pdf)
+ <use Results/Collagen/nVa/col_f_N5_L8_m16_kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/nVa/col_f_N5_L8_m16_kappa1_sigma1.pdf
+ used on input line 912.
+(pdftex.def)             Requested size: 187.89977pt x 116.65932pt.
+
+<Results/Collagen/nVa/col_df_N5_L8_m16_kappa1_sigma1.pdf, id=4322, 578.16pt x 3
+60.96155pt>
+File: Results/Collagen/nVa/col_df_N5_L8_m16_kappa1_sigma1.pdf Graphic file (typ
+e pdf)
+ <use Results/Collagen/nVa/col_df_N5_L8_m16_kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/nVa/col_df_N5_L8_m16_kappa1_sigma1.pd
+f used on input line 913.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+<Results/Collagen/nVa/col_f_N5_L8_m16_kappa25_sigma1.pdf, id=4323, 578.16pt x 3
+58.95604pt>
+File: Results/Collagen/nVa/col_f_N5_L8_m16_kappa25_sigma1.pdf Graphic file (typ
+e pdf)
+ <use Results/Collagen/nVa/col_f_N5_L8_m16_kappa25_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/nVa/col_f_N5_L8_m16_kappa25_sigma1.pd
+f used on input line 914.
+(pdftex.def)             Requested size: 187.89977pt x 116.65932pt.
+
+<Results/Collagen/nVa/col_df_N5_L8_m16_kappa25_sigma1.pdf, id=4324, 578.16pt x 
+360.96155pt>
+File: Results/Collagen/nVa/col_df_N5_L8_m16_kappa25_sigma1.pdf Graphic file (ty
+pe pdf)
+ <use Results/Collagen/nVa/col_df_N5_L8_m16_kappa25_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/nVa/col_df_N5_L8_m16_kappa25_sigma1.p
+df used on input line 915.
+(pdftex.def)             Requested size: 187.89977pt x 117.31111pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[156 <./Results/Collagen/nVa/col_f_N5_L8_m16_kappa1_sigma1.pdf> <./Results/Coll
+agen/nVa/col_df_N5_L8_m16_kappa1_sigma1.pdf> <./Results/Collagen/nVa/col_f_N5_L
+8_m16_kappa25_sigma1.pdf> <./Results/Collagen/nVa/col_df_N5_L8_m16_kappa25_sigm
+a1.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[157]
+<Results/Collagen/various_potentials/col_pe_N5_L6_m24_kappa1_sigma1.pdf, id=444
+0, 416.2752pt x 280.98175pt>
+File: Results/Collagen/various_potentials/col_pe_N5_L6_m24_kappa1_sigma1.pdf Gr
+aphic file (type pdf)
+
+<use Results/Collagen/various_potentials/col_pe_N5_L6_m24_kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/col_pe_N5_L6_m24_k
+appa1_sigma1.pdf used on input line 942.
+(pdftex.def)             Requested size: 228.95207pt x 154.54042pt.
+
+<Results/Collagen/various_potentials/col_fe_N5_L6_m24_kappa1_sigma1.pdf, id=444
+1, 578.16pt x 359.05743pt>
+File: Results/Collagen/various_potentials/col_fe_N5_L6_m24_kappa1_sigma1.pdf Gr
+aphic file (type pdf)
+
+<use Results/Collagen/various_potentials/col_fe_N5_L6_m24_kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/col_fe_N5_L6_m24_k
+appa1_sigma1.pdf used on input line 948.
+(pdftex.def)             Requested size: 231.2599pt x 143.62042pt.
+
+<Results/Collagen/various_potentials/col_dfe_N5_L6_m24_kappa1_sigma1.pdf, id=44
+42, 578.16pt x 359.05743pt>
+File: Results/Collagen/various_potentials/col_dfe_N5_L6_m24_kappa1_sigma1.pdf G
+raphic file (type pdf)
+
+<use Results/Collagen/various_potentials/col_dfe_N5_L6_m24_kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/col_dfe_N5_L6_m24_
+kappa1_sigma1.pdf used on input line 954.
+(pdftex.def)             Requested size: 231.2599pt x 143.62042pt.
+
+<Results/Collagen/various_potentials/harmonic/col_mxd_har_N5_L6_m24_kappa1_sigm
+a1.pdf, id=4443, 578.16pt x 361.15929pt>
+File: Results/Collagen/various_potentials/harmonic/col_mxd_har_N5_L6_m24_kappa1
+_sigma1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/various_potentials/harmonic/col_mxd_har_N5_L6_m24_kappa1_
+sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/harmonic/col_mxd_h
+ar_N5_L6_m24_kappa1_sigma1.pdf used on input line 962.
+(pdftex.def)             Requested size: 289.07928pt x 180.5792pt.
+
+<Results/Collagen/various_potentials/hard_soft/col_mxd_hard_soft_N5_L6_m24_kapp
+a1_sigma1.pdf, id=4444, 578.16pt x 361.15929pt>
+File: Results/Collagen/various_potentials/hard_soft/col_mxd_hard_soft_N5_L6_m24
+_kappa1_sigma1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/various_potentials/hard_soft/col_mxd_hard_soft_N5_L6_m24_
+kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/hard_soft/col_mxd_
+hard_soft_N5_L6_m24_kappa1_sigma1.pdf used on input line 963.
+(pdftex.def)             Requested size: 289.07928pt x 180.5792pt.
+
+<Results/Collagen/various_potentials/soft_hard/col_mxd_soft_hard_N5_L6_m24_kapp
+a1_sigma1.pdf, id=4445, 578.16pt x 361.15929pt>
+File: Results/Collagen/various_potentials/soft_hard/col_mxd_soft_hard_N5_L6_m24
+_kappa1_sigma1.pdf Graphic file (type pdf)
+
+<use Results/Collagen/various_potentials/soft_hard/col_mxd_soft_hard_N5_L6_m24_
+kappa1_sigma1.pdf>
+Package pdftex.def Info: Results/Collagen/various_potentials/soft_hard/col_mxd_
+soft_hard_N5_L6_m24_kappa1_sigma1.pdf used on input line 964.
+(pdftex.def)             Requested size: 289.07928pt x 180.5792pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[158 <./Results/Collagen/various_potentials/col_pe_N5_L6_m24_kappa1_sigma1.pdf>
+ <./Results/Collagen/various_potentials/col_fe_N5_L6_m24_kappa1_sigma1.pdf> <./
+Results/Collagen/various_potentials/col_dfe_N5_L6_m24_kappa1_sigma1.pdf>]
+Overfull \vbox (23.50172pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[159 <./Results/Collagen/various_potentials/harmonic/col_mxd_har_N5_L6_m24_kapp
+a1_sigma1.pdf> <./Results/Collagen/various_potentials/hard_soft/col_mxd_hard_so
+ft_N5_L6_m24_kappa1_sigma1.pdf> <./Results/Collagen/various_potentials/soft_har
+d/col_mxd_soft_hard_N5_L6_m24_kappa1_sigma1.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[160]
+<Results/Collagen/shear_force_ksr500.pdf, id=4584, 462.52798pt x 320.28358pt>
+File: Results/Collagen/shear_force_ksr500.pdf Graphic file (type pdf)
+
+<use Results/Collagen/shear_force_ksr500.pdf>
+Package pdftex.def Info: Results/Collagen/shear_force_ksr500.pdf used on input 
+line 993.
+(pdftex.def)             Requested size: 254.39116pt x 176.15651pt.
+
+<Results/Collagen/shear_force_ksr5000.pdf, id=4585, 462.52798pt x 315.81688pt>
+File: Results/Collagen/shear_force_ksr5000.pdf Graphic file (type pdf)
+
+<use Results/Collagen/shear_force_ksr5000.pdf>
+Package pdftex.def Info: Results/Collagen/shear_force_ksr5000.pdf used on input
+ line 994.
+(pdftex.def)             Requested size: 254.39116pt x 173.6998pt.
+
+<Results/Collagen/shear_force_ksr22500.pdf, id=4586, 462.52798pt x 314.4528pt>
+File: Results/Collagen/shear_force_ksr22500.pdf Graphic file (type pdf)
+
+<use Results/Collagen/shear_force_ksr22500.pdf>
+Package pdftex.def Info: Results/Collagen/shear_force_ksr22500.pdf used on inpu
+t line 995.
+(pdftex.def)             Requested size: 254.39116pt x 172.94957pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[161]
+Overfull \vbox (11.62434pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[162 <./Results/Collagen/shear_force_ksr500.pdf> <./Results/Collagen/shear_forc
+e_ksr5000.pdf> <./Results/Collagen/shear_force_ksr22500.pdf>]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex
+Chapter 8.
+[163
+
+
+
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[164] (./thesis.bbl [165
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[166]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[167]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[168]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[169]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[170]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[171]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[172])
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 40.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[173]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+ (./thesis.aux (./acknowledgements_file.aux) (./abstract_file.aux)
+(./introduction.aux) (./models.aux) (./transfer_matrix.aux) (./biopolymers.aux)
+(./extendable_fjc.aux) (./dna_model.aux) (./collagen_model.aux)
+(./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: E4656727E1660EC9886F1B8A501791D2;7585.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+ ) 
+Here is how much of TeX's memory you used:
+ 13666 strings out of 493633
+ 227872 string characters out of 3143378
+ 330066 words of memory out of 3000000
+ 15551 multiletter control sequences out of 15000+200000
+ 22923 words of font info for 84 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 36i,22n,48p,1761b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
+8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr
+/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (177 pages, 36994687 bytes).
+PDF statistics:
+ 5001 PDF objects out of 5155 (max. 8388607)
+ 4167 compressed objects within 42 object streams
+ 974 named destinations out of 1000 (max. 500000)
+ 1143 words of extra memory for PDF output out of 10000 (max. 10000000)
+

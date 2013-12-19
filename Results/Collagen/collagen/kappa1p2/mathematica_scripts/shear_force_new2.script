@@ -1,0 +1,69 @@
+In[1]:=SetDirectory[FileNameJoin[{NotebookDirectory[]}]];
+<<Units`
+<<PhysicalConstants`
+
+dFreeEnergy=Import["dFreeEnergy_0_0.out","Table"];
+
+Subscript[R, mxd]=Import["mxd_r.out","Table"];
+Subscript[\[Lambda], mxd]=Import["mxd_lambda.out","Table"];
+Subscript[\[Rho], mxd]=Import["mxd_roe.out","Table"];
+
+xzpair=-((\[Sqrt]3 Subscript[\[Lambda], mxd]+Subscript[\[Rho], mxd])/\[Sqrt]2);
+xypair=\[Sqrt]2 Subscript[\[Rho], mxd];
+
+Parameters=Import["Parameters"];
+
+\[Epsilon]=Parameters[[17,2]];
+\[Beta]=Parameters[[18,2]];
+
+L=Parameters[[1,2]];
+m=Parameters[[2,2]];
+\[CapitalDelta]=Parameters[[6,2]]
+\[Kappa]=Parameters[[3,2]]
+\[Sigma]=Parameters[[4,2]]
+\[Kappa]\[Sigma]r=Parameters[[5,2]]
+umax=Parameters[[7,2]];
+umax=Parameters[[8,2]];
+
+n=ToExpression[StringTrim[Last[StringSplit[Directory[],"/"]],RegularExpression["N*"]]];
+
+fsTitle=24;
+fsAxesLabel=18;
+fs2=16;
+
+etab=2.0;
+
+ToNewton=Convert[ElectronVolt/Angstrom,Newton] SI[Pico Newton]^-1;(*Converts eV/\[Angstrom] to pN*)
+ToForceDimension[f_]:=(f (\[Kappa]/(2\[Beta]))^(1/2)) ToNewton;
+ToDimension[\[Eta]_]:=\[Eta] ((\[Kappa] \[Beta])/2)^(-(1/2))(*Converts to \[Angstrom]*)
+
+MeanAxialDispDataRAW=Flatten[Transpose[Take[Transpose[xzpair],1]]];
+maximumValue=Max[MeanAxialDispDataRAW];
+positionOfMaximumValue=Flatten[Position[MeanAxialDispDataRAW,maximumValue]][[1]];
+
+MeanAxialDispData = Table[{(i-1)\[CapitalDelta],MeanAxialDispDataRAW[[i]]},{i,1,positionOfMaximumValue}];
+
+model=a x  ;
+MXDpara=FindFit[Take[MeanAxialDispData,10],model,{a},x];
+mxd[u_]:=a u /.MXDpara
+
+mxdInterFunc=Interpolation[MeanAxialDispData];
+u=u0/.Quiet[FindRoot[mxd[u0]==etab,{u0,0}]];
+
+FreeEnergyMax=Max[Transpose[dFreeEnergy][[2]]];
+positionOfFreeEnergyMax=Flatten[Position[dFreeEnergy,FreeEnergyMax]][[1]];
+FreeEnergyData=Table[dFreeEnergy[[i]],{i,1,positionOfFreeEnergyMax}];
+
+model=a x  ;
+FEpara=FindFit[Take[FreeEnergyData,10],model,{a},x];
+dfe[u0_]:=a u0 /.FEpara
+
+dfeInterFunc=Interpolation[FreeEnergyData];
+F=dfe[u];
+
+fpos={{u,0},{u,F},{0,F}};
+
+Fc=ToForceDimension[F];
+U=ToDimension[u];
+
+Export["N"<>ToString[n]<>"_sim.data",{{n,Fc}},"Table"];

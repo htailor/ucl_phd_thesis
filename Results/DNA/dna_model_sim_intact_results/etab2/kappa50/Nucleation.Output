@@ -1,0 +1,558 @@
+[H[2J===========================================================================
+Nucleation DNA Simulation
+===========================================================================
+
+Please enter simulation parameters:
+
+L: m: N: 
+Please enter potential parameters:
+
+eta_b: kappa: sigma: 
+Please enter Partition Function parameters:
+
+Minimum Extension: Maximum Extension: -----------------
+Global Parameters
+-----------------
+
+L:	20.00
+m:	40 
+N:	5  
+eta_b:	2.00 
+Delta:	0.25 
+
+Extension Minimum:	0  
+Extension Maximum:	25 
+
+TOLERANCE LEVEL:	1.00e-10
+
+
+*******************************************************************************************
+Starting Nucleation Simulation.....
+*******************************************************************************************
+
+Creating data for base-pair potential...
+Complete.
+
+Initialising Transfer Matrices T, T00, T11.....COMPLETE.
+
+Calculating Eigenvalues and Eigenvectors of T, T00 and T11.....
+
+------------------------------------------------
+smax:   40 tmax:   16 vmax:   54 pmax:   16
+------------------------------------------------
+
+COMPLETED in   1.00 seconds.
+
+Pre-calculating Standard Integrals.....COMPLETE.
+
+Pre-calculating Complex Integrals.....COMPLETE
+
+COMPLETED in  18.00 seconds.
+
+Calculating Partition Functions.....
+
+***Intact calculation for extension   0 complete.***
+***dz/du Intact calculation for extension   0 complete.***
+***Intact calculation for extension   1 complete.***
+***dz/du Intact calculation for extension   1 complete.***
+***Intact calculation for extension   2 complete.***
+***dz/du Intact calculation for extension   2 complete.***
+***Intact calculation for extension   3 complete.***
+***dz/du Intact calculation for extension   3 complete.***
+***Intact calculation for extension   4 complete.***
+***dz/du Intact calculation for extension   4 complete.***
+***Intact calculation for extension   5 complete.***
+***dz/du Intact calculation for extension   5 complete.***
+***Intact calculation for extension   6 complete.***
+***dz/du Intact calculation for extension   6 complete.***
+***Intact calculation for extension   7 complete.***
+***dz/du Intact calculation for extension   7 complete.***
+***Intact calculation for extension   8 complete.***
+***dz/du Intact calculation for extension   8 complete.***
+***Intact calculation for extension   9 complete.***
+***dz/du Intact calculation for extension   9 complete.***
+***Intact calculation for extension  10 complete.***
+***dz/du Intact calculation for extension  10 complete.***
+***Intact calculation for extension  11 complete.***
+***dz/du Intact calculation for extension  11 complete.***
+***Intact calculation for extension  12 complete.***
+***dz/du Intact calculation for extension  12 complete.***
+***Intact calculation for extension  13 complete.***
+***dz/du Intact calculation for extension  13 complete.***
+***Intact calculation for extension  14 complete.***
+***dz/du Intact calculation for extension  14 complete.***
+***Intact calculation for extension  15 complete.***
+***dz/du Intact calculation for extension  15 complete.***
+***Intact calculation for extension  16 complete.***
+***dz/du Intact calculation for extension  16 complete.***
+***Intact calculation for extension  17 complete.***
+***dz/du Intact calculation for extension  17 complete.***
+***Intact calculation for extension  18 complete.***
+***dz/du Intact calculation for extension  18 complete.***
+***Intact calculation for extension  19 complete.***
+***dz/du Intact calculation for extension  19 complete.***
+***Intact calculation for extension  20 complete.***
+***dz/du Intact calculation for extension  20 complete.***
+***Intact calculation for extension  21 complete.***
+***dz/du Intact calculation for extension  21 complete.***
+***Intact calculation for extension  22 complete.***
+***dz/du Intact calculation for extension  22 complete.***
+***Intact calculation for extension  23 complete.***
+***dz/du Intact calculation for extension  23 complete.***
+***Intact calculation for extension  24 complete.***
+***dz/du Intact calculation for extension  24 complete.***
+***Intact calculation for extension  25 complete.***
+***dz/du Intact calculation for extension  25 complete.***
+
+***INTACT STATE COMPLETE***
+
+***Frayed calculation for extension   0 complete.***
+***dz/du Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***dz/du Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***dz/du Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***dz/du Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***dz/du Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***dz/du Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***dz/du Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***dz/du Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***dz/du Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***dz/du Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***dz/du Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***dz/du Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***dz/du Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***dz/du Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***dz/du Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***dz/du Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***dz/du Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***dz/du Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***dz/du Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***dz/du Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***dz/du Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***dz/du Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***dz/du Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***dz/du Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***dz/du Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***dz/du Frayed calculation for extension  25 complete.***
+
+***FRAYED STATE COMPLETE  0/ 1***
+
+***Frayed calculation for extension   0 complete.***
+***dz/du Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***dz/du Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***dz/du Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***dz/du Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***dz/du Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***dz/du Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***dz/du Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***dz/du Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***dz/du Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***dz/du Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***dz/du Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***dz/du Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***dz/du Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***dz/du Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***dz/du Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***dz/du Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***dz/du Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***dz/du Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***dz/du Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***dz/du Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***dz/du Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***dz/du Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***dz/du Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***dz/du Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***dz/du Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***dz/du Frayed calculation for extension  25 complete.***
+
+***FRAYED STATE COMPLETE  0/ 2***
+
+***Frayed calculation for extension   0 complete.***
+***dz/du Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***dz/du Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***dz/du Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***dz/du Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***dz/du Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***dz/du Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***dz/du Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***dz/du Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***dz/du Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***dz/du Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***dz/du Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***dz/du Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***dz/du Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***dz/du Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***dz/du Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***dz/du Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***dz/du Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***dz/du Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***dz/du Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***dz/du Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***dz/du Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***dz/du Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***dz/du Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***dz/du Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***dz/du Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***dz/du Frayed calculation for extension  25 complete.***
+
+***FRAYED STATE COMPLETE  0/ 3***
+
+***Frayed calculation for extension   0 complete.***
+***dz/du Frayed calculation for extension   0 complete.***
+***Frayed calculation for extension   1 complete.***
+***dz/du Frayed calculation for extension   1 complete.***
+***Frayed calculation for extension   2 complete.***
+***dz/du Frayed calculation for extension   2 complete.***
+***Frayed calculation for extension   3 complete.***
+***dz/du Frayed calculation for extension   3 complete.***
+***Frayed calculation for extension   4 complete.***
+***dz/du Frayed calculation for extension   4 complete.***
+***Frayed calculation for extension   5 complete.***
+***dz/du Frayed calculation for extension   5 complete.***
+***Frayed calculation for extension   6 complete.***
+***dz/du Frayed calculation for extension   6 complete.***
+***Frayed calculation for extension   7 complete.***
+***dz/du Frayed calculation for extension   7 complete.***
+***Frayed calculation for extension   8 complete.***
+***dz/du Frayed calculation for extension   8 complete.***
+***Frayed calculation for extension   9 complete.***
+***dz/du Frayed calculation for extension   9 complete.***
+***Frayed calculation for extension  10 complete.***
+***dz/du Frayed calculation for extension  10 complete.***
+***Frayed calculation for extension  11 complete.***
+***dz/du Frayed calculation for extension  11 complete.***
+***Frayed calculation for extension  12 complete.***
+***dz/du Frayed calculation for extension  12 complete.***
+***Frayed calculation for extension  13 complete.***
+***dz/du Frayed calculation for extension  13 complete.***
+***Frayed calculation for extension  14 complete.***
+***dz/du Frayed calculation for extension  14 complete.***
+***Frayed calculation for extension  15 complete.***
+***dz/du Frayed calculation for extension  15 complete.***
+***Frayed calculation for extension  16 complete.***
+***dz/du Frayed calculation for extension  16 complete.***
+***Frayed calculation for extension  17 complete.***
+***dz/du Frayed calculation for extension  17 complete.***
+***Frayed calculation for extension  18 complete.***
+***dz/du Frayed calculation for extension  18 complete.***
+***Frayed calculation for extension  19 complete.***
+***dz/du Frayed calculation for extension  19 complete.***
+***Frayed calculation for extension  20 complete.***
+***dz/du Frayed calculation for extension  20 complete.***
+***Frayed calculation for extension  21 complete.***
+***dz/du Frayed calculation for extension  21 complete.***
+***Frayed calculation for extension  22 complete.***
+***dz/du Frayed calculation for extension  22 complete.***
+***Frayed calculation for extension  23 complete.***
+***dz/du Frayed calculation for extension  23 complete.***
+***Frayed calculation for extension  24 complete.***
+***dz/du Frayed calculation for extension  24 complete.***
+***Frayed calculation for extension  25 complete.***
+***dz/du Frayed calculation for extension  25 complete.***
+
+***FRAYED STATE COMPLETE  0/ 4***
+
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  25 complete.***
+***Bubble calculation for extension  25 complete.***
+
+***BUBBLE STATE COMPLETE  1/ 3***
+
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  25 complete.***
+***Bubble calculation for extension  25 complete.***
+
+***BUBBLE STATE COMPLETE  2/ 2***
+
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  25 complete.***
+***Bubble calculation for extension  25 complete.***
+
+***BUBBLE STATE COMPLETE  3/ 1***
+
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   0 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   1 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   2 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   3 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   4 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   5 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   6 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   7 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   8 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension   9 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  10 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  11 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  12 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  13 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  14 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  15 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  16 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  17 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  18 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  19 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  20 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  21 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  22 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  23 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  24 complete.***
+***Bubble calculation for extension  25 complete.***
+***Bubble calculation for extension  25 complete.***
+
+***BUBBLE STATE COMPLETE  2/ 1***
+
+COMPLETED in 316.00 seconds
+
+Writing output data to files....
+Creating Output Files.....COMPLETE.
+
+
+---------------------------
+NUCLEATION RUNTIME: 336.00
+---------------------------
+

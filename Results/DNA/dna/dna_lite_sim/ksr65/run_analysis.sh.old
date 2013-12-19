@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Running analysis for all N enviroments..."
+
+ETAB_DIR_LIST=`ls -F | grep etab_ | grep / | sed 's/\///'`
+echo "DIR  list:  " $ETAB_DIR_LIST
+
+for ETAB_DIR in $ETAB_DIR_LIST
+do
+	cd $ETAB_DIR
+	./analysis.sh
+	cd ..
+done
+
+echo "COMPLETE"

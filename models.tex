@@ -1,0 +1,140 @@
+\chapter{Models}
+
+\section{Freely Jointed Chain (FJC)}
+
+The simplest mathematical model for a polymer is the freely jointed chain. In this hypothetical model the polymer is a set of points joined by $n$ links of fixed length $l$ in a linear succession. The angle between bond links in the $xy$-plane, $\theta$, and the $zx$-plane, $\phi$, can assume any value from $0$ to $2\pi$ with equal probability without any restriction. Thus, we can deduce that the directions for a given bond link are all equally probable, irrespective of the directions of its neighbouring bond links. These assumptions for the freely jointed chain model were first mathematically described by Kuhn, Guth and Marks by the analogy with an unrestricted random flight \cite{Flory1975,Flory1971}. Although this  is covered extensively in most polymer physics textbooks we review some of the basic principles \cite{Sperling2006,Plischke2006,DeGennes1979,Doi1988}.
+
+We represent the conformation of a freely jointed chain by a set of $N+1$  position vectors in space ${\mathbf{R}_{i}}$ for $i=0,1,...N$, or alternatively by the set of $N$ bond vectors ${\mathbf{r}_{i}}$ for $i=1,...N$, where $\mathbf{r}_{i}=\mathbf{R}_{i}-\mathbf{R}_{i-1}$.  We can then characterise the size of a polymer by considering the end-to-end vector $\mathbf{R}$ of the chain,
+%
+\begin{equation}
+\mathbf{R}= \sum_{i=1}^{N}\mathbf{r}_{i}
+\end{equation}
+%
+Since the bond orientations are uncorrelated in the chain, the of symmetry of orientation implies $\mathbf{R}$ will be zero \cite{Flory1971}. Even if bond orientations were correlated the average would still be zero \eqref{R_moment}.
+%
+\begin{equation}
+\label{R_moment}
+\left\langle\mathbf{R}\right\rangle = 0
+\end{equation}
+%
+The mean square of the end-to-end distance which characterises the spatial configurations of the chain molecules can be expressed as,
+%
+\begin{align}
+\left\langle\mathbf{R}^{2}\right\rangle &= \sum_{i,j=1}^{N}\left\langle \mathbf{r}_{i}\cdot \mathbf{r}_{j}\right\rangle \\
+&=\sum_{i=1}^{N}\left\langle |\mathbf{r}_{i}|^{2} \right\rangle + 2\sum_{i \neq j=1}^{N} \left\langle |\mathbf{r}_{i}|^{2}\right\rangle \delta_{ij} \\
+&= Nl^{2} \label{R2_moment}
+\end{align}
+%
+The root mean square length for the chain will then be 
+%
+\begin{equation}
+\label{R_rms}
+\mathbf{R}_{rms} \simeq N^{\frac{1}{2}}l
+\end{equation}
+%
+\eqref{R_rms} shows that $\mathbf{R}_{rms}$ is much less than the total length $Nl$ measured along the path of the chain. This important conclusion implies that in the set of conformations that the freely jointed chain assumes in the process of thermal motion, stretched conformations only constitute a minor fraction. The majority of chain conformations are strongly coiled in space in thermodynamic equilibrium of an ideal freely jointed chain.
+
+A freely jointed chain can also be treated as a simple random walk where $P(\mathbf{R})$ obeys Gaussian statistics in the limit of $N \to \infty$. The general Gaussian probability distribution in 3 dimensions that is normalised to $\int P(\mathbf{R})d^{3}R=1$ is
+%
+\begin{equation}
+\label{gaussian_probability_distribution}
+P(\mathbf{R})= (2\pi \beta)^{-\frac{3}{2}}\exp\left(-\frac{(\mathbf{R}-\alpha)^2}{2\beta}\right)
+\end{equation} 
+%
+The condition imposed by \eqref{R_moment} means that the Gaussian distribution is symmetrical about $\mathbf{R}=0$, implying $\alpha =0$. The other condition set by \eqref{R2_moment} means  that the integral, $\int |\mathbf{R}|^2 P(\mathbf{R}) d^{3}R=Nl^{2}$ is satisfied when $\beta = Nl^{2}/3$ in 3 dimensions. The probability distribution then becomes,
+%
+\begin{equation}\label{fjc_p}
+P(\mathbf{R})=\left(\frac{3}{2\pi N l^2}\right)^{\frac{3}{2}}\exp\left(-\frac{3\mathbf{R}^{2}}{2N l^{2}} \right)
+\end{equation}
+%
+Here, \eqref{fjc_p} describes the probability distribution of end-to-end distance for the freely jointed chain. We can then obtain the entropy of the chain by using \eqref{fjc_p}
+%
+\begin{equation}
+S\left(\mathbf{R}\right) \propto k\ln\left(P(\mathbf{R})\right)
+\end{equation}
+%
+and
+%
+\begin{equation}\label{fjc_entropy}
+S = S_{0}-k\frac{3\mathbf{R}^{2}}{2Nl^{2}}
+\end{equation}
+%
+The free energy of the chain with the end-to-end point distance $\mathbf{R}$ only comes from the entropy.
+%
+\begin{equation}\label{fjc_fe}
+F(\mathbf{R})=U-TS=F_{0}-kT\frac{3\mathbf{R}^{2}}{2Nl^{2}}
+\end{equation}
+%
+\subsection{The Free Energy of Stretching a Freely Jointed Chain}
+
+We will now calculate the free energy cost of stretching the ends of the freely jointed chain in order to understand the entropic elasticity. The entropy has already been defined by \eqref{fjc_entropy}, where $P(\mathbf{R})$ is the number of obtainable micro-conformations. For a chain with an end-to-end vector $\mathbf{R}$ the number $P(\mathbf{R})$ is the probability of that micro-conformation being occupied. The entropy difference between a chain held with an end-to-end distance $\mathbf{R}$ and one held with the end-to-end vector of zero is
+%
+\begin{equation}
+\Delta S(\mathbf{R})=k\log P(\mathbf{R}) - k\log P(0)= k \log \frac{P(\mathbf{R})}{P(0)} 
+\end{equation}
+%
+Hence the change in free energy of the chain is 
+%
+\begin{equation}\label{fjc_es}
+\Delta F=-T\Delta S=\frac{3}{2}\frac{kT\mathbf{R}^{2}}{Nl^{2}}
+\end{equation}
+%
+This is an entropic spring with spring constant
+%
+\begin{equation}\label{es_const}
+k=\frac{3kT}{Nl^{2}}
+\end{equation}
+%
+
+
+\section{Worm-Like Chain (WLC)}
+
+Real polymers have mechanical properties that allow them to flex and bend. Different polymers exhibit different flexible properties that are quantitatively described by the persistence length $L_{p}$, the length scale at which the specific polymer bends. Polyethylene is an example of polymer that is extremely flexible, $L_{p} \approx 0.5\text{nm}$, in comparison, DNA is a much stiffer molecule due to its double helix structure, $L_{p} \approx 50\text{nm}$. 
+
+The worm-like chain accounts for the semi-flexible polymer by assuming that the polymer is a uniform rod that is continuously flexible and each segment in the chain resists the bending force \cite{Chan2010}. The WLC model was first described by Kratky and Porod when they did experiments which investigated X-ray scattering from cellulose in a colloidal suspension \cite{Kratky1949}. The model has since been used to describe semi-flexible polymers.
+
+The worm-like chain represents a polymer on a contour of fixed length $L$. We can define a position on the chain by a vector $\vec{x}(s)$. The tangent vector to the point $s$ on the curve is then
+%
+\begin{equation}\label{wlc1}
+\vec{t}(s)=\frac{\partial \vec{x}(s)}{\partial s}
+\end{equation}
+%
+and the end-to-end distance becomes
+%
+\begin{equation}
+\vec{R}=\int_{0}^{L}\vec{t}(s)ds
+\end{equation}
+%
+the mean square end-to-end distance becomes
+%
+\begin{align}
+\left\langle\mathbf{R}^{2}\right\rangle &= \left\langle\vec{R}\cdot\vec{R}\right\rangle\\
+&=\left\langle\int_{0}^{L}\vec{t}(s)ds\cdot\int_{0}^{L}\vec{t}(s')ds'\right\rangle\\
+&=\int_{0}^{L}ds\int_{0}^{L}\left\langle\vec{t}(s)\cdot\vec{t}(s')\right\rangle ds' \label{wlc_1}
+\end{align}
+%
+It can be shown that the orientational correlation function for a worm-like chain follows an exponential decay \cite{Maarel2008}
+%
+\begin{equation}\label{correl}
+\left\langle\vec{t}(s)\cdot\vec{t}(s')\right\rangle = \left\langle\cos \theta\left(s-s'\right)\right\rangle =\exp\left(-\frac{s-s'}{L_{p}}\right)
+\end{equation}
+%
+Where the persistence length $L_{p}$ is the length scale over which the orientation correlation is considered lost. Inserting \eqref{correl} into \eqref{wlc_1} the root mean square end-to-end distance of a worm-like chain becomes
+%
+\begin{equation}\label{mean_wlc}
+\left\langle\mathbf{R}^{2}\right\rangle = 2L_{p}L-2L_{p}^{2}\left(1-\exp\left(-\frac{L}{L_{p}}\right)\right) 
+\end{equation}
+%
+\eqref{mean_wlc} is important in two limiting cases. For $L \gg L_{p}$, \eqref{mean_wlc} simplifies to 
+%
+\begin{equation}\label{mean_wlc_1}
+\left\langle\mathbf{R}^{2}\right\rangle = 2L_{p}L
+\end{equation}
+%
+such that the worm-like chain behaves as a random coil, and for $L \ll L_{p}$
+%
+\begin{equation}\label{mean_wlc_2}
+\left\langle\mathbf{R}^{2}\right\rangle = L^{2} 
+\end{equation}
+%
+which shows the WLC behaving as a rigid rod. Models like the WLC fit biopolymers quite well for weak pulling forces where the elasticity of DNA is due to entropic effects \cite{Peyrard2004}. When the force exceeds 5 pN stretching of the double helix along its axis takes place and experimental results begin to deviate from the WLC. 

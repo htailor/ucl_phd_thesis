@@ -1,0 +1,8 @@
+L: 20
+m: 40
+N: 5
+eta_b: 0.9
+kappa: 1
+sigma: 1
+umin: 0
+umax: 25 
